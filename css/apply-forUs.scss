@@ -3,6 +3,12 @@ main {
     line-height: 1.5;
     padding-bottom: 4.565vw;
 
+    .top-bj {
+        img {
+            width: 100%;
+        }
+    }
+
     // 报考方式可选
     .content-main {
         padding: 2.9167vw 0 1.771vw;
@@ -121,8 +127,9 @@ main {
 
     .financially {
         margin-top: 22px;
-        padding: 3.021vw;
-        background: url(../img/apply/financially-bj.png);
+        padding: 3.021vw 0;
+        background: url(../img/apply/financially-bj.png) no-repeat;
+        background-size: 100% 100%;
 
         .financially-title {
             text-align: center;
@@ -143,21 +150,6 @@ main {
                     color: #FFFFFF;
 
                     padding: 12px 15px 23px 15px;
-
-
-
-                    .financially-hr {
-                        width: 90%;
-                        background-color: rgba(255, 255, 255, 0.3);
-
-                    }
-
-                    .financially-text {
-                        font-size: 0.833vw;
-                        font-weight: 400;
-                        padding: 2px 7px 2px 7px;
-                        line-height: 1.5625vw;
-                    }
                 }
             }
         }
@@ -439,7 +431,7 @@ main {
         }
 
         .financially {
-            padding: 58px 0;
+            padding: 58px 0 30px;
 
             .financially-main {
 
