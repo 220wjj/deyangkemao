@@ -150,6 +150,12 @@ main {
                     color: #FFFFFF;
 
                     padding: 12px 15px 23px 15px;
+
+                    .financially-title {
+                        margin-bottom: 1.42vw;
+                        padding-bottom: 13px;
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+                    }
                 }
             }
         }
@@ -381,6 +387,22 @@ main {
                 }
             }
         }
+
+        .financially {
+
+
+            .financially-main {
+
+                .financially-item {
+                    li {
+                        width: 30.33%;
+
+
+                        .financially-title {}
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -393,6 +415,22 @@ main {
                         width: 100%;
                     }
 
+                }
+            }
+        }
+
+        .financially {
+
+
+            .financially-main {
+
+                .financially-item {
+                    li {
+                        width: 48%;
+
+
+                        .financially-title {}
+                    }
                 }
             }
         }
@@ -441,6 +479,10 @@ main {
                     li {
                         margin-bottom: 40px;
                         padding: 27px 32px;
+
+                        .financially-title {
+                            margin-bottom: 20px;
+                        }
                     }
                 }
             }

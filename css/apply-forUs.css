@@ -148,6 +148,12 @@ main .financially .financially-main .financially-item li {
   padding: 12px 15px 23px 15px;
 }
 
+main .financially .financially-main .financially-item li .financially-title {
+  margin-bottom: 1.42vw;
+  padding-bottom: 13px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 main .growUp .growUp-main .growUp-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,11 +360,17 @@ main .consult .consult-main .main-item .main-map .main-map-conent img {
   main .school .school-main .school-list .school-item {
     width: 48%;
   }
+  main .financially .financially-main .financially-item li {
+    width: 30.33%;
+  }
 }
 
 @media screen and (max-width: 576px) {
   main .school .school-main .school-list .school-item {
     width: 100%;
+  }
+  main .financially .financially-main .financially-item li {
+    width: 48%;
   }
 }
 
@@ -390,5 +402,8 @@ main .consult .consult-main .main-item .main-map .main-map-conent img {
   main .financially .financially-main .financially-item li {
     margin-bottom: 40px;
     padding: 27px 32px;
+  }
+  main .financially .financially-main .financially-item li .financially-title {
+    margin-bottom: 20px;
   }
 }
