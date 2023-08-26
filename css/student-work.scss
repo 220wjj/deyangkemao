@@ -16,6 +16,18 @@ main {
                 color: #fff;
                 border: 1px solid #CCCCCC;
 
+                &:nth-child(4) {
+                    margin-bottom: 0;
+                }
+
+                &:nth-child(5) {
+                    margin-bottom: 0;
+                }
+
+                &:nth-child(6) {
+                    margin-bottom: 0;
+                }
+
                 h3 {
                     position: absolute;
                     top: 50%;
@@ -53,7 +65,7 @@ main {
         padding-top: 5.26vw;
         padding-bottom: 2.968vw;
         background: url("../img/studentWork/tema-bj.png") no-repeat center;
-        // background-size: 100% 100%;
+        background-size: 100%;
     }
 
     .tema-desc {
@@ -149,6 +161,18 @@ main {
                 li {
                     margin-bottom: 39px;
 
+                    &:nth-child(4) {
+                        margin-bottom: 0;
+                    }
+
+                    &:nth-child(5) {
+                        margin-bottom: 0;
+                    }
+
+                    &:nth-child(6) {
+                        margin-bottom: 0;
+                    }
+
                     .includeImg {
                         padding-top: 56px;
                     }
@@ -163,7 +187,7 @@ main {
         // 辅导员队伍{
         .counselor-team {
             padding-top: 101px;
-            padding-bottom: 57px;
+            padding-bottom: 56px;
         }
 
         .tema-desc {

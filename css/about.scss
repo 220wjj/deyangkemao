@@ -1,632 +1,350 @@
 main {
-    background-color: rgba(175, 175, 175, 0.22);
     line-height: 1.5;
-    font-weight: 400;
-    font-size: 14px;
-    // letter-spacing: 3px;
 
-    font-family: Microsoft YaHei;
+    // 学院介绍
+    .college-content {
+        background: url("../img/about/img.png") left bottom no-repeat;
+        // background-size: 100% 100%;
 
-    // padding-bottom: 20px;
-
-    .top-nav {
-        padding-top: 8px;
-        margin: 0px 0 16px;
-
-        img {
-            display: inline-block;
-            margin-right: 10px;
+        &::before {
+            width: 80%;
+            position: absolute;
+            right: 20%;
+            top: 0%;
+            // height: 100%;
+            content: '';
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
         }
 
-        a {
-            color: #98989A;
-            font-size: 14px;
-            margin-right: 8px;
-        }
+        .college-main {
+            width: 100%;
+            display: flex;
+            padding: 3.4375vw 0 1.5104vw;
 
-        span {
-            color: #171717;
-        }
-    }
+            .college-rigth {
+                width: 50%;
+                position: relative;
+                margin-left: 50%;
 
-    .main-content {
+                .rigth-title {
+                    font-size: 1.874vw;
+                    font-weight: 400;
+                    color: #1C1C1C;
 
-        .content {
-            .content-main {
-                width: 70%;
-                margin: 0 auto;
-                padding: 0 0 32px 0;
-
-                .content-title {
-                    color: #FFFFFF;
-                    text-align: center;
-                    font-weight: 600;
-                    // margin-bottom: 30px
-                    font-size: 36px;
-                    padding: 30px 0 30px 0;
-                }
-
-            }
-        }
-
-        .college-content {
-            background-size: cover;
-
-            position: relative;
-
-            .college-main {
-                width: 100%;
-                display: flex;
-
-                .college-left {
-                    position: relative;
-                    width: 50%;
-                    background: url(../img/about/img.png) left bottom no-repeat;
-
-                    span {
-                        position: absolute;
-                        font-size: 1.5625vw;
-                        font-style: italic;
-                        color: #646565;
-                        top: 10.156vw;
-                        left: 16.04vw;
-                        letter-spacing: 10px;
-                    }
-                }
-
-                .college-rigth {
-                    width: 50%;
-                    padding: 0 15% 20px 10px;
-
-                    .rigth-title {
-                        font-size: 1.874vw;
-                        font-weight: 400;
-                        color: #1C1C1C;
-                        padding: 3.1vw 0;
-
-                    }
-
-                    .number {
-
-                        .wow {
-                            display: flex;
-                            justify-content: space-between;
-
-                            li {
-                                .num {
-                                    .number-text {
-                                        font-size: 2.5vw;
-                                        color: #1F81C8;
-
-                                    }
-
-                                    span {
-                                        color: #1F81C8;
-                                    }
-                                }
-
-                                .txt {
-                                    color: #8B8A8A;
-                                    margin-top: -10px;
-                                }
-                            }
-
-                        }
-
-
-                    }
-
-                    .singePage {
-                        padding: 65px 0;
-
-                        p {
-                            padding: 15px 0;
-                        }
-                    }
-
-                    .cullist {
-                        ul {
-                            li {
-                                display: flex;
-
-                                .icon {
-                                    padding: 0 10px 0 0;
-
-                                    .iconfont {
-                                        display: inline-block;
-                                        background-size: cover;
-                                        background-repeat: no-repeat;
-                                        width: 20px;
-                                        height: 20px;
-                                    }
-
-                                    .iconfont-one {
-                                        background-image: url(../img/about/icon-1.png);
-                                    }
-
-                                    .iconfont-two {
-                                        background-image: url(../img/about/icon-2.png);
-
-                                    }
-
-                                    .iconfont-three {
-                                        background-image: url(../img/about/icon-3.png);
-
-                                    }
-
-
-                                }
-
-                                .txt {
-                                    color: rgba(1, 206, 115, 1)
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-
-        .mobaily {
-            background: url(../img/about/bj.png);
-
-            .mobaily-main {
-
-                .mobaily-content {
-                    padding: 20px 0 20px 0;
-
-                    display: flex;
-                    justify-content: space-between;
-
-                    .mobaily-item {
-                        width: calc(33% - 30px);
-
-                        .item-img {
-                            width: 173px;
-                            height: 173px;
-                            margin: 0 auto;
-
-                            img {
-                                width: 100%;
-                                height: 100%;
-                                cursor: pointer;
-                            }
-
-                            img:hover {
-                                transform: scale(1.2);
-                            }
-                        }
-
-
-
-                        .item-text {
-                            margin-top: 40px;
-                            height: 60%;
-                            overflow: hidden;
-                            // height: calc( 300 * (100vw / 1920) );
-                            background-color: rgba(0, 0, 0, 0.12);
-                            border-radius: 5px;
-                            color: #FFFFFF;
-                            padding: 13px 15px 13px 15px;
-
-                            .text-title {
-                                font-weight: 600;
-                                text-align: center;
-                                font-size: 16px;
-                            }
-
-                            .text-hr {
-                                width: 90%;
-                                background-color: rgba(255, 255, 255, 0.3);
-                            }
-
-                            .text {
-                                font-weight: 400;
-                                padding: 20px 5% 20px 5%;
-                            }
-                        }
-                    }
 
                 }
 
-                .mobaily-footer {
-                    display: flex;
-                    justify-content: center;
-                    padding: 60px 0 10px 0;
+                .number {
+                    margin: 4.3229vw 0 3.385vw;
 
-                    p {
-                        background: #F57C40;
-                        border-radius: 20px;
-                        text-align: center;
-                        line-height: 40px;
-                        width: 150px;
-                        color: #FFFFFF;
-                        height: 40px;
-                        cursor: pointer;
-                    }
-                }
-            }
-        }
-
-
-        .develop {
-
-            .develop-main {
-                .develop-title {
-                    color: #010101;
-                    text-align: left;
-                    font-weight: 500;
-                    padding: 40px 0 40px 0;
-                }
-
-                .develop-content {
-
-                    .text {
-                        font-size: 16px;
-                    }
-
-                    .img {
+                    .wow {
                         display: flex;
-                        justify-content: center;
-                        padding: 50px;
+                        justify-content: space-between;
 
-                    }
-                }
-            }
+                        li {
+                            .num {
+                                .number-text {
+                                    font-size: 2.5vw;
+                                    color: #1F81C8;
 
-        }
-
-        .institution {
-            background-color: #1F81C8;
-
-            .institution-main {
-                // background:url(../img/about/);
-
-                .institution-list {
-                    display: flex;
-
-                    .institution-item {
-                        width: 25%;
-
-                        p {
-                            color: #FFFFFF;
-                            padding: 10px 20px 20px 20px;
-                        }
-
-                        .title {
-                            display: flex;
-                            justify-content: center;
-                            padding: 20px 0 30px 0;
-
-                            span {
-                                border-radius: 30px;
-                                width: 55%;
-                                height: 100%;
-                                background-color: white;
-                                text-align: center;
-                                font-weight: 600;
-                                height: 30px;
-                                line-height: 30px;
-                                font-size: 15px;
-                            }
-                        }
-
-
-                        // .text-one{
-                        //     border-bottom: 1px #FFFFFF solid;
-                        // }
-
-
-                    }
-
-                }
-            }
-        }
-
-        .splendid {
-            .splendid-main {
-                .splendid-title {
-                    color: #010101;
-                    text-align: left;
-                    font-weight: 500;
-                    padding: 40px 0 40px 0;
-                }
-
-                .splendid-list {
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                    grid-gap: 20px;
-
-                    .splendid-item {
-                        display: flex;
-                        flex-direction: column;
-
-                        img {
-                            width: 100%;
-                            // height: 100%;
-                            cursor: pointer;
-                        }
-
-                        img:hover {
-                            transform: scale(.9);
-                        }
-
-                        p {
-                            background: #dbd9d9;
-                            border-radius: 0px 0px 4px 4px;
-                            padding: 10px;
-                            flex: 1;
-                        }
-
-                    }
-                }
-            }
-        }
-
-    }
-
-}
-
-
-@media screen and (max-width:1746px) {
-    main {
-        .main-content {
-            .college-content {
-                .college-main {
-                    .college-rigth {
-                        padding: 0 11% 20px 10px;
-
-                        .singePage {
-                            padding: 45px 0;
-                        }
-                    }
-
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width:1098px) {
-    main {
-        .main-content {
-            .institution {
-                .institution-main {
-                    .institution-list {
-                        display: grid;
-                        grid-template-columns: repeat(2, 1fr);
-                        grid-gap: 40px;
-
-                        .institution-item {
-                            width: 100%;
-
-                            p {
-                                color: #FFFFFF;
-                                padding: 10px 20px 20px 20px;
-                            }
-
-                            .title {
-                                display: flex;
-                                justify-content: center;
-                                padding: 20px 0 30px 0;
+                                }
 
                                 span {
-                                    border-radius: 35px;
-                                    height: 36px;
-                                    line-height: 36px;
+                                    color: #1F81C8;
                                 }
+                            }
+
+                            .txt {
+                                color: #8B8A8A;
+                                margin-top: -10px;
                             }
                         }
 
                     }
-                }
-            }
 
-            .splendid {
-                .splendid-main {
-                    .splendid-list {
-                        grid-template-columns: repeat(3, 1fr);
+
+                }
+
+                .singePage {
+                    p {
+                        margin-bottom: 1.719vw;
+
+                        &:last-child {
+                            margin-bottom: 4.1146vw;
+                        }
                     }
                 }
+
+                .cullist {
+                    ul {
+                        li {
+                            display: flex;
+
+                            .icon {
+                                padding: 0 10px 0 0;
+
+                                .iconfont {
+                                    display: inline-block;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+
+                                .iconfont-one {
+                                    background-image: url(../img/about/icon-1.png);
+                                }
+
+                                .iconfont-two {
+                                    background-image: url(../img/about/icon-2.png);
+
+                                }
+
+                                .iconfont-three {
+                                    background-image: url(../img/about/icon-3.png);
+
+                                }
+
+
+                            }
+
+                            .txt {
+                                color: rgba(1, 206, 115, 1)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 管理团队
+    .mobaily {
+        padding: 1.615vw 0 2.344vw;
+        background: url(../img/about/bj.png);
+    }
+
+    .mobaily-main {
+        .mobaily-title {
+            text-align: center;
+            color: #fff;
+        }
+
+        .mobaily-content {
+            margin: 2.708vw 0;
+
+            .mobaily-item {
+                width: 30.769%;
+
+                .item-img {
+                    width: 173px;
+                    height: 173px;
+                    margin: 0 auto;
+                    position: relative;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        transition: transform 0.3s;
+                    }
+
+                    &:hover {
+                        img {
+                            transform: scale(0.9);
+                        }
+
+                    }
+                }
+
+
+            }
+
+            .item-text {
+                margin-top: 2.2395vw;
+                background-color: rgba(0, 0, 0, 0.12);
+                border-radius: 5px;
+                color: #FFFFFF;
+                padding: 1vw;
+
+                .text-title {
+                    padding-bottom: 10px;
+                    text-align: center;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+                }
+
+
+                .text {
+                    font-weight: 400;
+                    padding-top: 1.3021vw;
+                }
+            }
+        }
+
+        .mobaily-footer {
+            a {
+                background: #F57C40;
+                border-radius: 20px;
+                text-align: center;
+                width: 150px;
+                color: #FFFFFF;
+                padding: 12px 0;
+            }
+        }
+    }
+
+    // 学院发展
+    .develop {
+        padding: 3.542vw 0 5.1042vw;
+        background: #F8FAFA;
+
+        .develop-main {
+            .develop-title {
+                color: #010101;
+                text-align: left;
+            }
+
+            .develop-content {
+                .text {
+                    margin: 2.292vw 0 2.7083vw;
+                }
+
+                .pc-img-show {
+                    margin: 0 auto;
+                }
+
+                .pc--img-hide {
+                    display: none;
+                }
+
+            }
+        }
+
+    }
+
+    .institution {
+        padding: 3.28125vw 0;
+        background: url(../img/about/shezhi.png) no-repeat center;
+        background-size: 100% 100%;
+
+        .institution-title {
+            text-align: center;
+            color: #fff;
+        }
+
+        .institution-list {
+            margin-top: 4.21875vw;
+
+            .institution-item {
+                width: 25%;
+
+
+                .title {
+                    margin: 0 auto;
+                    border-radius: 30px;
+                    width: 57.85%;
+                    color: #000;
+                    background-color: white;
+                    text-align: center;
+                    padding: 10px 0;
+                    font-size: 15px;
+
+                }
+
+                .text-one {
+                    margin: 2.292vw 0 1.771vw;
+                    padding-bottom: 2.08vw;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.34);
+                }
+
+
+
+                p {
+                    color: #fff;
+                    line-height: 1.71;
+                    padding: 0 30px;
+                }
+
+
             }
 
         }
     }
 
+    // 精彩瞬间
+    .splendid {
+        .splendid-title {
+            margin: 31px 0 38px !important;
+        }
+    }
+
+
 }
 
-
-@media screen and (max-width: 920px) {
+@media screen and (max-width:992px) {
     main {
-        font-size: 16px;
+        .institution {
+            .institution-list {
+                .institution-item {
+                    width: 48%;
+                    margin-bottom: 30px;
 
-        .main-content {
-            .content {
-
-                .content-main {
-                    padding: 20px;
-
-                    width: 100%;
-                    // background-color: #FFFFFF;
-
-                    .content-title {
-                        color: #FFFFFF;
-                        text-align: center;
-                        font-weight: 600;
-                        // margin-bottom: 30px
-                        font-size: 30px;
-                        padding: 25px 0 25px 0;
-                    }
 
                 }
             }
+        }
+    }
+}
 
+@media screen and (max-width:768px) {
+    main {
+        .main-content {
             .college-content {
+                background: #fff;
+
                 .college-main {
-
-                    .college-left {
-                        display: none;
-                    }
-
                     .college-rigth {
                         width: 100%;
-                        padding: 0 20px;
-
-                        .rigth-title {
-                            font-size: 30px;
-                            font-weight: 400;
-                            color: #1C1C1C;
-                            padding: 15px 0 15px 0;
-                        }
+                        margin: 0 20px;
 
                         .number {
                             .wow {
+                                flex-wrap: wrap;
+
                                 li {
-                                    width: 25%;
+                                    width: 50%;
+                                    line-height: 1.9;
                                     text-align: center;
+                                    padding: 15px 0px;
+                                    border: 1px solid #eee;
+                                    position: relative;
 
-                                    .num {
-                                        .number-text {
-                                            font-size: 2.5vw;
-                                            color: #1F81C8;
-                                        }
-
-                                        span {
-                                            color: #1F81C8;
-                                        }
-                                    }
-
-                                    .txt {
-                                        margin-top: 0;
-                                    }
-                                }
-
-                                :nth-child(1),
-                                :nth-child(2),
-                                :nth-child(3) {
-                                    border-right: 0;
                                 }
                             }
                         }
-
-                        .singePage {
-                            padding: 30px 0;
-
-                            p {
-                                padding: 15px 0;
-                            }
-                        }
                     }
                 }
             }
+        }
 
-
-            .mobaily {
-                .mobaily-main {
-
-                    .mobaily-content {
-                        padding: 20px 0 20px 0;
-                        flex-wrap: wrap;
-
-                        .mobaily-item {
-                            width: calc(50% - 30px);
-
-                            padding-top: 30px;
-                        }
-                    }
+        .mobaily-main {
+            .mobaily-content {
+                .item-text {
+                    padding: 15px;
                 }
             }
-
-
-            .develop {
-
-                .develop-main {
-                    .develop-title {
-                        color: #010101;
-                        text-align: left;
-                        font-weight: 500;
-                        padding: 40px 0 40px 0;
-                    }
-
-                    .develop-content {
-
-                        .text {
-                            font-size: 16px;
-                        }
-
-                        .img {
-                            display: flex;
-                            justify-content: center;
-                            padding: 50px;
-
-                        }
-                    }
-                }
-
-            }
-
-            .institution {
-                background-color: #1F81C8;
-
-                .institution-main {
-                    .institution-list {
-                        display: flex;
-                        flex-wrap: wrap;
-
-                        .institution-item {
-                            width: calc(50% - 20px);
-
-                            p {
-                                color: #FFFFFF;
-                                padding: 10px 20px 20px 20px;
-                            }
-
-                            .title {
-                                display: flex;
-                                justify-content: center;
-                                padding: 20px 0 30px 0;
-
-                                span {
-                                    border-radius: 30px;
-                                    width: 55%;
-                                    height: 100%;
-                                    background-color: #FFFFFF;
-                                    text-align: center;
-                                    font-weight: 600;
-                                    height: 30px;
-                                    line-height: 30px;
-                                    font-size: 15px;
-                                }
-                            }
-
-                            // .text-one{
-                            //     border-bottom: 1px #FFFFFF solid;
-                            // }
-
-
-                        }
-
-                    }
-                }
-            }
-
-            .splendid {
-                .splendid-main {
-                    .splendid-list {
-                        grid-template-columns: repeat(3, 1fr);
-                    }
-                }
-            }
-
         }
 
     }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 576px) {
 
     main {
+        .mobaily {
+            margin-top: 15px;
+        }
+
         .main-content {
             .content {
                 .content-main {
@@ -635,151 +353,23 @@ main {
                 }
             }
 
-            .college-content {
-                .college-main {
-                    .college-rigth {
-                        .number {
-                            .wow {
-                                flex-wrap: wrap;
-
-                                li {
-                                    width: 50%;
-                                    border: none;
-                                    padding: 5px 0 5px 0;
-
-                                    .num {
-                                        .number-text {
-                                            font-size: 18px;
-                                            color: #1F81C8;
-                                        }
-
-                                        span {
-                                            color: #1F81C8;
-                                        }
-                                    }
-
-                                    .txt {
-                                        margin-top: 0;
-                                    }
-                                }
-
-                            }
-
-                        }
-
-                        .singePage {
-                            padding: 20px 0;
-
-                            p {
-                                padding: 15px 0;
-                            }
-                        }
-
-                        .cullist {
-                            ul {
-                                li {
-                                    display: flex;
-
-                                    .icon {
-                                        padding: 0 10px 0 0;
-
-                                        .iconfont {
-                                            display: inline-block;
-                                            background-size: cover;
-                                            background-repeat: no-repeat;
-                                            width: 20px;
-                                            height: 20px;
-                                        }
-
-                                    }
-
-                                    .txt {
-                                        color: rgba(1, 206, 115, 1)
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-
-            .splendid {
-                .splendid-main {
-                    .splendid-list {
-                        grid-template-columns: repeat(2, 1fr);
-                    }
-                }
-            }
-
             .mobaily {
-                margin-top: 20px;
 
                 .mobaily-main {
-                    padding: 20px;
-
-                    .mobaily-title {
-                        padding: 10px;
-                    }
-
                     .mobaily-content {
-                        padding: 0;
-                        display: flex;
-                        flex-direction: column;
+
 
                         .mobaily-item {
                             width: 100%;
                             padding-top: 10px;
 
 
-                            .item-text {
-                                margin-top: 10px;
-                                height: 60%;
-
-                            }
-
 
                         }
 
                     }
 
-                    .mobaily-footer {
 
-                        padding: 53px 0px 10px 0;
-                    }
-                }
-            }
-
-            .develop {
-                .develop-main {
-                    padding: 20px;
-
-                    .develop-title {
-                        padding: 10px 0 10px 0;
-                    }
-                }
-
-            }
-
-            .institution {
-                .institution-main {
-                    .institution-list {
-                        display: block;
-
-                        .institution-item {
-                            width: calc(100%);
-
-                            .title {
-
-                                span {
-                                    font-size: 16px;
-
-                                    width: 44%;
-                                }
-                            }
-                        }
-
-                    }
                 }
             }
 
@@ -796,7 +386,6 @@ main {
                     }
 
                     .splendid-list {
-                        grid-template-columns: repeat(1, 1fr);
 
                         .splendid-item {
 
@@ -811,6 +400,104 @@ main {
             }
 
         }
+
+        .institution {
+            .institution-list {
+                .institution-item {
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                    .title {
+                        padding: 5px 0;
+                    }
+
+                    .text-one {
+                        padding: 0 !important;
+                    }
+
+                    p {
+                        padding: 0 !important;
+                    }
+                }
+            }
+        }
     }
 
+}
+
+@media screen and (min-width:1920px) {
+    main {
+        .main-content {
+            .college-content {
+                .college-main {
+                    padding: 66px 0 29px;
+
+                    .college-rigth {
+                        .number {
+                            margin: 83px 0 65px;
+                        }
+
+                        .singePage {
+                            p {
+                                margin-bottom: 33px;
+
+                                &:last-child {
+                                    margin-bottom: 79;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // 管理团队
+        .mobaily {
+            padding: 31px 0 45px;
+
+            .mobaily-content {
+                margin: 55px 0;
+
+                .item-text {
+                    margin-top: 43px;
+                    padding: 20px 23px;
+
+                    .text {
+                        padding-top: 25px;
+                    }
+                }
+            }
+        }
+
+        // 学院发展
+        .develop {
+            padding: 68px 0 98px;
+
+            .develop-main {
+                .develop-content {
+                    .text {
+                        margin: 44px 0 52px;
+                    }
+                }
+            }
+        }
+
+        // 机构设置
+        .institution {
+            padding: 63px 0;
+
+            .institution-list {
+                margin-top: 81px;
+
+                .institution-item {
+                    .text-one {
+                        margin: 44px 0 34px;
+                        padding-bottom: 40px;
+
+                    }
+                }
+
+            }
+        }
+    }
 }

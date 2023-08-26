@@ -13,6 +13,18 @@ main .support-desc .support-list li {
   border: 1px solid #CCCCCC;
 }
 
+main .support-desc .support-list li:nth-child(4) {
+  margin-bottom: 0;
+}
+
+main .support-desc .support-list li:nth-child(5) {
+  margin-bottom: 0;
+}
+
+main .support-desc .support-list li:nth-child(6) {
+  margin-bottom: 0;
+}
+
 main .support-desc .support-list li h3 {
   position: absolute;
   top: 50%;
@@ -44,6 +56,7 @@ main .counselor-team {
   padding-top: 5.26vw;
   padding-bottom: 2.968vw;
   background: url("../img/studentWork/tema-bj.png") no-repeat center;
+  background-size: 100%;
 }
 
 main .tema-desc .team-list {
@@ -103,6 +116,15 @@ main .teacher-photo:hover img {
   main .support-desc .support-list li {
     margin-bottom: 39px;
   }
+  main .support-desc .support-list li:nth-child(4) {
+    margin-bottom: 0;
+  }
+  main .support-desc .support-list li:nth-child(5) {
+    margin-bottom: 0;
+  }
+  main .support-desc .support-list li:nth-child(6) {
+    margin-bottom: 0;
+  }
   main .support-desc .support-list li .includeImg {
     padding-top: 56px;
   }
@@ -111,7 +133,7 @@ main .teacher-photo:hover img {
   }
   main .counselor-team {
     padding-top: 101px;
-    padding-bottom: 57px;
+    padding-bottom: 56px;
   }
   main .tema-desc .team-list {
     margin: 66px 0 0;
