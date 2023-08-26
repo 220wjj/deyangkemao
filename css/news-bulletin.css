@@ -6,6 +6,12 @@ main {
 main .top-nav {
   padding-top: 8px;
   margin: 0px 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 main .top-nav img {
   display: inline-block;
@@ -100,6 +106,7 @@ main .main-content .content-left .date-list .date-list-item {
   padding: 16px;
   margin-bottom: 26px;
   background-color: #F7F7F7;
+  cursor: pointer;
 }
 main .main-content .content-left .date-list .date-list-item .item-time {
   color: #1652CC;
@@ -175,6 +182,7 @@ main .main-content .content-right .accordion .accordion-item .listtext {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 main .main-content .content-right .accordion .accordion-item .listtext .icon {
   position: absolute;

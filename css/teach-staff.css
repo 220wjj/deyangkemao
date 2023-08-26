@@ -6,6 +6,12 @@ main {
 main .top-nav {
   padding-top: 8px;
   margin: 0px 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 main .top-nav img {
   display: inline-block;
@@ -126,6 +132,7 @@ main .main-content .content-right .accordion .accordion-item .listtext {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 main .main-content .content-right .accordion .accordion-item .listtext .icon {
   position: absolute;

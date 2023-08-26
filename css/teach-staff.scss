@@ -6,7 +6,8 @@ main {
     .top-nav {
         padding-top: 8px;
         margin: 0px 0 16px;
-
+        display: flex;
+        align-items: center;
         img {
             display: inline-block;
             margin-right: 10px;
@@ -145,7 +146,7 @@ main {
                     .listtext {
                         position: relative;
                         align-items: center;
-
+                        cursor: pointer;
                         .icon {
                             position: absolute;
                             top: 50%;

@@ -5,6 +5,7 @@
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
+        
     },
 
     speed: 800,

@@ -136,11 +136,9 @@ html {
 .news-bulletin-banner {
   position: relative;
 }
-
 .news-bulletin-banner h2 {
   font-weight: bold;
 }
-
 .news-bulletin-banner .bannerImg {
   width: 100%;
   max-width: 100%;
@@ -148,7 +146,6 @@ html {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .news-bulletin-banner .banner-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -168,12 +165,10 @@ html {
   background-color: rgba(4, 29, 48, 0.5);
   color: #fff;
 }
-
 .news-bulletin-banner .banner-text span {
   font-size: 0.9375vw;
   opacity: 0.59;
 }
-
 .news-bulletin-banner .banner-text h2 {
   margin-top: 0;
   font-size: 1.875vw;
@@ -186,12 +181,10 @@ html {
   position: relative;
   z-index: 0;
 }
-
 .announcement .announ-left {
   width: 45.5385%;
   position: relative;
 }
-
 .announcement .announ-left::before {
   content: "";
   display: block;
@@ -204,12 +197,10 @@ html {
   bottom: -1.25vw;
   z-index: -1;
 }
-
 .announcement .announ-right {
   width: 51.769231%;
   position: relative;
 }
-
 .announcement .announ-right::before {
   content: "";
   max-width: 551px;
@@ -219,20 +210,17 @@ html {
   position: absolute;
   background: #238CEF;
 }
-
 .announcement .announ-right .junxun-title {
   width: 125px;
   text-align: center;
   color: #fff;
   background: url(../img/partyBuilding/juxing-icon.png) no-repeat left;
 }
-
 .announcement .announ-right .latest-news {
   margin: 19px 0 22px;
   padding: 13px 8px;
   background-color: #EFEFEF;
 }
-
 .announcement .announ-right .blue2 {
   width: 72px;
   padding: 12px 11px;
@@ -243,19 +231,15 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 .announcement .announ-right .prev-list {
   padding-left: 17px;
 }
-
 .announcement .announ-right .prev-list .prev-list-item {
   margin-bottom: 17px;
 }
-
 .announcement .announ-right .prev-list .prev-list-item .vertical-blue-line {
   position: relative;
 }
-
 .announcement .announ-right .prev-list .prev-list-item .vertical-blue-line::before {
   content: "";
   width: 3px;
@@ -264,7 +248,6 @@ html {
   background: #358DD6;
   bottom: 7px;
 }
-
 .announcement .announ-right .prev-list .prev-list-item a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -273,12 +256,10 @@ html {
   padding-bottom: 13px;
   border-bottom: 1px solid #767373;
 }
-
 .announcement .announ-right .prev-list .prev-list-item a span {
   max-width: 515px;
   width: 90%;
 }
-
 .announcement .announ-right .learn-more {
   padding-left: 18px;
 }
@@ -286,18 +267,15 @@ html {
 .top-nav {
   padding: 8px 0;
 }
-
 .top-nav img {
   display: inline-block;
   margin-right: 10px;
 }
-
 .top-nav a {
   color: #98989A;
   font-size: 14px;
   margin-right: 8px;
 }
-
 .top-nav span {
   color: #171717;
 }
@@ -306,30 +284,25 @@ html {
   background-color: #fff;
   padding: 30px 0 40px;
 }
-
 .branch-activity h3 {
   text-align: center;
   margin-bottom: 24px;
 }
-
 .branch-activity .branch-list-item {
   width: 23.076923%;
   background-color: #EDECEC;
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 18px;
 }
-
 .branch-activity .branch-list-item p {
-  padding: 7px;
+  margin: 7px;
 }
-
 .branch-activity .branch-list-item a {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-
 .branch-activity .branch-list-item a img {
   width: 100%;
   height: 100%;
@@ -338,7 +311,6 @@ html {
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
-
 .branch-activity .branch-list-item a:hover img {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
@@ -354,10 +326,9 @@ html {
     width: 92.905%;
     height: 100%;
     left: -3.716%;
-    bottom: -4.0540%;
+    bottom: -4.054%;
   }
 }
-
 @media screen and (max-width: 992px) {
   .flex-column {
     -webkit-box-orient: vertical;
@@ -377,7 +348,6 @@ html {
             transform: translate(0, -50%);
   }
 }
-
 @media screen and (max-width: 768px) {
   .news-bulletin-banner .bannerImg {
     height: 250px;
@@ -400,10 +370,9 @@ html {
     width: 48%;
   }
   .branch-activity .branch-list-item p {
-    padding: 8px;
+    margin: 8px;
   }
 }
-
 @media screen and (max-width: 564px) {
   .fs30 {
     font-size: 26px;
@@ -424,7 +393,6 @@ html {
     bottom: -33px;
   }
 }
-
 .line4 {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -438,13 +406,11 @@ html {
     padding-top: 2.854vw;
   }
 }
-
 @media screen and (min-width: 768px) {
   main .announcement {
     padding-top: 3.854vw;
   }
 }
-
 @media screen and (min-width: 992px) {
   .fs24 {
     font-size: 1.25vw;
@@ -465,10 +431,9 @@ html {
     margin-bottom: 1.979vw;
   }
   .branch-activity .branch-list-item p {
-    padding: 0.729vw;
+    margin: 0.729vw;
   }
 }
-
 @media screen and (min-width: 1440px) {
   .fs30 {
     font-size: 1.5625vw;
@@ -481,7 +446,6 @@ html {
     font-size: 36px;
   }
 }
-
 @media screen and (min-width: 1920px) {
   .fs48 {
     font-size: 48px;
@@ -525,6 +489,6 @@ html {
     margin-bottom: 38px;
   }
   .branch-activity .branch-list-item p {
-    padding: 8px;
+    margin: 8px;
   }
 }

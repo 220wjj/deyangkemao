@@ -6,6 +6,9 @@ main {
 main .top-nav {
   padding-top: 8px;
   margin: 0px 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 main .top-nav img {
   display: inline-block;
