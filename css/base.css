@@ -180,6 +180,8 @@ table {
   border-spacing: 0
 }
 
+
+
 hr {
   height: 1px;
   border: none;
@@ -1930,6 +1932,7 @@ footer .copyright {
   transition: background-size .5s;
   display: inline-block;
 }
+
 .flex-start {
   display: flex;
   justify-content: start;
@@ -1970,6 +1973,7 @@ footer .copyright {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+
 .line5 {
   overflow: hidden;
   text-overflow: ellipsis;

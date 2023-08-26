@@ -3,7 +3,7 @@ main {
 }
 
 main .college-content {
-  background: url("../img/about/img.png") left bottom no-repeat;
+  background: url("../img/about/img.png") no-repeat;
 }
 
 main .college-content::before {
