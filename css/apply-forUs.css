@@ -3,48 +3,39 @@ main {
   line-height: 1.5;
   padding-bottom: 4.565vw;
 }
-
 main .wp {
   width: 100%;
 }
-
 main .top-nav {
   padding-top: 8px;
   margin: 0px 0 16px;
 }
-
 main .top-nav img {
   display: inline-block;
   margin-right: 10px;
 }
-
 main .top-nav a {
   color: #98989a;
   font-size: 14px;
   margin-right: 8px;
 }
-
 main .top-nav span {
   color: #171717;
 }
-
 main .main-content {
   max-width: 1902px;
 }
-
 main .main-content .content .content-main {
   width: 70%;
   margin: 0 auto;
   padding: 0 0 32px 0;
 }
-
 main .main-content .content .content-main .content-title {
   color: #0166C0;
   text-align: center;
   font-weight: 600;
   padding: 30px 0 30px 0;
 }
-
 main .main-content .application .application-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,22 +44,18 @@ main .main-content .application .application-content {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 main .main-content .application .application-content .application-item {
   width: calc(50% - 20px);
 }
-
 main .main-content .application .application-content .application-item .application-item-title {
   background: linear-gradient(83deg, #0065C0 0%, #3A91D8 100%);
   color: #FFFFFF;
   padding: 10px 0 10px 0;
   text-align: center;
 }
-
 main .main-content .application .application-content .application-item .application-item-title h3 {
   font-weight: 200;
 }
-
 main .main-content .application .application-content .application-item .list {
   background: #F8FAFA;
   border: 1px solid #9FA0A1;
@@ -77,7 +64,6 @@ main .main-content .application .application-content .application-item .list {
   color: #090909;
   padding: 1.771vw 2.292vw 2.135vw 2.083vw;
 }
-
 main .main-content .application .application-content .application-item .list .list-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,42 +71,32 @@ main .main-content .application .application-content .application-item .list .li
   margin-bottom: 0.677vw;
   letter-spacing: 0.6px;
 }
-
 main .main-content .application .application-content .application-item .list .list-item .item-last {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
-
 main .main-content .application .application-content .application-item .list .list-item img {
   width: 16px;
   height: 16px;
 }
-
 main .main-content .application .application-content .application-item .list .list-item .application-icon {
   margin-right: 0.833vw;
 }
-
 main .main-content .school {
   background: #ecf3f3;
 }
-
 main .main-content .school .school-main .school-list {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
-
 main .main-content .school .school-main .school-list .school-item {
   position: relative;
 }
-
 main .main-content .school .school-main .school-list .school-item .school-img img {
   width: 100%;
 }
-
 main .main-content .school .school-main .school-list .school-item .school-text {
   position: absolute;
   width: 100%;
@@ -133,46 +109,37 @@ main .main-content .school .school-main .school-list .school-item .school-text {
   line-height: 35px;
   padding-left: 15px;
 }
-
 main .main-content .financially {
   margin-top: 30px;
   background: url(../img/apply/financially-bj.png);
 }
-
 main .main-content .financially .financially-main .financially-item {
   padding: 15px 0 15px 0;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
-
 main .main-content .financially .financially-main .financially-item li {
   background-color: rgba(9, 9, 9, 0.5);
   border-radius: 5px;
   color: #FFFFFF;
   padding: 12px 15px 23px 15px;
 }
-
 main .main-content .financially .financially-main .financially-item li .financially-title {
   font-weight: 600;
   text-align: center;
   font-size: 1.25vw;
 }
-
 main .main-content .financially .financially-main .financially-item li .financially-hr {
   width: 90%;
   background-color: rgba(255, 255, 255, 0.3);
 }
-
 main .main-content .financially .financially-main .financially-item li .financially-text {
   font-size: 0.833vw;
   font-weight: 400;
   padding: 2px 7px 2px 7px;
   line-height: 1.5625vw;
 }
-
 main .main-content .growUp .growUp-main .growUp-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,7 +148,6 @@ main .main-content .growUp .growUp-main .growUp-item {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-list {
   position: relative;
   width: 32.41%;
@@ -191,27 +157,22 @@ main .main-content .growUp .growUp-main .growUp-item .item-list {
   border-radius: 5px;
   height: 21.875;
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-list ul {
   padding: 1vw 2vw 29px 3vw;
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-list ul li {
   position: relative;
   height: 10vw;
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-list ul li .item-title {
   font-size: 0.9375vw;
   font-weight: 500;
   padding: 4px 0 4px 0;
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-list ul li .item-text {
   font-size: 0.833vw;
   line-height: 1.46vw;
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-list ul li::before {
   position: absolute;
   content: "";
@@ -223,7 +184,6 @@ main .main-content .growUp .growUp-main .growUp-item .item-list ul li::before {
   left: -25px;
   top: 7px;
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-befter-one::before,
 main .main-content .growUp .growUp-main .growUp-item .item-befter-two::before,
 main .main-content .growUp .growUp-main .growUp-item .item-befter-three::before {
@@ -236,34 +196,27 @@ main .main-content .growUp .growUp-main .growUp-item .item-befter-three::before 
           transform: translate(-50%, -40%);
   color: #FFFFFF;
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-befter-one::before {
   content: "深造";
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-befter-two::before {
   content: "就业";
 }
-
 main .main-content .growUp .growUp-main .growUp-item .item-befter-three::before {
   content: "出国";
 }
-
 main .main-content .growUp .growUp-main .growUp-item .active {
   display: none;
 }
-
 main .main-content .consult .consult-main .consult-title {
   padding: 0;
 }
-
 main .main-content .consult .consult-main .consult-mian-title {
   text-indent: 30px;
   /* 设置文本缩进为20像素 */
   font-size: 0.833vw;
   margin: 2.604vw auto;
 }
-
 main .main-content .consult .consult-main .main-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,14 +228,12 @@ main .main-content .consult .consult-main .main-item {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 main .main-content .consult .consult-main .main-item .main-content {
   width: calc(33% - 10px);
   background: linear-gradient(45deg, #0065C1 0%, #3B92D7 100%);
   border-radius: 5px;
   padding: 19px 20px 19px 20px;
 }
-
 main .main-content .consult .consult-main .main-item .main-content .main-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -295,15 +246,12 @@ main .main-content .consult .consult-main .main-item .main-content .main-title {
           justify-content: center;
   font-size: 1.5625vw;
 }
-
 main .main-content .consult .consult-main .main-item .main-content .main-hr {
   background-color: rgba(255, 255, 255, 0.25);
 }
-
 main .main-content .consult .consult-main .main-item .main-lianxi .main-content-list ul {
   padding: 19px 20px 0 20px;
 }
-
 main .main-content .consult .consult-main .main-item .main-lianxi .main-content-list ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,15 +259,12 @@ main .main-content .consult .consult-main .main-item .main-lianxi .main-content-
   /* margin-bottom: 2.083vw; */
   padding: 10px 0 10px 0;
 }
-
 main .main-content .consult .consult-main .main-item .main-lianxi .main-content-list ul li .list-img {
   display: inline-block;
 }
-
 main .main-content .consult .consult-main .main-item .main-lianxi .main-content-list ul li .list-img img {
   width: 4.635vw;
 }
-
 main .main-content .consult .consult-main .main-item .main-lianxi .main-content-list ul li .list-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,28 +279,23 @@ main .main-content .consult .consult-main .main-item .main-lianxi .main-content-
   padding: 0px 0 10px 13px;
   width: calc;
   font-size: 12px;
-  width: calc(75%);
-  letter-spacing: .1vw;
+  width: 75%;
+  letter-spacing: 0.1vw;
 }
-
 main .main-content .consult .consult-main .main-item .main-lianxi .main-content-list ul li .list-text p {
   padding-top: 5px;
 }
-
 main .main-content .consult .consult-main .main-item .main-map .main-map-conent {
   padding: 1.875vw 1.979vw 2.344vw 2.135vw;
 }
-
 main .main-content .consult .consult-main .main-item .main-map .main-map-conent p {
   text-align: center;
   font-size: 12px;
 }
-
 main .main-content .consult .consult-main .main-item .main-map .main-map-conent .map-text-one {
   font-size: 12px;
   padding: 5px 0 20px 0;
 }
-
 main .main-content .consult .consult-main .main-item .main-map .main-map-conent img {
   width: 100%;
   height: 100%;
@@ -384,7 +324,6 @@ main .main-content .consult .consult-main .main-item .main-map .main-map-conent 
     font-size: 16px;
   }
 }
-
 @media screen and (max-width: 1050px) {
   main .main-content .content .content-main .content-title {
     text-align: left;
@@ -395,7 +334,7 @@ main .main-content .consult .consult-main .main-item .main-map .main-map-conent 
         flex-wrap: wrap;
   }
   main .main-content .application .application-content .application-item {
-    width: calc(100%);
+    width: 100%;
     margin-bottom: 20px;
   }
   main .main-content .application .application-content .application-item .list {
@@ -416,8 +355,7 @@ main .main-content .consult .consult-main .main-item .main-map .main-map-conent 
     margin-top: 15px;
   }
   main .main-content .school .school-main .school-list {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   main .main-content .school .school-main .school-list .school-item {
     -webkit-box-pack: start;
@@ -427,8 +365,7 @@ main .main-content .consult .consult-main .main-item .main-map .main-map-conent 
         flex-wrap: wrap;
   }
   main .main-content .financially .financially-main .financially-item {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   main .main-content .financially .financially-main .financially-item li .financially-title {
     font-size: 2.25vw;
@@ -508,7 +445,6 @@ main .main-content .consult .consult-main .main-item .main-map .main-map-conent 
     font-size: 14px;
   }
 }
-
 @media screen and (max-width: 620px) {
   main .main-content .content .content-main {
     width: 81%;
@@ -519,7 +455,7 @@ main .main-content .consult .consult-main .main-item .main-map .main-map-conent 
     padding: 15px 0 15px 0;
   }
   main .main-content .application .application-content .application-item {
-    width: calc(100%);
+    width: 100%;
     margin-bottom: 20px;
   }
   main .main-content .application .application-content .application-item .application-item-title {
@@ -542,12 +478,10 @@ main .main-content .consult .consult-main .main-item .main-map .main-map-conent 
     height: 20px;
   }
   main .main-content .school .school-main .school-list {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   main .main-content .financially .financially-main .financially-item {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   main .main-content .financially .financially-main .financially-item li .financially-title {
     font-size: 5.25vw;
@@ -557,7 +491,7 @@ main .main-content .consult .consult-main .main-item .main-map .main-map-conent 
     line-height: 7.5625vw;
   }
   main .main-content .growUp .growUp-main .growUp-item .item-list {
-    width: calc(100%);
+    width: 100%;
     margin-bottom: 30px;
   }
   main .main-content .growUp .growUp-main .growUp-item .item-list ul {
@@ -582,7 +516,7 @@ main .main-content .consult .consult-main .main-item .main-map .main-map-conent 
     font-size: 14px;
   }
   main .main-content .consult .consult-main .main-item .main-content {
-    width: calc(100%);
+    width: 100%;
     padding: 20px 25px 20px 25px;
   }
   main .main-content .consult .consult-main .main-item .main-content .main-title {

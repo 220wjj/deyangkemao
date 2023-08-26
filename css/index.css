@@ -1229,13 +1229,19 @@
     overflow: hidden;
     width: 100%;
     height: 100%;
+    border:1px solid #eee;
+    border-radius:4px;
+    box-shadow: 0 0 2px 0 rgb(213, 213, 213) inset;
+    padding:1px;
 }
 
 .rowf ul li .pic img {
     width: 100%;
     height: 100%;
-
+    transform: scale(1.1);
+    cursor:pointer;
     transition: transform 0.3s ease-in-out;
+    image-rendering: pixelated;
 }
 
 .rowf ul li .pic:hover img {
@@ -1248,10 +1254,11 @@
     color: #fff;
     margin: 3.5385% auto 2.69231%;
     transition: .3s;
+    cursor: pointer;
 }
 
 .rowf .learn-more:hover {
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
     letter-spacing: .1em;
 }
 
@@ -1923,4 +1930,8 @@
     .rowe {
         margin-top: 365px;
     }
+}
+
+.aright .l2{
+    display:inline-block;
 }
