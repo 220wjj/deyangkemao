@@ -1,6 +1,7 @@
 main .main-content {
   background: rgba(175, 175, 175, 0.22);
 }
+
 main .top-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,28 +10,35 @@ main .top-nav {
       -ms-flex-align: center;
           align-items: center;
 }
+
 main .education {
   background-color: #f8fafa;
   padding: 30px 0;
 }
+
 main .education .main-education {
   margin-bottom: 30px;
 }
+
 main .education .edu-title {
   margin-bottom: 30px;
   text-align: center;
 }
+
 main .education .swiper-slide {
   border: 1px solid #EFEFEF;
   text-align: center;
   background: #fff;
 }
+
 main .education .swiper-slide p {
   margin: 20px 0 22px;
 }
+
 main .education .swiper-container {
   padding-bottom: 50px;
 }
+
 main .education .swiper-pagination {
   width: 99px;
   height: 17px;
@@ -53,18 +61,21 @@ main .education .swiper-pagination {
       justify-content: space-around;
   z-index: 20;
 }
+
 main .education .swiper-pagination-bullet {
   width: 11px;
   height: 11px;
   background: #646565;
   border-radius: 50%;
 }
+
 main .education .swiper-pagination-bullets .swiper-pagination-bullet-active {
   width: 25px;
   height: 11px;
   background: #FFFFFF;
   border-radius: 6px;
 }
+
 main .banchprofile {
   width: 100%;
   height: 100%;
@@ -72,15 +83,18 @@ main .banchprofile {
   background: url("../img/partyBuilding/banchprofile.png") no-repeat center;
   background-size: 100% 100%;
 }
+
 main .banchprofile .edu-title {
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
 }
+
 main .banchprofile .description {
   line-height: 1.713;
   position: relative;
 }
+
 main .banchprofile .description::after {
   content: "";
   width: 100%;
@@ -90,21 +104,24 @@ main .banchprofile .description::after {
   right: 0;
   background: url("../img/partyBuilding/zhibu-img.png") no-repeat right;
 }
+
 main .banchprofile .description .left-desc {
   width: 52.462%;
   padding: 24px;
   background-color: #EFEFEF;
 }
+
 main .banchprofile .description .first-p {
   margin-bottom: 23px;
 }
+
 main .banchprofile .description p {
   text-indent: 2em;
 }
 
 @media screen and (min-width: 992px) {
   main .education {
-    padding: 4.01vw 0 3.0729vw;
+    padding: 4.010vw 0 3.0729vw;
   }
   main .education .main-education {
     margin-bottom: 3.0729vw;
@@ -130,6 +147,7 @@ main .banchprofile .description p {
     margin-bottom: 2.234vw;
   }
 }
+
 @media screen and (min-width: 1920px) {
   main .education {
     padding: 77px 0 59px;
@@ -153,6 +171,7 @@ main .banchprofile .description p {
     margin-bottom: 43px;
   }
 }
+
 @media screen and (max-width: 1440px) {
   main .banchprofile .description .left-desc {
     width: 100%;
@@ -161,6 +180,7 @@ main .banchprofile .description p {
     content: none;
   }
 }
+
 @media screen and (max-width: 768px) {
   main .section1 {
     -webkit-box-orient: vertical;
@@ -178,6 +198,7 @@ main .banchprofile .description p {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 576px) {
   main .education .swiper-slide {
     width: 47% !important;

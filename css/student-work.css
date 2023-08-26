@@ -1,16 +1,17 @@
 main .student-support {
   padding: 30px 0;
 }
+
 main .support-desc h3 {
   margin-bottom: 30px;
 }
+
 main .support-desc .support-list li {
   width: 32.769231%;
   margin-bottom: 2.03125vw;
   color: #fff;
   border: 1px solid #CCCCCC;
 }
-<<<<<<< HEAD
 
 main .support-desc .support-list li:nth-child(4) {
   margin-bottom: 0;
@@ -24,8 +25,6 @@ main .support-desc .support-list li:nth-child(6) {
   margin-bottom: 0;
 }
 
-=======
->>>>>>> 11c2cd28b9401c6458d322a96073acbdc4f3f359
 main .support-desc .support-list li h3 {
   position: absolute;
   top: 50%;
@@ -33,11 +32,13 @@ main .support-desc .support-list li h3 {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
 main .support-desc .support-list li .includeImg {
   margin-right: 8px;
   padding-top: 2.917vw;
   position: relative;
 }
+
 main .support-desc .support-list li .includeImg h3 {
   position: absolute;
   top: 50%;
@@ -45,10 +46,12 @@ main .support-desc .support-list li .includeImg h3 {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
 main .support-desc .support-list li .detail-desc {
   padding: 15px 3.0729vw;
   background-color: rgba(31, 31, 32, 0.6);
 }
+
 main .top-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,19 +60,23 @@ main .top-nav {
       -ms-flex-align: center;
           align-items: center;
 }
+
 main .counselor-team {
   padding-top: 5.26vw;
   padding-bottom: 2.968vw;
   background: url("../img/studentWork/tema-bj.png") no-repeat center;
   background-size: 100%;
 }
+
 main .tema-desc .team-list {
   margin-top: 3.4375vw;
 }
+
 main .tema-desc .team-list li {
   width: 18.384615%;
   margin-bottom: 2.865vw;
 }
+
 main .tema-desc .team-list .teacher-desc {
   margin-top: 1.354vw;
   padding: 0.9375vw 1.667vw;
@@ -77,11 +84,13 @@ main .tema-desc .team-list .teacher-desc {
   color: #fff;
   border-radius: 5px;
 }
+
 main .tema-desc .team-list .teacher-desc .introduce {
   margin-top: 0.573vw;
   padding-top: 0.885vw;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 main .teacher-photo {
   position: relative;
   overflow: hidden;
@@ -89,6 +98,7 @@ main .teacher-photo {
   height: 80%;
   cursor: pointer;
 }
+
 main .teacher-photo img {
   width: 100%;
   height: 100%;
@@ -99,6 +109,7 @@ main .teacher-photo img {
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
+
 main .teacher-photo:hover img {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
@@ -109,11 +120,13 @@ main .teacher-photo:hover img {
     padding: 3.4896vw 0 0;
   }
 }
+
 @media screen and (min-width: 992px) {
   main .support-desc .support-list li {
     cursor: pointer;
   }
 }
+
 @media screen and (min-width: 1920px) {
   main .student-support {
     padding: 67px 0 0;
@@ -155,6 +168,7 @@ main .teacher-photo:hover img {
     padding-top: 17px;
   }
 }
+
 @media screen and (max-width: 576px) {
   main .support-desc .support-list li {
     width: 48%;
