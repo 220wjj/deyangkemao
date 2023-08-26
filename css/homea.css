@@ -598,7 +598,7 @@
 }
 
 .homea .slideTxtp .txt a:hover {
-    border-radius: .3rem;
+    /* border-radius: .3rem; */
     letter-spacing: .1em
 }
 

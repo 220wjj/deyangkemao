@@ -57,6 +57,10 @@ main {
             border-bottom: none;
         }
     }
+    .top-nav{
+        display: flex;
+        align-items: center;
+    }
 
     .tabCon {
         margin-top: 20px;
@@ -73,7 +77,7 @@ main {
 
         .cont-left {
             width: 50.793%;
-
+            cursor: pointer;
             .addrens {
                 line-height: 1.875;
 
@@ -86,7 +90,7 @@ main {
 
         .cont-right {
             width: 50.793%;
-
+            cursor: pointer;
             .addrens {
                 line-height: 1.875;
 
@@ -125,10 +129,11 @@ main {
                 width: 32.541%;
                 max-height: 182px;
                 height: 100%;
-                background-color: #2687E3;
+                background-color: #2687e3;
                 color: #fff;
                 padding: 16px;
                 margin-bottom: 16px;
+                cursor: pointer;
 
                 div {
                     align-items: center;

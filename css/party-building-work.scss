@@ -3,7 +3,11 @@ main {
         background: rgba(175, 175, 175, 0.22);
     }
 
-
+    .top-nav{
+        display: flex;
+        align-items: center;
+    }
+   
 
     // 主题教育
     .education {
@@ -30,6 +34,9 @@ main {
         }
 
         // swiper
+        .swiper-container{
+            padding-bottom: 50px;
+        }
         .swiper-pagination {
             width: 99px;
             height: 17px;
