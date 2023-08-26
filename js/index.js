@@ -93,10 +93,10 @@ var slideHb = new Swiper('#majorSwiper', {
     lazy: true,
     speed: 1000,
     watchOverflow: true,
-    //loop: true,
+    loop: true, 
     spaceBetween: 0,
-    slidesPerView: 2,
-    //slidesPerGroup: 2,
+    slidesPerView: 4,
+    // slidesPerGroup: 2,
     breakpoints: {
         480: {
             slidesPerView: 2,
@@ -136,19 +136,18 @@ var slideHb = new Swiper('#majorSwiper', {
     },
     on: {
         slideChangeTransitionEnd: function () {
-            if (!isIE()) {
-                $(".sico svg").each(function (a, b) {
-                    a = $(this).attr("id");
-                    g[a] = new Vivus(a, {
-                        type: "delayed",
-                        duration: 100,
-                        inViewport: true,
-                        autostart: true,
-                    })
-                });
+            // if (!isIE()) {
+            //     $(".sico svg").each(function (a, b) {
+            //         a = $(this).attr("id");
+            //         g[a] = new Vivus(a, {
+            //             type: "delayed",
+            //             duration: 100,
+            //             inViewport: true,
+            //             autostart: true,
+            //         })
+            //     });
 
-            }
-
+            // }
         }
     }
 })

@@ -326,18 +326,7 @@ body {
   white-space: nowrap
 }
 
-::selection {
 
-  color: #fff
-}
-
-::-moz-selection {
-  color: #fff
-}
-
-::-webkit-selection {
-  color: #fff
-}
 
 
 .imgin {
@@ -883,7 +872,8 @@ html.drawerMenu-open .head-menu-btn .line-3 {
 
 .mobNav ul li {
   padding: 15px 0;
-  border-bottom: 1px solid #ddd
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
 }
 
 .mobNav ul li:last-child {
