@@ -5,33 +5,27 @@ main {
   font-size: 14px;
   font-family: Microsoft YaHei;
 }
-
 main .top-nav {
   padding-top: 8px;
   margin: 0px 0 16px;
 }
-
 main .top-nav img {
   display: inline-block;
   margin-right: 10px;
 }
-
 main .top-nav a {
   color: #98989A;
   font-size: 14px;
   margin-right: 8px;
 }
-
 main .top-nav span {
   color: #171717;
 }
-
 main .main-content .content .content-main {
   width: 70%;
   margin: 0 auto;
   padding: 0 0 32px 0;
 }
-
 main .main-content .content .content-main .content-title {
   color: #FFFFFF;
   text-align: center;
@@ -39,25 +33,21 @@ main .main-content .content .content-main .content-title {
   font-size: 36px;
   padding: 30px 0 30px 0;
 }
-
 main .main-content .college-content {
   background-size: cover;
   position: relative;
 }
-
 main .main-content .college-content .college-main {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 main .main-content .college-content .college-main .college-left {
   position: relative;
   width: 50%;
   background: url(../img/about/img.png) left bottom no-repeat;
 }
-
 main .main-content .college-content .college-main .college-left span {
   position: absolute;
   font-size: 1.5625vw;
@@ -67,19 +57,16 @@ main .main-content .college-content .college-main .college-left span {
   left: 16.04vw;
   letter-spacing: 10px;
 }
-
 main .main-content .college-content .college-main .college-rigth {
   width: 50%;
   padding: 0 15% 20px 10px;
 }
-
 main .main-content .college-content .college-main .college-rigth .rigth-title {
   font-size: 1.874vw;
   font-weight: 400;
   color: #1C1C1C;
   padding: 3.1vw 0;
 }
-
 main .main-content .college-content .college-main .college-rigth .number .wow {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,39 +75,31 @@ main .main-content .college-content .college-main .college-rigth .number .wow {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 main .main-content .college-content .college-main .college-rigth .number .wow li .num .number-text {
   font-size: 2.5vw;
   color: #1F81C8;
 }
-
 main .main-content .college-content .college-main .college-rigth .number .wow li .num span {
   color: #1F81C8;
 }
-
 main .main-content .college-content .college-main .college-rigth .number .wow li .txt {
   color: #8B8A8A;
   margin-top: -10px;
 }
-
 main .main-content .college-content .college-main .college-rigth .singePage {
   padding: 65px 0;
 }
-
 main .main-content .college-content .college-main .college-rigth .singePage p {
   padding: 15px 0;
 }
-
 main .main-content .college-content .college-main .college-rigth .cullist ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 main .main-content .college-content .college-main .college-rigth .cullist ul li .icon {
   padding: 0 10px 0 0;
 }
-
 main .main-content .college-content .college-main .college-rigth .cullist ul li .icon .iconfont {
   display: inline-block;
   background-size: cover;
@@ -128,27 +107,21 @@ main .main-content .college-content .college-main .college-rigth .cullist ul li 
   width: 20px;
   height: 20px;
 }
-
 main .main-content .college-content .college-main .college-rigth .cullist ul li .icon .iconfont-one {
   background-image: url(../img/about/icon-1.png);
 }
-
 main .main-content .college-content .college-main .college-rigth .cullist ul li .icon .iconfont-two {
   background-image: url(../img/about/icon-2.png);
 }
-
 main .main-content .college-content .college-main .college-rigth .cullist ul li .icon .iconfont-three {
   background-image: url(../img/about/icon-3.png);
 }
-
 main .main-content .college-content .college-main .college-rigth .cullist ul li .txt {
-  color: #01ce73;
+  color: rgb(1, 206, 115);
 }
-
 main .main-content .mobaily {
   background: url(../img/about/bj.png);
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-content {
   padding: 20px 0 20px 0;
   display: -webkit-box;
@@ -158,28 +131,23 @@ main .main-content .mobaily .mobaily-main .mobaily-content {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item {
   width: calc(33% - 30px);
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-img {
   width: 173px;
   height: 173px;
   margin: 0 auto;
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-img img {
   width: 100%;
   height: 100%;
   cursor: pointer;
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-img img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-text {
   margin-top: 40px;
   height: 60%;
@@ -189,23 +157,19 @@ main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-t
   color: #FFFFFF;
   padding: 13px 15px 13px 15px;
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-text .text-title {
   font-weight: 600;
   text-align: center;
   font-size: 16px;
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-text .text-hr {
   width: 90%;
   background-color: rgba(255, 255, 255, 0.3);
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-text .text {
   font-weight: 400;
   padding: 20px 5% 20px 5%;
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,7 +179,6 @@ main .main-content .mobaily .mobaily-main .mobaily-footer {
           justify-content: center;
   padding: 60px 0 10px 0;
 }
-
 main .main-content .mobaily .mobaily-main .mobaily-footer p {
   background: #F57C40;
   border-radius: 20px;
@@ -226,18 +189,15 @@ main .main-content .mobaily .mobaily-main .mobaily-footer p {
   height: 40px;
   cursor: pointer;
 }
-
 main .main-content .develop .develop-main .develop-title {
   color: #010101;
   text-align: left;
   font-weight: 500;
   padding: 40px 0 40px 0;
 }
-
 main .main-content .develop .develop-main .develop-content .text {
   font-size: 16px;
 }
-
 main .main-content .develop .develop-main .develop-content .img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,26 +207,21 @@ main .main-content .develop .develop-main .develop-content .img {
           justify-content: center;
   padding: 50px;
 }
-
 main .main-content .institution {
   background-color: #1F81C8;
 }
-
 main .main-content .institution .institution-main .institution-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 main .main-content .institution .institution-main .institution-list .institution-item {
   width: 25%;
 }
-
 main .main-content .institution .institution-main .institution-list .institution-item p {
   color: #FFFFFF;
   padding: 10px 20px 20px 20px;
 }
-
 main .main-content .institution .institution-main .institution-list .institution-item .title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -276,7 +231,6 @@ main .main-content .institution .institution-main .institution-list .institution
           justify-content: center;
   padding: 20px 0 30px 0;
 }
-
 main .main-content .institution .institution-main .institution-list .institution-item .title span {
   border-radius: 30px;
   width: 55%;
@@ -288,22 +242,17 @@ main .main-content .institution .institution-main .institution-list .institution
   line-height: 30px;
   font-size: 15px;
 }
-
 main .main-content .splendid .splendid-main .splendid-title {
   color: #010101;
   text-align: left;
   font-weight: 500;
   padding: 40px 0 40px 0;
 }
-
 main .main-content .splendid .splendid-main .splendid-list {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
-
 main .main-content .splendid .splendid-main .splendid-list .splendid-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -313,17 +262,14 @@ main .main-content .splendid .splendid-main .splendid-list .splendid-item {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 main .main-content .splendid .splendid-main .splendid-list .splendid-item img {
   width: 100%;
   cursor: pointer;
 }
-
 main .main-content .splendid .splendid-main .splendid-list .splendid-item img:hover {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
-
 main .main-content .splendid .splendid-main .splendid-list .splendid-item p {
   background: #dbd9d9;
   border-radius: 0px 0px 4px 4px;
@@ -341,13 +287,10 @@ main .main-content .splendid .splendid-main .splendid-list .splendid-item p {
     padding: 45px 0;
   }
 }
-
 @media screen and (max-width: 1098px) {
   main .main-content .institution .institution-main .institution-list {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
   }
   main .main-content .institution .institution-main .institution-list .institution-item {
@@ -372,11 +315,9 @@ main .main-content .splendid .splendid-main .splendid-list .splendid-item p {
     line-height: 36px;
   }
   main .main-content .splendid .splendid-main .splendid-list {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-
 @media screen and (max-width: 920px) {
   main {
     font-size: 16px;
@@ -495,11 +436,9 @@ main .main-content .splendid .splendid-main .splendid-list .splendid-item p {
     font-size: 15px;
   }
   main .main-content .splendid .splendid-main .splendid-list {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-
 @media screen and (max-width: 580px) {
   main .main-content .content .content-main {
     background-color: transparent;
@@ -546,11 +485,10 @@ main .main-content .splendid .splendid-main .splendid-list .splendid-item p {
     height: 20px;
   }
   main .main-content .college-content .college-main .college-rigth .cullist ul li .txt {
-    color: #01ce73;
+    color: rgb(1, 206, 115);
   }
   main .main-content .splendid .splendid-main .splendid-list {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   main .main-content .mobaily {
     margin-top: 20px;
@@ -592,7 +530,7 @@ main .main-content .splendid .splendid-main .splendid-list .splendid-item p {
     display: block;
   }
   main .main-content .institution .institution-main .institution-list .institution-item {
-    width: calc(100%);
+    width: 100%;
   }
   main .main-content .institution .institution-main .institution-list .institution-item .title span {
     font-size: 16px;
@@ -609,8 +547,7 @@ main .main-content .splendid .splendid-main .splendid-list .splendid-item p {
     font-size: 30px;
   }
   main .main-content .splendid .splendid-main .splendid-list {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   main .main-content .splendid .splendid-main .splendid-list .splendid-item img {
     width: 61%;

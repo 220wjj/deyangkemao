@@ -3,63 +3,51 @@ main {
   line-height: 1.5;
   padding-bottom: 20px;
 }
-
 main .top-nav {
   padding-top: 8px;
   margin: 0px 0 16px;
 }
-
 main .top-nav img {
   display: inline-block;
   margin-right: 10px;
 }
-
 main .top-nav a {
   color: #98989A;
   font-size: 14px;
   margin-right: 8px;
 }
-
 main .top-nav span {
   color: #171717;
 }
-
 main .main-content .content-left {
   width: 75.923077%;
   background-color: #FFFFFF;
 }
-
 main .main-content .content-left .writing {
   padding: 15px;
   border-radius: 8px 10px 10px 10px;
   line-height: 1.2;
   text-align: center;
 }
-
 main .main-content .content-left .title {
   margin-bottom: 15px;
 }
-
 main .main-content .content-left .little-tips {
   color: #919191;
   padding-bottom: 18px;
   border-bottom: 1px solid rgba(175, 175, 178, 0.2);
 }
-
 main .main-content .content-left section {
   margin: 18px 10px 0;
   text-align: left;
   line-height: 1.86;
 }
-
 main .main-content .content-left section p {
   text-indent: 2em;
 }
-
 main .main-content .content-left section img {
   margin: 30px auto;
 }
-
 main .main-content .content-right {
   width: 23.384615%;
   height: -webkit-fit-content;
@@ -67,7 +55,6 @@ main .main-content .content-right {
   height: fit-content;
   background-color: #fff;
 }
-
 main .main-content .content-right .accordion .radius-icon {
   display: inline-block;
   width: 9px;
@@ -75,23 +62,19 @@ main .main-content .content-right .accordion .radius-icon {
   border: 2px solid #535353;
   border-radius: 50%;
 }
-
 main .main-content .content-right .accordion .zhedie {
   padding: 16px;
 }
-
 main .main-content .content-right .accordion .accordion-item {
   margin-bottom: 4px;
   background-color: #e3e3e3;
 }
-
 main .main-content .content-right .accordion .accordion-item .listtext {
   position: relative;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
-
 main .main-content .content-right .accordion .accordion-item .listtext .icon {
   position: absolute;
   top: 50%;
@@ -99,7 +82,6 @@ main .main-content .content-right .accordion .accordion-item .listtext .icon {
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
 }
-
 main .main-content .content-right .accordion .accordion-item .listtext::after {
   display: inline-block;
   content: "";
@@ -110,7 +92,6 @@ main .main-content .content-right .accordion .accordion-item .listtext::after {
   background: url(../img/news/icon-close.png) no-repeat center;
   background-size: 100%;
 }
-
 main .main-content .content-right .accordion .accordion-item .listtext-open::after {
   display: inline-block;
   content: "";
@@ -121,42 +102,33 @@ main .main-content .content-right .accordion .accordion-item .listtext-open::aft
   background: url(../img/news/icon-explant.png) no-repeat center;
   background-size: 100%;
 }
-
 main .main-content .content-right .accordion .accordion-item .radius-icon {
   margin-right: 12px;
 }
-
 main .main-content .content-right .accordion .accordion-item .title {
   cursor: pointer;
 }
-
 main .main-content .content-right .accordion .accordion-item .content {
   display: none;
 }
-
 main .main-content .content-right .accordion .accordion-item .content a:last-child {
   border-bottom: none;
 }
-
 main .main-content .content-right .accordion .accordion-item .content p {
   border-bottom: 1px solid #ccc;
 }
-
 main .main-content .content-right .accordion .accordion-item .expand-content {
   display: block;
 }
-
 main .main-content .content-right .accordion .accordion-item .expand-active {
   display: block;
   position: relative;
   background-color: #fff;
 }
-
 main .main-content .content-right .accordion .accordion-item .expand-active p {
   padding: 17px 0 17px 73px;
   color: #000 !important;
 }
-
 main .main-content .content-right .accordion .accordion-item .expand-active p::before {
   content: "";
   display: inline-block;
@@ -169,13 +141,11 @@ main .main-content .content-right .accordion .accordion-item .expand-active p::b
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
 }
-
 main .main-content .content-right .latest-update {
   border-top: 4px solid #1551cc;
   margin-top: 30px;
   padding: 13px;
 }
-
 main .main-content .content-right .latest-update .radius-icon {
   width: 9px;
   height: 9px;
@@ -183,17 +153,14 @@ main .main-content .content-right .latest-update .radius-icon {
   border-radius: 50%;
   margin-right: 12px;
 }
-
 main .main-content .content-right .latest-update li {
   margin: 8px 0;
   padding-top: 8px;
   border-top: 1px solid rgba(226, 226, 226, 0.5);
 }
-
 main .main-content .content-right .latest-update li .desc {
   margin-bottom: 16px;
 }
-
 main .main-content .content-right .latest-update li time {
   margin-left: 6px;
 }
@@ -217,7 +184,6 @@ main .main-content .content-right .latest-update li time {
     left: 6.234vw;
   }
 }
-
 @media screen and (min-width: 992px) {
   main {
     padding-bottom: 2.5521vw;
@@ -250,7 +216,6 @@ main .main-content .content-right .latest-update li time {
     margin-bottom: 1.198vw;
   }
 }
-
 @media screen and (min-width: 1920px) {
   main {
     padding-bottom: 49px;

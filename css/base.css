@@ -1913,7 +1913,7 @@ footer .copyright {
   transform: scale(1.2);
 } */
 .alin_r:hover .aline_r {
-  background-size: 100% 1px;
+  /* background-size: 100% 1px; */
   color: #2074c8;
 }
 
@@ -1928,6 +1928,7 @@ footer .copyright {
   background-size: 0 1px;
   background-repeat: no-repeat;
   transition: background-size .5s;
+  display: inline-block;
 }
 .flex-start {
   display: flex;
