@@ -1,0 +1,619 @@
+main {
+  background-color: rgba(175, 175, 175, 0.22);
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+}
+
+main .top-nav {
+  padding-top: 8px;
+  margin: 0px 0 16px;
+}
+
+main .top-nav img {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+main .top-nav a {
+  color: #98989A;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+main .top-nav span {
+  color: #171717;
+}
+
+main .main-content .content .content-main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 0 32px 0;
+}
+
+main .main-content .content .content-main .content-title {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  padding: 30px 0 30px 0;
+}
+
+main .main-content .college-content {
+  background-size: cover;
+  position: relative;
+}
+
+main .main-content .college-content .college-main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .main-content .college-content .college-main .college-left {
+  position: relative;
+  width: 50%;
+  background: url(../img/about/img.png) left bottom no-repeat;
+}
+
+main .main-content .college-content .college-main .college-left span {
+  position: absolute;
+  font-size: 1.5625vw;
+  font-style: italic;
+  color: #646565;
+  top: 10.156vw;
+  left: 16.04vw;
+  letter-spacing: 10px;
+}
+
+main .main-content .college-content .college-main .college-rigth {
+  width: 50%;
+  padding: 0 15% 20px 10px;
+}
+
+main .main-content .college-content .college-main .college-rigth .rigth-title {
+  font-size: 1.874vw;
+  font-weight: 400;
+  color: #1C1C1C;
+  padding: 3.1vw 0;
+}
+
+main .main-content .college-content .college-main .college-rigth .number .wow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .main-content .college-content .college-main .college-rigth .number .wow li .num .number-text {
+  font-size: 2.5vw;
+  color: #1F81C8;
+}
+
+main .main-content .college-content .college-main .college-rigth .number .wow li .num span {
+  color: #1F81C8;
+}
+
+main .main-content .college-content .college-main .college-rigth .number .wow li .txt {
+  color: #8B8A8A;
+  margin-top: -10px;
+}
+
+main .main-content .college-content .college-main .college-rigth .singePage {
+  padding: 65px 0;
+}
+
+main .main-content .college-content .college-main .college-rigth .singePage p {
+  padding: 15px 0;
+}
+
+main .main-content .college-content .college-main .college-rigth .cullist ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .main-content .college-content .college-main .college-rigth .cullist ul li .icon {
+  padding: 0 10px 0 0;
+}
+
+main .main-content .college-content .college-main .college-rigth .cullist ul li .icon .iconfont {
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+main .main-content .college-content .college-main .college-rigth .cullist ul li .icon .iconfont-one {
+  background-image: url(../img/about/icon-1.png);
+}
+
+main .main-content .college-content .college-main .college-rigth .cullist ul li .icon .iconfont-two {
+  background-image: url(../img/about/icon-2.png);
+}
+
+main .main-content .college-content .college-main .college-rigth .cullist ul li .icon .iconfont-three {
+  background-image: url(../img/about/icon-3.png);
+}
+
+main .main-content .college-content .college-main .college-rigth .cullist ul li .txt {
+  color: #01ce73;
+}
+
+main .main-content .mobaily {
+  background: url(../img/about/bj.png);
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-content {
+  padding: 20px 0 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item {
+  width: calc(33% - 30px);
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-img {
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-img img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-img img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-text {
+  margin-top: 40px;
+  height: 60%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 13px 15px 13px 15px;
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-text .text-title {
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-text .text-hr {
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-text .text {
+  font-weight: 400;
+  padding: 20px 5% 20px 5%;
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px 0 10px 0;
+}
+
+main .main-content .mobaily .mobaily-main .mobaily-footer p {
+  background: #F57C40;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+  width: 150px;
+  color: #FFFFFF;
+  height: 40px;
+  cursor: pointer;
+}
+
+main .main-content .develop .develop-main .develop-title {
+  color: #010101;
+  text-align: left;
+  font-weight: 500;
+  padding: 40px 0 40px 0;
+}
+
+main .main-content .develop .develop-main .develop-content .text {
+  font-size: 16px;
+}
+
+main .main-content .develop .develop-main .develop-content .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+}
+
+main .main-content .institution {
+  background-color: #1F81C8;
+}
+
+main .main-content .institution .institution-main .institution-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .main-content .institution .institution-main .institution-list .institution-item {
+  width: 25%;
+}
+
+main .main-content .institution .institution-main .institution-list .institution-item p {
+  color: #FFFFFF;
+  padding: 10px 20px 20px 20px;
+}
+
+main .main-content .institution .institution-main .institution-list .institution-item .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0 30px 0;
+}
+
+main .main-content .institution .institution-main .institution-list .institution-item .title span {
+  border-radius: 30px;
+  width: 55%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+main .main-content .splendid .splendid-main .splendid-title {
+  color: #010101;
+  text-align: left;
+  font-weight: 500;
+  padding: 40px 0 40px 0;
+}
+
+main .main-content .splendid .splendid-main .splendid-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+main .main-content .splendid .splendid-main .splendid-list .splendid-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .main-content .splendid .splendid-main .splendid-list .splendid-item img {
+  width: 100%;
+  cursor: pointer;
+}
+
+main .main-content .splendid .splendid-main .splendid-list .splendid-item img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+main .main-content .splendid .splendid-main .splendid-list .splendid-item p {
+  background: #dbd9d9;
+  border-radius: 0px 0px 4px 4px;
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media screen and (max-width: 1746px) {
+  main .main-content .college-content .college-main .college-rigth {
+    padding: 0 11% 20px 10px;
+  }
+  main .main-content .college-content .college-main .college-rigth .singePage {
+    padding: 45px 0;
+  }
+}
+
+@media screen and (max-width: 1098px) {
+  main .main-content .institution .institution-main .institution-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item {
+    width: 100%;
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item p {
+    color: #FFFFFF;
+    padding: 10px 20px 20px 20px;
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 20px 0 30px 0;
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item .title span {
+    border-radius: 35px;
+    height: 36px;
+    line-height: 36px;
+  }
+  main .main-content .splendid .splendid-main .splendid-list {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 920px) {
+  main {
+    font-size: 16px;
+  }
+  main .main-content .content .content-main {
+    padding: 20px;
+    width: 100%;
+  }
+  main .main-content .content .content-main .content-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 25px 0 25px 0;
+  }
+  main .main-content .college-content .college-main .college-left {
+    display: none;
+  }
+  main .main-content .college-content .college-main .college-rigth {
+    width: 100%;
+    padding: 0 20px;
+  }
+  main .main-content .college-content .college-main .college-rigth .rigth-title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #1C1C1C;
+    padding: 15px 0 15px 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow li {
+    width: 25%;
+    text-align: center;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow li .num .number-text {
+    font-size: 2.5vw;
+    color: #1F81C8;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow li .num span {
+    color: #1F81C8;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow li .txt {
+    margin-top: 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow :nth-child(1),
+  main .main-content .college-content .college-main .college-rigth .number .wow :nth-child(2),
+  main .main-content .college-content .college-main .college-rigth .number .wow :nth-child(3) {
+    border-right: 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .singePage {
+    padding: 30px 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .singePage p {
+    padding: 15px 0;
+  }
+  main .main-content .mobaily .mobaily-main .mobaily-content {
+    padding: 20px 0 20px 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item {
+    width: calc(50% - 30px);
+    padding-top: 30px;
+  }
+  main .main-content .develop .develop-main .develop-title {
+    color: #010101;
+    text-align: left;
+    font-weight: 500;
+    padding: 40px 0 40px 0;
+  }
+  main .main-content .develop .develop-main .develop-content .text {
+    font-size: 16px;
+  }
+  main .main-content .develop .develop-main .develop-content .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 50px;
+  }
+  main .main-content .institution {
+    background-color: #1F81C8;
+  }
+  main .main-content .institution .institution-main .institution-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item {
+    width: calc(50% - 20px);
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item p {
+    color: #FFFFFF;
+    padding: 10px 20px 20px 20px;
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 20px 0 30px 0;
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item .title span {
+    border-radius: 30px;
+    width: 55%;
+    height: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  main .main-content .splendid .splendid-main .splendid-list {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main .main-content .content .content-main {
+    background-color: transparent;
+    padding: 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow li {
+    width: 50%;
+    border: none;
+    padding: 5px 0 5px 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow li .num .number-text {
+    font-size: 18px;
+    color: #1F81C8;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow li .num span {
+    color: #1F81C8;
+  }
+  main .main-content .college-content .college-main .college-rigth .number .wow li .txt {
+    margin-top: 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .singePage {
+    padding: 20px 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .singePage p {
+    padding: 15px 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .cullist ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .main-content .college-content .college-main .college-rigth .cullist ul li .icon {
+    padding: 0 10px 0 0;
+  }
+  main .main-content .college-content .college-main .college-rigth .cullist ul li .icon .iconfont {
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+  }
+  main .main-content .college-content .college-main .college-rigth .cullist ul li .txt {
+    color: #01ce73;
+  }
+  main .main-content .splendid .splendid-main .splendid-list {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  main .main-content .mobaily {
+    margin-top: 20px;
+  }
+  main .main-content .mobaily .mobaily-main {
+    padding: 20px;
+  }
+  main .main-content .mobaily .mobaily-main .mobaily-title {
+    padding: 10px;
+  }
+  main .main-content .mobaily .mobaily-main .mobaily-content {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item {
+    width: 100%;
+    padding-top: 10px;
+  }
+  main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item .item-text {
+    margin-top: 10px;
+    height: 60%;
+  }
+  main .main-content .mobaily .mobaily-main .mobaily-footer {
+    padding: 53px 0px 10px 0;
+  }
+  main .main-content .develop .develop-main {
+    padding: 20px;
+  }
+  main .main-content .develop .develop-main .develop-title {
+    padding: 10px 0 10px 0;
+  }
+  main .main-content .institution .institution-main .institution-list {
+    display: block;
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item {
+    width: calc(100%);
+  }
+  main .main-content .institution .institution-main .institution-list .institution-item .title span {
+    font-size: 16px;
+    width: 44%;
+  }
+  main .main-content .splendid .splendid-main {
+    padding: 20px;
+  }
+  main .main-content .splendid .splendid-main .splendid-title {
+    padding: 10px 0 15px 0;
+    color: #000;
+    text-align: left;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  main .main-content .splendid .splendid-main .splendid-list {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  main .main-content .splendid .splendid-main .splendid-list .splendid-item img {
+    width: 61%;
+    margin: 0 auto;
+  }
+}

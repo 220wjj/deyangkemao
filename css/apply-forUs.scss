@@ -1,0 +1,847 @@
+main {
+    // background-color: #fafafa;
+    line-height: 1.5;
+    padding-bottom: 4.565vw;
+
+
+    .wp {
+        width: 100%;
+    }
+
+    .top-nav {
+        padding-top: 8px;
+        margin: 0px 0 16px;
+
+        img {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        a {
+            color: #98989a;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+
+        span {
+            color: #171717;
+        }
+    }
+
+    .main-content {
+        max-width: 1902px;
+
+        .content {
+            .content-main {
+                width: 70%;
+                margin: 0 auto;
+                padding: 0 0 32px 0;
+
+                .content-title {
+                    color: #0166C0;
+                    text-align: center;
+                    font-weight: 600;
+                    // margin-bottom: 30px
+                    padding: 30px 0 30px 0;
+                }
+
+            }
+        }
+
+        .application {
+            .application-content {
+                display: flex;
+                justify-content: space-between;
+
+                .application-item {
+                    width: calc(50% - 20px);
+
+                    .application-item-title {
+                        background: linear-gradient(83deg, #0065C0 0%, #3A91D8 100%);
+                        color: #FFFFFF;
+                        padding: 10px 0 10px 0;
+                        text-align: center;
+
+                        h3 {
+                            font-weight: 200;
+                        }
+                    }
+
+                    .list {
+                        background: #F8FAFA;
+                        border: 1px solid #9FA0A1;
+                        font-size: 0.9375vw;
+                        font-weight: 400;
+                        color: #090909;
+                        padding: 1.771vw 2.292vw 2.135vw 2.083vw;
+
+
+                        .list-item {
+                            display: flex;
+                            margin-bottom: 0.677vw;
+
+                            letter-spacing: 0.6px;
+
+                            .item-last {
+                                flex: 1;
+                            }
+
+                            img {
+                                width: 16px;
+                                height: 16px;
+                            }
+
+
+                            .application-icon {
+                                margin-right: 0.833vw;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+
+        }
+
+        .school {
+            background: #ecf3f3;
+
+            .school-main {
+
+                .school-list {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+
+                    grid-gap: 20px;
+
+                    .school-item {
+                        position: relative;
+
+                        .school-img {
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        .school-text {
+                            position: absolute;
+                            width: 100%;
+                            bottom: 0;
+                            color: #FFFFFF;
+                            background: rgba(7, 20, 34, .7);
+                            text-align: left;
+                            height: 35px;
+                            font-weight: 100;
+                            line-height: 35px;
+                            padding-left: 15px;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .financially {
+            margin-top: 30px;
+            background: url(../img/apply/financially-bj.png);
+
+            .financially-main {
+
+                .financially-item {
+                    padding: 15px 0 15px 0;
+
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+
+                    grid-gap: 20px;
+
+                    li {
+                        // width: calc(25%);
+                        background-color: rgba(9, 9, 9, 0.5);
+                        border-radius: 5px;
+
+                        color: #FFFFFF;
+
+                        padding: 12px 15px 23px 15px;
+
+                        .financially-title {
+                            font-weight: 600;
+                            text-align: center;
+                            font-size: 1.25vw;
+                        }
+
+                        .financially-hr {
+                            width: 90%;
+                            background-color: rgba(255, 255, 255, 0.3);
+
+                        }
+
+                        .financially-text {
+                            font-size: 0.833vw;
+                            font-weight: 400;
+                            padding: 2px 7px 2px 7px;
+                            line-height: 1.5625vw;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .growUp {
+            .growUp-main {
+                .growUp-item {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .item-list {
+                        position: relative;
+
+                        width: 32.41%;
+                        background: #FFFFFF;
+                        border: 1px solid #707070;
+                        font-optical-sizing: 0.71;
+                        border-radius: 5px;
+                        height: 21.875;
+
+                        ul {
+
+                            padding: 1vw 2vw 29px 3vw;
+
+                            li {
+                                position: relative;
+                                height: 10vw;
+
+                                .item-title {
+                                    font-size: 0.9375vw;
+                                    font-weight: 500;
+                                    padding: 4px 0 4px 0;
+                                }
+
+                                .item-text {
+                                    font-size: 0.833vw;
+                                    line-height: 1.46vw;
+                                }
+                            }
+
+                            li::before {
+                                position: absolute;
+                                content: "";
+                                display: block;
+                                width: 10px;
+                                height: 10px;
+                                background: #000000;
+                                /* margin: 0 auto; */
+                                left: -25px;
+                                top: 7px;
+                            }
+                        }
+
+
+                    }
+
+                    .item-befter-one::before,
+                    .item-befter-two::before,
+                    .item-befter-three::before {
+                        font-size: 2.5vw;
+                        position: absolute;
+                        font-weight: 500;
+                        top: 10%;
+                        left: 50%;
+                        transform: translate(-50%, -40%);
+                        color: #FFFFFF;
+                    }
+
+                    .item-befter-one::before {
+                        content: "深造";
+                    }
+
+                    .item-befter-two::before {
+                        content: "就业";
+                    }
+
+                    .item-befter-three::before {
+                        content: "出国";
+                    }
+
+                    .active {
+                        display: none;
+                    }
+
+                }
+            }
+        }
+
+
+        .consult {
+
+            .consult-main {
+
+                .consult-title {
+                    padding: 0;
+                }
+
+                .consult-mian-title {
+                    text-indent: 30px;
+                    /* 设置文本缩进为20像素 */
+                    font-size: 0.833vw;
+                    margin: 2.604vw auto;
+                }
+
+                .main-item {
+                    display: flex;
+                    justify-content: space-between;
+                    color: #FFFFFF;
+                    flex-wrap: wrap;
+
+                    .main-content {
+                        width: calc(33% - 10px);
+                        background: linear-gradient(45deg, #0065C1 0%, #3B92D7 100%);
+                        border-radius: 5px;
+                        padding: 19px 20px 19px 20px;
+
+                        .main-title {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 1.5625vw;
+                        }
+
+                        .main-hr {
+
+                            background-color: rgba(255, 255, 255, 0.25)
+                        }
+
+                        .main-content-list {}
+                    }
+
+                    .main-lianxi {
+                        .main-content-list {
+                            ul {
+                                // font-size: 0.833vw;
+                                padding: 19px 20px 0 20px;
+
+                                li {
+                                    display: flex;
+                                    /* margin-bottom: 2.083vw; */
+                                    padding: 10px 0 10px 0;
+
+                                    .list-img {
+                                        display: inline-block;
+
+                                        img {
+                                            width: 4.635vw;
+                                        }
+                                    }
+
+
+                                    .list-text {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: end;
+                                        padding: 0px 0 10px 13px;
+                                        width: calc;
+                                        font-size: 12px;
+                                        width: calc(75%);
+                                        letter-spacing: .1vw;
+
+                                        p {
+                                            padding-top: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .main-map {
+                        .main-map-conent {
+                            padding: 1.875vw 1.979vw 2.344vw 2.135vw;
+
+                            p {
+                                text-align: center;
+                                font-size: 12px;
+                            }
+
+                            .map-text-one {
+                                font-size: 12px;
+                                padding: 5px 0 20px 0;
+                            }
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                padding: 20px 0 20px 0;
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+
+@media screen and (max-width:1292px) {
+
+    main {
+        .main-content {
+            .consult {
+                .consult-main {
+                    .main-item {
+                        .main-content {
+                            width: calc(50% - 20px);
+                            padding: 19px 28px 19px 28px;
+                            margin-bottom: 30px;
+                        }
+
+                        .main-lianxi {
+                            .main-content-list {
+                                ul {
+                                    padding: 19px 20px 0 20px;
+
+                                    li {
+                                        padding: 20px 0 20px 0;
+
+                                        .list-text {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .main-map {
+                            .main-map-conent {
+                                p {
+                                    font-size: 16px;
+                                }
+
+                                .map-text-one {
+                                    font-size: 16px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1050px) {
+    main {
+        .main-content {
+            .content {
+                .content-main {
+                    .content-title {
+                        text-align: left;
+                        font-size: 36px;
+                    }
+
+                }
+            }
+
+            .application {
+                .application-content {
+                    flex-wrap: wrap;
+
+                    .application-item {
+                        width: calc(100%);
+                        margin-bottom: 20px;
+
+                        .list {
+                            font-size: 1.8625vw;
+
+                            .list-item {
+                                margin-bottom: 1vw;
+
+                                .application-icon {
+                                    margin-right: 1.933vw;
+
+                                    img {
+                                        width: 28px;
+                                        height: 28px;
+                                    }
+                                }
+
+                            }
+                        }
+
+                    }
+                }
+
+
+            }
+
+            .school {
+                padding-top: 20px;
+                margin-top: 15px;
+
+                .school-main {
+
+                    .school-list {
+                        grid-template-columns: 1fr 1fr;
+
+                        .school-item {
+                            justify-content: flex-start;
+                            flex-wrap: wrap;
+
+                        }
+                    }
+                }
+            }
+
+            .financially {
+                .financially-main {
+                    .financially-item {
+                        grid-template-columns: repeat(2, 1fr);
+
+                        li {
+                            .financially-title {
+                                font-size: 2.25vw;
+                            }
+
+                            .financially-text {
+                                font-size: 1.833vw;
+                                line-height: 2.5625vw;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+
+            .growUp {
+                .growUp-main {
+                    .growUp-item {
+                        flex-wrap: wrap;
+
+                        .item-list {
+                            width: calc(50% - 25px);
+                            margin-bottom: 30px;
+
+                            ul {
+
+                                padding: 1vw 2vw 44px 3.8vw;
+
+                                li {
+                                    position: relative;
+                                    height: 15vw;
+
+
+                                    .item-title {
+                                        font-size: 1.9375vw;
+                                    }
+
+                                    .item-text {
+                                        font-size: 1.633vw;
+                                        line-height: 1.9vw;
+                                    }
+                                }
+
+                                li::before {
+                                    left: -21px;
+                                    top: 14px;
+                                }
+                            }
+
+
+                        }
+
+                        .item-befter-one::before,
+                        .item-befter-two::before,
+                        .item-befter-three::before {
+                            font-size: 4.5vw;
+                            font-weight: 500;
+                        }
+
+                    }
+                }
+            }
+
+
+            .consult {
+
+                .consult-main {
+
+                    .consult-mian-title {
+                        font-size: 1.833vw;
+                    }
+
+                    .main-item {
+
+                        .main-content {
+                            width: calc(50% - 20px);
+                            padding: 19px 20px 19px 20px;
+
+                            .main-title {
+                                font-size: 2vw;
+                            }
+
+                            .main-hr {
+                                background-color: rgba(255, 255, 255, 0.25)
+                            }
+
+
+                        }
+
+                        .main-lianxi {
+                            .main-content-list {
+                                ul {
+                                    // font-size: 0.833vw;
+                                    padding: 17px 0px 17px 0px;
+
+                                    li {
+                                        display: flex;
+                                        /* margin-bottom: 2.083vw; */
+                                        padding: 15px 0px 15px 0px;
+
+                                        .list-img {
+                                            display: inline-block;
+
+                                            img {
+                                                width: 5.635vw;
+                                            }
+                                        }
+
+
+                                        .list-text {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .main-map {
+                            .main-map-conent {
+                                p {
+                                    font-size: 14px;
+                                }
+
+                                .map-text-one {
+                                    font-size: 14px;
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+    main {
+        .main-content {
+            .content {
+                .content-main {
+                    width: 81%;
+                    padding: 0;
+
+                    .content-title {
+                        font-size: 25px;
+                        padding: 15px 0 15px 0;
+                    }
+
+                }
+            }
+
+            .application {
+                .application-content {
+                    .application-item {
+                        width: calc(100%);
+                        margin-bottom: 20px;
+
+                        .application-item-title {
+                            padding: 5px 0 5px 0;
+
+                            h3 {
+                                font-size: 20px;
+                            }
+                        }
+
+
+                        .list {
+                            font-size: 1.8625vw;
+
+                            .list-item {
+                                margin-bottom: 1vw;
+
+                                .application-icon {
+                                    margin-right: 1.933vw;
+
+                                    img {
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                                }
+
+                            }
+                        }
+
+                    }
+                }
+
+
+            }
+
+            .school {
+                .school-main {
+
+                    .school-list {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            }
+
+            .financially {
+                .financially-main {
+                    .financially-item {
+                        grid-template-columns: repeat(1, 1fr);
+
+                        li {
+                            .financially-title {
+                                font-size: 5.25vw;
+                            }
+
+                            .financially-text {
+                                font-size: 4.833vw;
+                                line-height: 7.5625vw;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+
+            .growUp {
+                .growUp-main {
+                    .growUp-item {
+                        .item-list {
+                            width: calc(100%);
+                            margin-bottom: 30px;
+
+                            ul {
+
+                                padding: 4vw 4vw 85px 8.8vw;
+
+                                li {
+                                    height: 31vw;
+
+                                    .item-title {
+                                        font-size: 4.9375vw;
+                                    }
+
+                                    .item-text {
+                                        font-size: 3.633vw;
+                                        line-height: 4.9vw;
+                                    }
+                                }
+                            }
+
+
+                        }
+
+                        .item-befter-one::before,
+                        .item-befter-two::before,
+                        .item-befter-three::before {
+                            font-size: 10.5vw;
+                        }
+
+                    }
+                }
+            }
+
+
+            .consult {
+
+                .consult-main {
+
+                    .consult-mian-title {
+                        font-size: 14px;
+                    }
+
+                    .main-item {
+
+                        .main-content {
+                            width: calc(100%);
+                            padding: 20px 25px 20px 25px;
+
+                            .main-title {
+                                font-size: 18px;
+                            }
+
+                            .main-hr {
+                                background-color: rgba(255, 255, 255, 0.25)
+                            }
+
+
+                        }
+
+                        .main-lianxi {
+                            .main-content-list {
+                                ul {
+                                    // font-size: 0.833vw;
+                                    padding: 17px 0px 17px 0px;
+
+                                    li {
+                                        display: flex;
+                                        /* margin-bottom: 2.083vw; */
+                                        padding: 15px 0px 15px 0px;
+
+                                        .list-img {
+                                            display: inline-block;
+
+                                            img {
+                                                width: 14.635vw
+                                            }
+                                        }
+
+
+                                        .list-text {
+                                            font-size: 12px;
+                                            padding: 0px 0px 10px 20px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .main-map {
+                            .main-map-conent {
+                                p {
+                                    font-size: 12px
+                                }
+
+                                .map-text-one {
+                                    font-size: 14px
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+
+}

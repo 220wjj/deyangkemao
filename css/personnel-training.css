@@ -1,0 +1,620 @@
+@charset "UTF-8";
+main .blue-bj-img {
+  padding: 3.6979vw 0 !important;
+  padding: 0;
+  background: url(../img/person/bj_slices.png) no-repeat center;
+  background-color: #1f83f1;
+}
+
+main .blue-bj-img .left {
+  width: 46.769231%;
+  background: rgba(0, 0, 0, 0.43);
+  padding: 21px 26px;
+}
+
+main .blue-bj-img .left .title {
+  margin-bottom: 0.729vw;
+}
+
+main .blue-bj-img .left .list-item {
+  margin-bottom: 1.302vw;
+}
+
+main .blue-bj-img .left .list-item:last-child {
+  margin-bottom: 0;
+}
+
+main .blue-bj-img .left .list-item img {
+  margin-right: 9px;
+}
+
+main .blue-bj-img .right {
+  width: 50.615385%;
+}
+
+main .blue-bj-img .sort {
+  margin-top: 4.792vw;
+}
+
+main .reform {
+  width: 100%;
+  height: 41.875vw;
+  background: url(../img/person/img.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+main .measure {
+  width: 100%;
+  height: 50.729vw;
+  padding-top: 2.656vw;
+  background: url(../img/person/jucuoBc.png) no-repeat center;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+main .measure .lineee {
+  width: 100%;
+  margin-top: -55px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+main .measure .title {
+  margin-top: 3.021vw;
+  text-align: center;
+  color: #fff;
+}
+
+main .measure .measure-list {
+  margin-top: 3.125vw;
+}
+
+main .measure .measure-list li {
+  width: 32.307692%;
+  position: relative;
+}
+
+main .measure .measure-list li::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 35px;
+  background: url(../img/person/icon-jiahao.png) no-repeat center;
+}
+
+main .measure .measure-list li .bottom-radius {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2.604vw;
+  padding: 0.4167vw 4.53125vw;
+  background: #FFFFFF;
+  color: #098AD1;
+  border-radius: 24px;
+}
+
+main .measure .measure-list li .shodow {
+  height: 22.656vw;
+  position: relative;
+  padding: 1.667vw 1.3021vw 0;
+  background: url(../img/person/initiative-ul-bj.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+main .measure .measure-list li .shodow .litte-icon div {
+  margin-bottom: 1.5625vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+main .measure .measure-list li .shodow .litte-icon img {
+  margin-right: 15px;
+}
+
+main .measure .measure-list li .shodow .duanluo {
+  margin: 1px auto;
+  line-height: 1.3;
+}
+
+main .measure .measure-list li .shodow .white-radius {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 28.571%;
+  bottom: -23px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+main .measure .measure-list li .botm-text {
+  color: #fff;
+  margin-top: 47px;
+}
+
+main .measure .measure-list li .botm-text .hen {
+  display: block;
+  width: 72px;
+  height: 1px;
+  margin-left: 6px;
+  background-color: rgba(255, 255, 255, 0.55);
+  position: relative;
+}
+
+main .measure .measure-list li .botm-text .hen::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -43px;
+  top: -18px;
+  width: 52px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.55);
+  -webkit-transform: rotate(310deg);
+          transform: rotate(310deg);
+}
+
+main .personalIcon {
+  margin-bottom: 2.2395vw;
+}
+
+main .mearge {
+  padding: 2.92vw 3.385vw;
+  background-color: #fff;
+}
+
+main .mearge .desc-left {
+  width: 27.461538%;
+}
+
+main .mearge .desc-right {
+  width: 68.923077%;
+}
+
+main .mearge .desc-right .topcontent p {
+  width: 32.254464%;
+  padding: 0.781vw 2.396vw;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  background-color: #f57c40;
+}
+
+main .mearge .desc-right .tixi {
+  width: 100%;
+  padding: 1.406vw 1.198vw;
+  background-color: #D1E6F7;
+}
+
+main .mearge .desc-right .tixi .title {
+  margin-bottom: 1.771vw;
+  text-align: center;
+}
+
+main .mearge .desc-right .tixi .little-box li {
+  width: 82px;
+  padding: 16px 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #098AD1;
+}
+
+main .mearge .desc-right .tixi .little-box li p {
+  text-align: center;
+}
+
+main .mearge .desc-right .tixi .but {
+  width: 100%;
+  padding: 9px 0;
+  margin-top: 1.510vw;
+  text-align: center;
+  background: rgba(9, 138, 209, 0.53);
+  border-radius: 21px;
+}
+
+main .mearge .desc-right .connect {
+  margin: 20px auto 25px;
+}
+
+main .mearge .desc-right .bottom-desc li {
+  width: 16.495536%;
+  color: #F57C40;
+}
+
+main .mearge .desc-right .bottom-desc li img {
+  margin-bottom: 14px;
+}
+
+main .mode .matter {
+  width: 32.385%;
+  color: #fff;
+  background: linear-gradient(83deg, #0065C0 0%, #3A91D8 100%);
+  padding: 0.885vw 2.6042vw 0.677vw 1.25vw;
+}
+
+main .mode .matter .shixian {
+  max-width: 245px;
+  word-break: keep-all;
+  line-height: 1.7;
+}
+
+main .mode .matter .matter-title {
+  padding-right: 30px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+main .mode .mode-sort {
+  margin-bottom: 1.51vw;
+}
+
+main .equipment .pc {
+  width: 49.231%;
+}
+
+main .equipment .pc .pc-equ {
+  padding: 11px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #F5A249;
+}
+
+main .equipment .mb {
+  width: 49.231%;
+}
+
+main .equipment .mb .mb-equ {
+  padding: 11px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #46CCE1;
+}
+
+main .equipment .detail {
+  margin-top: 0.885vw;
+  padding: 1.9271vw 0.9375vw 2.55vw;
+}
+
+main .equipment .detail p {
+  text-align: center;
+  color: #0C6EC6;
+}
+
+main .equipment .detail ul {
+  margin: 2.239vw auto 3.229vw;
+}
+
+main .equipment .detail ul li {
+  position: relative;
+  padding-left: 27px;
+  line-height: 1.875;
+}
+
+main .equipment .detail ul li::before {
+  content: "";
+  /* 添加伪元素内容 */
+  display: block;
+  position: absolute;
+  /* 绝对定位在列表项内 */
+  top: 10px;
+  /* 将伪元素垂直居中 */
+  left: 0.521vw;
+  /* 位于列表项的左侧 */
+  /* 上下居中 */
+  width: 10px;
+  /* 设置圆圈的宽度 */
+  height: 10px;
+  /* 设置圆圈的高度 */
+  background-color: blue;
+  /* 设置圆圈的颜色 */
+  border-radius: 50%;
+  /* 将伪元素变为圆形 */
+}
+
+main .equipment .pc-detail {
+  background-color: rgba(245, 162, 73, 0.11);
+}
+
+main .equipment .mb-detail {
+  background-color: rgba(70, 204, 225, 0.11);
+}
+
+main .botom-desc {
+  margin-top: 22px;
+  padding: 15px 0;
+  color: #0065C1;
+  text-align: center;
+  background-color: rgba(122, 176, 226, 0.11);
+}
+
+main .accomplishment {
+  padding: 2.92vw 3.385vw;
+}
+
+main .accomplishment .accomplishment-content .equipment .classify {
+  width: 32.30769%;
+}
+
+main .accomplishment .accomplishment-content .equipment .classify .equ {
+  padding: 16px 0;
+  background-color: #0065C0;
+}
+
+main .accomplishment .accomplishment-content .equipment .classify .detail {
+  margin-top: 1.094vw;
+  padding: 2.292vw 1.615vw 2.6565vw 0.9375vw;
+  background-color: rgba(122, 176, 226, 0.11);
+}
+
+main .accomplishment .accomplishment-content .equipment .classify .detail ul {
+  margin-top: 0;
+  margin-bottom: 1.979vw;
+}
+
+main .accomplishment .accomplishment-content .equipment .classify .detail .img-intrud img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1920px) {
+  main .blue-bj-img {
+    padding: 71px 0 82px !important;
+    padding: 0;
+  }
+  main .blue-bj-img .sort {
+    margin-top: 92px;
+  }
+  main .blue-bj-img .left .title {
+    margin-bottom: 14px;
+  }
+  main .blue-bj-img .left .list-item {
+    margin-bottom: 25px;
+  }
+  main .reform {
+    width: 100%;
+    height: 804px;
+  }
+  main .measure {
+    width: 100%;
+    height: 974px;
+  }
+  main .measure .title {
+    margin-top: 58px;
+  }
+  main .measure .measure-list {
+    margin-top: 60px;
+  }
+  main .measure .measure-list li .bottom-radius {
+    padding: 8px 87px;
+    margin-bottom: 50px;
+  }
+  main .measure .measure-list li .shodow {
+    height: 435px;
+    padding: 32px 25px 0;
+  }
+  main .measure .measure-list li .shodow .litte-icon div {
+    margin-bottom: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .measure .measure-list li .shodow .duanluo {
+    margin-top: 22px;
+    line-height: 1.875;
+  }
+  main .measure .measure-list li .shodow .white-radius {
+    right: 120px;
+  }
+  main .personalIcon {
+    margin-bottom: 43px;
+  }
+  main .mearge {
+    padding: 56px 0 65px;
+  }
+  main .mearge .desc-right .topcontent p {
+    padding: 15px 46px;
+  }
+  main .mearge .desc-right .tixi {
+    padding: 27px 23px;
+  }
+  main .mearge .desc-right .tixi .title {
+    margin-bottom: 34px;
+  }
+  main .mearge .desc-right .tixi .but {
+    margin-top: 29px;
+  }
+  main .mearge .desc-right .bottom-desc li {
+    width: 11.495536%;
+  }
+  main .mode .matter {
+    padding: 17px 50px 13px 24px;
+  }
+  main .mode .mode-sort {
+    margin-bottom: 29px;
+  }
+  main .mode .equipment .detail {
+    margin-top: 17px;
+    padding: 37px 31px 49px 18px;
+  }
+  main .mode .equipment .detail ul {
+    margin: 43px auto 62px;
+  }
+  main .mode .equipment .detail ul li {
+    font-size: 16px;
+  }
+  main .mode .equipment .detail ul li::before {
+    left: 10;
+  }
+  main .accomplishment {
+    padding: 56px 0 58px;
+  }
+  main .accomplishment .accomplishment-content .equipment .classify .detail {
+    margin-top: 21px;
+    padding: 44px 31px 51px 18px;
+  }
+  main .accomplishment .accomplishment-content .equipment .classify .detail ul {
+    margin-bottom: 38px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main .measure {
+    height: auto;
+  }
+  main .measure .fs24 {
+    font-size: 20px;
+  }
+  main .measure .measure-list li {
+    height: auto;
+  }
+  main .measure .measure-list li::after {
+    background: none;
+  }
+  main .measure .measure-list li .shodow {
+    height: 100px;
+    padding: 0;
+    background: none;
+  }
+  main .measure .measure-list li .shodow .litte-icon {
+    display: none;
+  }
+  main .measure .measure-list li .shodow .litte-icon div {
+    margin-bottom: 1vw;
+  }
+  main .measure .measure-list li .shodow .duanluo {
+    line-height: 1.2;
+  }
+  main .measure .measure-list li .shodow .white-radius {
+    background: transparent;
+  }
+  main .measure .measure-list li .bottom-radius {
+    border-radius: 10px;
+  }
+  main .measure .measure-list li .botm-text {
+    display: none;
+  }
+  main .measure .lineee {
+    margin-top: 0;
+    border: transparent;
+  }
+  main .mearge .desc {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .mearge .desc-left {
+    display: none;
+  }
+  main .mearge .desc-right {
+    width: 100%;
+  }
+  main .mearge .desc-right .jiantou {
+    width: 70%;
+    margin: 0 auto;
+  }
+  main .mearge .desc-right .bottom-desc li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  main .img-intrud img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  main .img-intrud img:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  main .blue-bj-img .sort .left {
+    width: 100%;
+  }
+  main .blue-bj-img .sort .right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .measure .fs24 {
+    font-size: 18px;
+  }
+  main .reform {
+    width: 100%;
+    height: 55.875vw;
+    padding-top: 51px;
+    background: url(../img/person/img.png) no-repeat center;
+    background-size: 100% 100%;
+  }
+  main .personalIcon {
+    margin-top: 15px;
+  }
+  main .measure .measure-list li {
+    width: 100%;
+  }
+  main .measure .measure-list li .shodow {
+    height: 70px;
+  }
+  main .mearge .desc-right {
+    width: 100%;
+  }
+  main .mearge .desc-right .tixi {
+    padding: 3.406vw 2.198vw;
+  }
+  main .mearge .desc-right .tixi .little-box li {
+    width: 30.3%;
+    margin-bottom: 2vw;
+    padding: 9px 5px;
+  }
+  main .mearge .desc-right .tixi .title {
+    margin-bottom: 10px;
+  }
+  main .mearge .desc-right .connect {
+    margin: 10px auto;
+  }
+  main .mearge .desc-right .topcontent p {
+    padding: 2.781vw 2.396vw;
+    font-size: 17px;
+  }
+  main .mode .matter {
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-bottom: 4vw;
+  }
+  main .mode .matter .shixian {
+    max-width: 79%;
+    margin-left: 4vw;
+  }
+  main .mode .matter .matter-title {
+    padding-right: 4vw;
+    font-size: 16px;
+  }
+  main .equipment .pc {
+    width: 100%;
+  }
+  main .equipment .mb {
+    width: 100%;
+  }
+  main .accomplishment .accomplishment-content .equipment .classify {
+    width: 100%;
+  }
+}

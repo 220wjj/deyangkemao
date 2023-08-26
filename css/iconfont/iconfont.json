@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "426456",
+      "name": "版权",
+      "font_class": "banquan",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "479192",
+      "name": "眼睛",
+      "font_class": "yanjing",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "1312998",
+      "name": "长方形",
+      "font_class": "changfangxing",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "2287018",
+      "name": "46_脚印",
+      "font_class": "_jiaoyin",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "3065433",
+      "name": "正方形",
+      "font_class": "zheng",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3080662",
+      "name": "新闻 (3)",
+      "font_class": "xinwen",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "6285647",
+      "name": "箭头_右",
+      "font_class": "jiantou-right",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    },
+    {
+      "icon_id": "6759521",
+      "name": "圆",
+      "font_class": "little-yuan",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "8063085",
+      "name": "灵感",
+      "font_class": "linggan",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "9112730",
+      "name": "书签",
+      "font_class": "shuqian",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "11754573",
+      "name": "握手",
+      "font_class": "V",
+      "unicode": "e6ec",
+      "unicode_decimal": 59116
+    },
+    {
+      "icon_id": "12559818",
+      "name": "三角形",
+      "font_class": "sanjiaoxing",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "16328027",
+      "name": "翻开书",
+      "font_class": "fankaishu",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    }
+  ]
+}

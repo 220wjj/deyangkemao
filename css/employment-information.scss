@@ -1,0 +1,458 @@
+main {
+
+
+    .total-info {
+        margin: 30px 0;
+        padding-bottom: 30px;
+        background-color: #F8FAFA;
+
+        .line {
+            width: 100%;
+            height: 1px;
+            display: block;
+            background-color: #fff;
+        }
+    }
+
+    .learn-more {
+        margin-top: 20px;
+    }
+
+    .tabNav {
+        position: relative;
+
+        li {
+            width: 10.461538%;
+            text-align: center;
+            font-size: 16px;
+            color: #000;
+            position: relative;
+            cursor: pointer;
+            padding: 20px 0;
+
+            &.current {
+                background-color: #0166C1;
+                color: #fff;
+            }
+        }
+    }
+
+    .consult-tabNav {
+        li {
+            &.current {
+                background-color: #0166C1;
+                color: #fff;
+            }
+        }
+    }
+
+    .textCont {
+        margin-bottom: 18px;
+        padding-bottom: 18px;
+        border-bottom: 3px solid rgba(118, 115, 115, 0.24);
+
+        &:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+    }
+
+    .tabCon {
+        margin-top: 20px;
+        padding: 0 10px;
+
+        .time {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 16px;
+            padding-right: 15px;
+            border-right: 2px solid #1B6CAF;
+        }
+
+        .cont-left {
+            width: 50.793%;
+
+            .addrens {
+                line-height: 1.875;
+
+                img {
+                    margin-right: 6px;
+                }
+            }
+
+        }
+
+        .cont-right {
+            width: 50.793%;
+
+            .addrens {
+                line-height: 1.875;
+
+                img {
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+
+    // 就业指导
+    .guidance {
+        background-color: #fff;
+
+        .msg {
+            margin: 20px auto;
+        }
+
+        .msg-left {
+            width: 18.154%;
+            position: relative;
+            margin-bottom: 15px;
+
+            .title {
+                position: absolute;
+                right: 8%;
+                top: 10%;
+                color: #fff;
+            }
+        }
+
+        .msg-right {
+            width: 80.538%;
+
+            li {
+                width: 32.541%;
+                max-height: 182px;
+                height: 100%;
+                background-color: #2687E3;
+                color: #fff;
+                padding: 16px;
+                margin-bottom: 16px;
+
+                div {
+                    align-items: center;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+
+                    img {
+                        transition: transform 0.3s ease-in-out;
+                    }
+
+                    &:hover {
+                        img {
+                            transform: scale(0.9);
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    // 就业咨询
+    .consult {
+        h3 {
+            text-align: center;
+        }
+
+        .cont-left {
+            width: 45.923%;
+        }
+
+        .cont-right {
+            width: 45.923%;
+        }
+    }
+}
+
+@media screen and (min-width:320px) {}
+
+@media screen and (min-width:768px) {
+    main {
+        .guidance {
+            .msg-right {
+                li {
+                    div {
+                        img {
+                            width: 70px;
+                            height: 45px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    main {
+        .total-info {
+            margin-top: 3.0729vw;
+            margin-bottom: 2.969vw;
+            padding-bottom: 4.896vw;
+        }
+
+        .tabNav {
+            li {
+                padding: 2.760vw 0;
+            }
+        }
+
+        .textCont {
+            margin-bottom: 1.667vw;
+            padding-bottom: 1.1979vw;
+        }
+
+        .tabCon {
+            margin-top: 3.0729vw;
+            padding: 0 0.989vw;
+
+            .content {
+                display: none;
+            }
+
+            .consult-content {
+                display: none;
+            }
+        }
+
+
+        // 就业指导
+        .guidance {
+            .msg {
+                margin: 3.854vw auto 3.021vw;
+            }
+
+            .msg-left {
+                .title {
+                    right: 0.521vw;
+                    top: 1.823vw;
+                }
+            }
+
+            .msg-right {
+
+                li {
+                    padding: 1.396vw 1.615vw 1.406vw 2.865vw;
+
+                    div {
+                        img {
+                            width: 100px;
+                            height: 75px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width:1920px) {
+    main {
+        .total-info {
+            margin-top: 59px;
+            margin-bottom: 57px;
+            padding-bottom: 94px;
+        }
+
+        .tabNav {
+            li {
+                padding: 53px 0;
+            }
+        }
+
+        .textCont {
+            margin-bottom: 32px;
+            padding-bottom: 23px;
+        }
+
+        .tabCon {
+            padding: 0 19px;
+            margin-top: 59px;
+        }
+
+        // 就业指导
+        .guidance {
+            .msg {
+                margin: 74px auto 58px;
+            }
+
+            .msg-left {
+                .title {
+                    right: 10px;
+                    top: 35px;
+                }
+            }
+
+            .msg-right {
+                li {
+                    padding: 46px 31px 27px 55px;
+
+                    div {
+                        img {
+                            width: 134px;
+                            height: 109px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    main {
+        .textCont {
+            flex-direction: column;
+
+        }
+
+        .tabCon {
+            padding: 0;
+
+            .cont-left {
+                width: 100%;
+                margin-bottom: 20px;
+
+                .fs18 {
+                    font-size: 16px;
+                }
+
+                .time {
+                    width: 35% !important;
+
+                    .month {
+                        font-size: 14px;
+                    }
+
+                }
+
+                .name {
+                    font-size: 14px;
+                }
+
+                .addrens {
+                    img {
+                        width: 8%;
+                    }
+                }
+            }
+
+            .cont-right {
+                width: 100%;
+                margin-bottom: 0;
+
+                .fs18 {
+                    font-size: 16px;
+                }
+
+                .time {
+                    width: 35% !important;
+
+                    .month {
+                        font-size: 14px;
+                    }
+
+                }
+
+                .name {
+                    font-size: 14px;
+                }
+
+                .addrens {
+                    img {
+                        width: 8%;
+                    }
+                }
+            }
+        }
+
+        // 就业指导
+        .guidance {
+            .msg-left {
+                width: 100%;
+
+                img {
+                    display: none;
+                }
+
+                .title {
+                    position: relative;
+                    text-align: center;
+                    top: 0;
+                    right: 0;
+                    color: #000;
+                    font-size: 36px;
+                    font-weight: normal;
+                }
+            }
+
+            .msg-right {
+                width: 100%;
+
+                li {
+
+
+                    div {
+                        justify-content: space-between;
+                        align-items: center;
+
+                        img {
+                            width: 54px;
+                            height: 45px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .consult {
+            .tabNav {
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    padding: 20px 5px;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .fs24 {
+        font-size: 14px;
+    }
+
+    main {
+        .guidance {
+            .msg {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .msg-right {
+                li {
+                    div {
+                        justify-content: center;
+                    }
+                }
+            }
+
+        }
+    }
+}

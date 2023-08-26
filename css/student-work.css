@@ -1,0 +1,156 @@
+main .student-support {
+  padding: 30px 0;
+}
+
+main .support-desc h3 {
+  margin-bottom: 30px;
+}
+
+main .support-desc .support-list li {
+  width: 32.769231%;
+  margin-bottom: 2.03125vw;
+  color: #fff;
+  border: 1px solid #CCCCCC;
+}
+
+main .support-desc .support-list li h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .support-desc .support-list li .includeImg {
+  margin-right: 8px;
+  padding-top: 2.917vw;
+  position: relative;
+}
+
+main .support-desc .support-list li .includeImg h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .support-desc .support-list li .detail-desc {
+  padding: 15px 3.0729vw;
+  background-color: rgba(31, 31, 32, 0.6);
+}
+
+main .counselor-team {
+  padding-top: 5.26vw;
+  padding-bottom: 2.968vw;
+  background: url("../img/studentWork/tema-bj.png") no-repeat center;
+}
+
+main .tema-desc .team-list {
+  margin-top: 3.4375vw;
+}
+
+main .tema-desc .team-list li {
+  width: 18.384615%;
+  margin-bottom: 2.865vw;
+}
+
+main .tema-desc .team-list .teacher-desc {
+  margin-top: 1.354vw;
+  padding: 0.9375vw 1.667vw;
+  background: rgba(48, 49, 49, 0.6);
+  color: #fff;
+  border-radius: 5px;
+}
+
+main .tema-desc .team-list .teacher-desc .introduce {
+  margin-top: 0.573vw;
+  padding-top: 0.885vw;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+main .teacher-photo {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+}
+
+main .teacher-photo img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+main .teacher-photo:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  main .student-support {
+    padding: 3.4896vw 0 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  main .student-support {
+    padding: 67px 0 0;
+  }
+  main .support-desc .support-list li {
+    margin-bottom: 39px;
+  }
+  main .support-desc .support-list li .includeImg {
+    padding-top: 56px;
+  }
+  main .support-desc .support-list li .detail-desc {
+    padding: 15px 59px;
+  }
+  main .counselor-team {
+    padding-top: 101px;
+    padding-bottom: 57px;
+  }
+  main .tema-desc .team-list {
+    margin: 66px 0 0;
+  }
+  main .tema-desc .team-list li {
+    margin-bottom: 55px;
+  }
+  main .tema-desc .team-list .teacher-desc {
+    margin-top: 26px;
+    padding: 18px 32px;
+  }
+  main .tema-desc .team-list .teacher-desc .introduce {
+    margin-top: 11px;
+    padding-top: 17px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main .support-desc .support-list li {
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  main .support-desc .support-list li .includeImg h3 {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -43%);
+            transform: translate(-50%, -43%);
+  }
+  main .support-desc .support-list li .detail-desc {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+  }
+  main .counselor-team {
+    background-size: auto 100%;
+  }
+  main .tema-desc .team-list li {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+}

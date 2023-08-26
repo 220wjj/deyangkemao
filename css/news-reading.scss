@@ -1,0 +1,380 @@
+main {
+    background-color: #fafafa;
+    line-height: 1.5;
+    padding-bottom: 20px;
+
+    .top-nav {
+        padding-top: 8px;
+        margin: 0px 0 16px;
+
+        img {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        a {
+            color: #98989A;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+
+        span {
+            color: #171717;
+        }
+    }
+
+    .main-content {
+
+        // align-items: baseline;
+        .content-left {
+            width: 75.923077%;
+            background-color: #FFFFFF;
+
+            .writing {
+                padding: 15px;
+                border-radius: 8px 10px 10px 10px;
+                line-height: 1.2;
+                text-align: center;
+            }
+
+            .title {
+                margin-bottom: 15px;
+            }
+
+            .little-tips {
+                color: #919191;
+                padding-bottom: 18px;
+                border-bottom: 1px solid rgba(175, 175, 178, 0.2);
+            }
+
+            section {
+                margin: 18px 10px 0;
+                text-align: left;
+                line-height: 1.86;
+
+                p {
+                    text-indent: 2em;
+                }
+
+                img {
+                    margin: 30px auto;
+                }
+            }
+
+        }
+
+        .content-right {
+            width: 23.384615%;
+            height: fit-content;
+            background-color: #fff;
+
+            .accordion {
+
+                .radius-icon {
+                    display: inline-block;
+                    width: 9px;
+                    height: 9px;
+                    border: 2px solid #535353;
+                    border-radius: 50%;
+                }
+
+                .zhedie {
+                    padding: 16px;
+                }
+
+                .accordion-item {
+
+                    margin-bottom: 4px;
+                    background-color: #e3e3e3;
+
+                    .listtext {
+                        position: relative;
+                        align-items: center;
+
+                        .icon {
+                            position: absolute;
+                            top: 50%;
+                            right: 20px;
+                            transform: translate(0, -50%);
+                        }
+
+                        &::after {
+                            display: inline-block;
+                            content: "";
+                            width: 9px;
+                            height: 16px;
+                            position: absolute;
+                            right: 20px;
+
+                            background: url(../img/news/icon-close.png) no-repeat center;
+                            background-size: 100%;
+                        }
+
+                    }
+
+                    .listtext-open {
+                        &::after {
+                            display: inline-block;
+                            content: "";
+                            width: 9px;
+                            height: 16px;
+                            position: absolute;
+                            right: 20px;
+                            // top: 50%;
+                            background: url(../img/news/icon-explant.png) no-repeat center;
+                            background-size: 100%;
+
+                        }
+
+                    }
+
+                    .radius-icon {
+                        margin-right: 12px;
+                    }
+
+                    .title {
+                        cursor: pointer;
+                    }
+
+                    .content {
+                        display: none;
+
+                        a {
+                            &:last-child {
+                                border-bottom: none;
+                            }
+                        }
+
+                        p {
+                            border-bottom: 1px solid #ccc;
+
+
+                        }
+                    }
+
+                    .expand-content {
+                        display: block;
+                    }
+
+                    .expand-active {
+                        display: block;
+                        position: relative;
+                        background-color: #fff;
+
+                        p {
+                            padding: 17px 0 17px 73px;
+                            color: #000 !important;
+
+                            &::before {
+                                content: "";
+                                display: inline-block;
+                                width: 10px;
+                                height: 11px;
+                                background: url(../img/news/blue-radius.png) no-repeat bottom;
+                                border-radius: 4px;
+                                position: absolute;
+                                left: 42px;
+                                transform: translateY(50%);
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            .latest-update {
+                border-top: 4px solid #1551cc;
+                margin-top: 30px;
+                padding: 13px;
+
+                .radius-icon {
+                    width: 9px;
+                    height: 9px;
+                    border: 2px solid #1551cc;
+                    border-radius: 50%;
+                    margin-right: 12px;
+                }
+
+                li {
+                    margin: 8px 0;
+                    padding-top: 8px;
+                    border-top: 1px solid rgba(226, 226, 226, 0.5);
+
+                    .desc {
+                        margin-bottom: 16px;
+                    }
+
+                    time {
+                        margin-left: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+
+    main {
+        .main-content {
+            .content-left {
+                width: 100%;
+
+                section {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+            }
+
+            .content-right {
+                width: 100%;
+                display: none;
+
+                .accordion {
+                    .accordion-item {
+                        .expand-active {
+                            p {
+                                // padding: 2.721vw 0 2.721vw 11.36vw;
+                                padding: 17px 0 17px 50px;
+                            }
+                        }
+
+                        .expand-active {
+                            p {
+                                &::before {
+                                    left: 6.234vw;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 564px) {
+    main {
+        .main-content {
+            .content-left {}
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 992px) {
+    main {
+        padding-bottom: 2.5521vw;
+
+        .main-content {
+
+            .content-left {
+                .writing {
+                    padding: 2.292vw 1.406vw;
+                }
+
+                .title {
+                    margin-bottom: 1.5635vw;
+                }
+
+                section {
+                    margin: 1.979vw 0.885vw;
+
+                    img {
+                        margin: 3.229vw auto;
+                    }
+                }
+
+
+            }
+
+            .content-right {
+                .accordion {
+                    .zhedie {
+                        padding: 0.781vw 0 0.781vw 1.094vw;
+                    }
+
+                    .accordion-item {
+                        .expand-active {
+                            background-color: #fff;
+
+                            p {
+                                &::after {
+                                    left: 2.1875vw;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .latest-update {
+                    padding: 0.677vw 0.833vw 1.198vw 0.989vw;
+
+                    li {
+
+                        .desc {
+                            margin-bottom: 1.198vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+
+    main {
+        padding-bottom: 49px;
+
+        .main-content {
+            .content-left {
+                .writing {
+                    padding: 44px 27px 44px 33px;
+                }
+
+                .title {
+                    margin-bottom: 30px;
+                }
+
+                section {
+                    margin: 38px 17px 0 13px;
+
+                    img {
+                        margin: 62px auto 69px;
+                    }
+                }
+
+
+
+            }
+
+            .content-right {
+                .accordion {
+                    .zhedie {
+                        padding: 15px 0 15px 21px;
+                    }
+                }
+
+                .latest-update {
+
+                    padding: 13px 16px 23px 19px;
+
+                    li {
+
+                        .desc {
+                            margin-bottom: 23px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
