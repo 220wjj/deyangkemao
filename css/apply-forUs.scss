@@ -2,28 +2,185 @@ main {
     // background-color: #fafafa;
     line-height: 1.75;
 
+    .top-nav{
+        display: flex;
+        align-items: center;
+    }
     .top-bj {
-        height: 100vh;
-        background-color: #061E4D;
-        position: relative;
+        height: calc(100vh - 73px);
+        background-image: url(../img/apply/xingkong.jpg);
+        display: flex;
+        flex-direction: column;
+        background-color: #041C4C;
+        background-size: content;
+        background-repeat: no-repeat;
 
-        #cas {
-            position: absolute;
-            left:0;
-            top:0;
-            bottom:0;
-            right:0;
-            margin:auto;
-            width:100%;
-            height:100%;
-            z-index: 0;
+        .top-name{
+            color:#fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top:50px;
+            gap:8px;
+            .top-title-name{
+                font-weight: bold;
+                font-size:26px;
+                letter-spacing: 4px;
+                display:inline-block;
+            }
+            .top-title-des{
+                font-size:16px;
+                letter-spacing: 2px;
+                display:inline-block;
+            }
         }
+
+        #parentContainer {
+            position: relative;
+            flex:1;
+            #cas {
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                width: 100%;
+                height: 100%;
+                z-index: 0;
+            }
+
+           
+
+            // 我的应用
+            .app-wrapper {
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                z-index: 0;
+
+                .app-content {
+                    position: absolute;
+                    display: inline-flex;
+                    gap: 10px;
+                    flex-direction: column-reverse;
+                    align-items: center;
+                    justify-content: center;
+                    color: cyan;
+                    font-weight: bold;
+                    font-size: 14px;
+
+                    &:hover {
+                        .app-name {
+                            color: #f5bc40;
+                        }
+
+                        .app-doi {
+                            border-color: #f5bc40;
+                            background-color: #f5bc40;
+                            color: #f5bc40;
+                        }
+                    }
+
+                    .app-name {
+                        cursor: pointer;
+                        transition: 0.35s;
+                    }
+
+                    .app-doi {
+                        width: 20px;
+                        height: 20px;
+                        background-color: cyan;
+                        border-radius: 50%;
+                        background-clip: content-box;
+                        padding: 3px;
+                        border: 1px solid cyan;
+                        animation: daxiao1 infinite;
+                        animation-fill-mode: both;
+                        animation-timing-function: ease-out;
+                        animation-duration: 2s;
+                        cursor: pointer;
+                        transition: 0.3;
+                    }
+
+                    @keyframes daxiao1 {
+                        0% {
+                            box-shadow: 0 0 1px 0 inset, 0 0 10px 0 inset, 0 0 1px 0, 0 0 2px 0, 0 0 3px 0, 0 0 30px 0, 0 0 40px 0;
+                        }
+
+                        50% {
+                            box-shadow: 0 0 0px 0 inset, 0 0 2px 0 inset, 0 0 1px 0, 0 0 0px 0, 0 0 0px 0, 0 0 0px 0, 0 0 2px 0;
+                        }
+
+                        100% {
+                            box-shadow: 0 0 1px 0 inset, 0 0 10px 0 inset, 0 0 1px 0, 0 0 2px 0, 0 0 3px 0, 0 0 30px 0, 0 0 40px 0;
+                        }
+                    }
+                }
+
+                .app-content:nth-child(1) {
+                    left: 10%;
+                    top: 20%;
+                }
+
+                .app-content:nth-child(2) {
+                    left: 22%;
+                    top: 24%;
+                }
+
+                .app-content:nth-child(3) {
+                    left: 75%;
+                    top: 63%;
+                }
+
+                .app-content:nth-child(4) {
+                    left: 40%;
+                    top: 40%;
+                }
+
+                .app-content:nth-child(5) {
+                    left: 80%;
+                    top: 30%;
+                }
+
+                .app-content:nth-child(6) {
+                    left: 56%;
+                    top: 66%;
+                }
+
+                .app-content:nth-child(7) {
+                    left: 13%;
+                    top: 65%;
+                }
+
+                .app-content:nth-child(8) {
+                    left: 60%;
+                    top: 35%;
+                }
+
+                .app-content:nth-child(9) {
+                    left: 35%;
+                    top: 3%;
+                }
+
+                .app-content:nth-child(10) {
+                    left: 28%;
+                    top: 44%;
+                }
+
+                .app-content:nth-child(11) {
+                    left: 58%;
+                    top: 10%;
+                }
+            }
+
+        }
+
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2e613e91f280006079fddb3ce1b63f6f89df0a76
     .application-content {
         margin-top: 2.396vw;
 
@@ -366,6 +523,12 @@ main {
                     }
 
                 }
+            }
+        }
+
+        .top-name{
+            .top-title-name{
+                font-size:22px !important;
             }
         }
 

@@ -1,8 +1,6 @@
 main {
   line-height: 1.5;
 }
-<<<<<<< HEAD
-=======
 main .top-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,7 +9,6 @@ main .top-nav {
       -ms-flex-align: center;
           align-items: center;
 }
->>>>>>> 2e613e91f280006079fddb3ce1b63f6f89df0a76
 main .college-content {
   background: url("../img/about/img.png") no-repeat;
 }
