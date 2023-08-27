@@ -5,7 +5,6 @@ main {
 }
 main .top-nav {
   padding-top: 8px;
-  margin: 0px 0 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,7 +135,8 @@ main .main-content .content-left .date-list .text .text-title {
   margin-bottom: 19px;
 }
 main .main-content .content-left .pagination {
-  margin: 68px 0 50px;
+  margin: 20px auto;
+  line-height: 2;
 }
 main .main-content .content-left .pagination .prev {
   margin-right: 10px;
@@ -279,7 +279,7 @@ main .main-content .content-right .latest-update li time {
     width: 100%;
   }
   main .main-content .content-left .list {
-    margin: 0;
+    margin: 20px 0 0;
   }
   main .main-content .content-left .list .list-item .origin-box {
     line-height: 1;
@@ -299,7 +299,7 @@ main .main-content .content-right .latest-update li time {
 }
 @media screen and (max-width: 600px) {
   main .main-content .content-left .pagination {
-    margin: 40px 0;
+    margin: 20px auto;
   }
   main .main-content .content-left .pagination .prev {
     padding: 1px;
@@ -363,7 +363,7 @@ main .main-content .content-right .latest-update li time {
     padding: 0.781vw 0.729vw;
   }
   main .main-content .content-left .date-list {
-    margin: 26px 20px 0 21px;
+    margin: 25px 20px 0;
   }
   main .main-content .content-left .date-list .date-list-item {
     padding: 1.354vw 1.406vw 1.406vw 1.719vw;
@@ -372,7 +372,8 @@ main .main-content .content-right .latest-update li time {
     margin-left: 1.5104vw;
   }
   main .main-content .content-left .pagination {
-    margin: 3.5416vw 0 2.60416vw;
+    line-height: 2;
+    margin: 1.042vw auto;
   }
   main .main-content .content-right .accordion .zhedie {
     padding: 0.781vw 0 0.781vw 1.094vw;
@@ -398,7 +399,7 @@ main .main-content .content-right .latest-update li time {
     margin: 24px 0 25px 33px;
   }
   main .main-content .content-left .list {
-    margin: 0 20px 0 21px;
+    margin: 20px 20px 0 21px;
   }
   main .main-content .content-left .list .list-item {
     margin-bottom: 25px;
@@ -417,7 +418,7 @@ main .main-content .content-right .latest-update li time {
     padding: 15px 14px 16px 12px;
   }
   main .main-content .content-left .date-list {
-    margin: 29px 20px 0 21px;
+    margin: 25px 20px 0 21px;
   }
   main .main-content .content-left .date-list .date-list-item {
     padding: 26px 27px 27px 33px;
@@ -426,7 +427,7 @@ main .main-content .content-right .latest-update li time {
     margin-left: 35px;
   }
   main .main-content .content-left .pagination {
-    margin: 68px 0 50px;
+    margin: 20px auto;
   }
   main .main-content .content-right .accordion .zhedie {
     padding: 15px 0 15px 21px;

@@ -14,9 +14,6 @@ main {
         background-color: #f8fafa;
         padding: 30px 0;
 
-        .main-education {
-            margin-bottom: 30px;
-        }
 
         .edu-title {
             margin-bottom: 30px;
@@ -77,7 +74,7 @@ main {
     .banchprofile {
         width: 100%;
         height: 100%;
-        padding: 30px 0 40px;
+        padding: 20px 0;
         background: url("../img/partyBuilding/banchprofile.png") no-repeat center;
         background-size: 100% 100%;
 
@@ -117,6 +114,9 @@ main {
             }
         }
     }
+    .branch-activity{
+        padding-top: 20px;
+    }
 
 
 }
@@ -132,11 +132,8 @@ main {
         }
 
         .education {
-            padding: 4.010vw 0 3.0729vw;
+            padding: 2.292vw 0;
 
-            .main-education {
-                margin-bottom: 3.0729vw;
-            }
 
             .edu-title {
                 margin-bottom: 2.2395vw;
@@ -144,10 +141,10 @@ main {
         }
 
         .banchprofile {
-            padding: 3.178vw 0 6.25vw;
+            padding: 2.292vw 0 6.25vw;
 
             .edu-title {
-                margin-bottom: 3.451vw;
+                margin-bottom: 2.292vw ;
             }
 
             .description {
@@ -167,6 +164,9 @@ main {
                 }
             }
         }
+        .branch-activity{
+            padding-top: 2.292vw;
+        }
 
     }
 }
@@ -176,11 +176,8 @@ main {
 
 
         .education {
-            padding: 77px 0 59px;
+            padding: 44px 0;
 
-            .main-education {
-                margin-bottom: 59px;
-            }
 
             .edu-title {
                 margin-bottom: 43px;
@@ -188,10 +185,10 @@ main {
         }
 
         .banchprofile {
-            padding: 61px 0 120px;
+            padding: 44px 0 120px;
 
             .edu-title {
-                margin-bottom: 67px;
+                margin-bottom: 44px;
             }
 
             .description {
@@ -203,6 +200,9 @@ main {
                     margin-bottom: 43px;
                 }
             }
+        }
+        .branch-activity{
+            padding-top: 44px;
         }
 
 

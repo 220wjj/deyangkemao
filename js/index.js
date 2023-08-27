@@ -9,12 +9,11 @@
     },
 
     speed: 800,
-    autoplay:false
-    // autoplay: {
-    //     delay: 1000,
-    //     stopOnLastSlide: false,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 1000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+    },
 });
   
   // 首页顶部背景Swiper
@@ -220,24 +219,7 @@ var tabC = new Swiper('.tabc', {
     }
 });
 
-// 报考我们------手机端
-// 手机端
-// const inxywhElements = document.querySelectorAll('.inxywh-m');
 
-// inxywhElements.forEach(element => {
-//     element.addEventListener('click', () => {
-//         console.log(111);
-//         if (element.classList.contains('expanded')) {
-//             // 元素已经展开，恢复到正常状态
-//             element.classList.remove('expanded');
-//         } else {
-//             // 将其他已展开的元素恢复到正常状态
-//             inxywhElements.forEach(el => el.classList.remove('expanded'));
-//             // 展开当前点击的元素
-//             element.classList.add('expanded');
-//         }
-//     });
-// });
 
 // 报考我们
 const accordionItems = document.querySelectorAll('.accordion-item');

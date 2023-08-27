@@ -36,13 +36,13 @@ main .main-content .content-left .writing {
   border-radius: 8px 10px 10px 10px;
 }
 main .main-content .content-left .list {
-  padding: 15px 15px 40px;
+  padding: 15px;
 }
 main .main-content .content-left .list .list-item {
   padding: 15px;
   position: relative;
   background-color: #F7F7F7;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 main .main-content .content-left .list .list-item .desc {
   -webkit-box-align: center;
@@ -86,10 +86,11 @@ main .main-content .content-left .list .list-item:last-child {
   margin-bottom: 0;
 }
 main .main-content .content-left .pagination {
-  margin: 0 0 40px;
+  margin: 5px 0 20px;
+  line-height: 2;
 }
 main .main-content .content-left .pagination .prev {
-  margin-right: 10px;
+  margin-right: 20px;
   padding: 2px 6px;
 }
 main .main-content .content-left .pagination a {
@@ -249,7 +250,7 @@ main .main-content .content-right .accordion .accordion-item .expand-active p::b
     padding-bottom: 4.5314vw;
   }
   main .main-content .content-left .list {
-    padding: 1.667vw 1.667vw 4.531vw;
+    padding: 1.667vw;
   }
   main .main-content .content-left .list .list-item {
     padding: 1.094vw 1.875vw 1.198vw 1.459vw;
@@ -263,7 +264,7 @@ main .main-content .content-right .accordion .accordion-item .expand-active p::b
     margin: 14px 0 1.615vw;
   }
   main .main-content .content-left .pagination {
-    margin: 0 0 2.7604vw;
+    margin: 0 0 1.667vw;
   }
   main .main-content .content-right .accordion .zhedie {
     padding: 1.146vw 0 0.833vw 1.094vw;
@@ -283,7 +284,7 @@ main .main-content .content-right .accordion .accordion-item .expand-active p::b
     padding-bottom: 87px;
   }
   main .main-content .content-left .list {
-    padding: 32px 32px 87px;
+    padding: 32px;
   }
   main .main-content .content-left .list .list-item {
     padding: 21px 36px 23px 28px;
@@ -296,7 +297,7 @@ main .main-content .content-right .accordion .accordion-item .expand-active p::b
     margin: 14px 0 31px;
   }
   main .main-content .content-left .pagination {
-    margin: 0 0 53px;
+    margin: 0 0 32px;
   }
   main .main-content .content-right .accordion .zhedie {
     padding: 20px 0 18px 21px;

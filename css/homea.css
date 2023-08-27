@@ -503,6 +503,7 @@
 
 
 .homea {
+    overflow: hidden;
     background: #f8fafa;
     padding: 3.2295% 0 3.59375%;
     position: relative;
@@ -512,13 +513,13 @@
     content: '';
     position: absolute;
     right: 0;
-    /* bottom: -6.1858%; */
     bottom: 0;
     width: 80%;
-    /* height:84.524%; */
+   
+    background: #fff;
     height: 78.682%;
     z-index: 0;
-    background: #fff
+   
 }
 
 .homea:before {
@@ -554,9 +555,31 @@
     width: 45.417%;
     /* padding-top: 2.813%; */
     padding-left: 1.771%;
+    position: relative;
 
 }
-
+.homea .slideTxtp::after{
+    content: "";
+    display: block;
+    width: 57%;
+    /* width: 26.14582vw; */
+    height: 73%;
+    overflow: hidden;
+    position: absolute;
+    top: 278px;
+    right: 70px;
+    /* background-color: red; */
+    z-index: 1;
+    background: url("../img/home/tese-bj.png") no-repeat center;
+}
+@media screen and (max-width:992px) {
+    .homea .slideTxtp::after{
+        position: absolute;
+        background: #fff;
+        z-index: -99;
+    }
+    
+}
 .homea .slideTxtp .txt {
     padding-top: 16.468%;
     background-repeat: no-repeat background-position center;
@@ -799,9 +822,9 @@
         text-align: center;
        
     }
-    .homea:after {
+    /* .homea:after {
         height: 72%;
-    }
+    } */
     .speciality-container .slide-item{
         width:50% !important;
     } 

@@ -129,7 +129,8 @@ html {
     .bannerImg {
         width: 100%;
         max-width: 100%;
-        max-height: 100%;
+        max-height: 500px;
+        height: 100%;
         object-fit: cover;
     }
 
@@ -138,12 +139,10 @@ html {
         flex-direction: column;
         line-height: 1.5;
         position: absolute;
-        // top: 16.7185vw;
         top: 50%;
         transform: translate(0, -50%);
         left: 12.8125vw;
-        // padding: 2.6041vw 3.958vw 2.6041vw 4.167vw;
-        padding: 3.6041vw 2.958vw 3.6041vw 3.167vw;
+        padding: 1.823vw 2.958vw 1.823vw 3.167vw;
         font-weight: bold;
         background-color: rgba(4, 29, 48, 0.5);
         color: #fff;
@@ -151,12 +150,13 @@ html {
         span {
             font-size: 0.9375vw;
             opacity: 0.59;
+            line-height: 1.2;
         }
 
         h2 {
             margin-top: 0;
             font-size: 1.875vw;
-            line-height: 1.1;
+            line-height: 1.2;
         }
     }
 }
@@ -248,14 +248,11 @@ html {
                     flex: 1;
                     margin-left: 7px;
                     padding-bottom: 13px;
-                    border-bottom: 1px solid #767373;
+                    border-bottom: 1px solid rgba(118, 115, 115, 0.24);
 
                     span {
                         max-width: 515px;
                         width: 90%;
-                        // white-space: nowrap;
-                        // overflow: hidden;
-                        // text-overflow: ellipsis;
                     }
                 }
             }
@@ -290,7 +287,7 @@ html {
 // 支部活动
 .branch-activity {
     background-color: #fff;
-    padding: 0px 0 40px;
+    padding: 0px 0 20px;
 
     h3 {
         text-align: center;
@@ -407,9 +404,6 @@ html {
 
     .branch-activity {
 
-
-        h3 {}
-
         .branch-list-item {
             width: 48%;
 
@@ -462,21 +456,21 @@ html {
     -webkit-box-orient: vertical;
 }
 
-@media screen and (min-width:576px) {
+// @media screen and (min-width:576px) {
 
-    main {
-        .announcement {
-            padding-top: 2.854vw;
-        }
-    }
-}
+//     main {
+//         .announcement {
+//             padding-top: 2.854vw;
+//         }
+//     }
+// }
 
 @media screen and (min-width:768px) {
 
 
     main {
         .announcement {
-            padding-top: 3.854vw;
+            padding-top: 2.292vw;
         }
     }
 }
@@ -496,7 +490,7 @@ html {
 
     .branch-activity {
 
-        padding: 0 0 3.229vw;
+        padding: 0 0 2.604vw;
 
         h3 {
             margin-bottom: 2.8125vw;
@@ -556,7 +550,7 @@ html {
             top: 300px;
             left: 321px;
             width: 300px;
-            padding: 50px 76px 50px 80px;
+            padding: 35px 76px 35px 80px;
             // top: 300px;
             // left: 321px;
             // width: 300px;
@@ -575,7 +569,7 @@ html {
 
     main {
         .announcement {
-            padding-top: 74px;
+            padding-top: 44px;
 
             .announ-left {
                 &::before {
@@ -587,7 +581,7 @@ html {
     }
 
     .branch-activity {
-        padding: 0px 0 62px;
+        padding: 0px 0 50px;
 
         h3 {
             margin-bottom: 54px;

@@ -2,7 +2,7 @@ main {
 
 
     .total-info {
-        margin: 30px 0;
+        margin: 20px 0;
         padding-bottom: 30px;
         background-color: #F8FAFA;
 
@@ -200,9 +200,8 @@ main {
 
     main {
         .total-info {
-            margin-top: 3.0729vw;
-            margin-bottom: 2.969vw;
-            padding-bottom: 4.896vw;
+            margin-top:2.292vw;
+            padding-bottom: 2.7604vw;
         }
 
         .tabNav {
@@ -217,7 +216,7 @@ main {
         }
 
         .tabCon {
-            margin-top: 3.0729vw;
+            margin-top: 2.6042vw;
             padding: 0 0.989vw;
 
             .content {
@@ -233,7 +232,7 @@ main {
         // 就业指导
         .guidance {
             .msg {
-                margin: 3.854vw auto 3.021vw;
+                margin: 2.8125vw auto;
             }
 
             .msg-left {
@@ -264,9 +263,8 @@ main {
 @media screen and (min-width:1920px) {
     main {
         .total-info {
-            margin-top: 59px;
-            margin-bottom: 57px;
-            padding-bottom: 94px;
+            margin-top: 44px;
+            padding-bottom: 53px;
         }
 
         .tabNav {
@@ -282,13 +280,13 @@ main {
 
         .tabCon {
             padding: 0 19px;
-            margin-top: 59px;
+            margin-top: 50px;
         }
 
         // 就业指导
         .guidance {
             .msg {
-                margin: 74px auto 58px;
+                margin: 54px auto;
             }
 
             .msg-left {
@@ -448,8 +446,13 @@ main {
             .msg {
                 flex-direction: column;
                 align-items: center;
+                margin: 0 auto;
             }
-
+            .msg-left {
+                .title{
+                    font-size: 24px;
+                }
+            }
             .msg-right {
                 li {
                     div {
