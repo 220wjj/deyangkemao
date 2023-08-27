@@ -1,8 +1,26 @@
 main {
   line-height: 1.75;
 }
+<<<<<<< HEAD
 main .top-bj img {
   width: 100%;
+=======
+main .top-bj {
+  height: 100vh;
+  background-color: #061E4D;
+  position: relative;
+}
+main .top-bj #cas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+>>>>>>> 2e613e91f280006079fddb3ce1b63f6f89df0a76
 }
 main .application-content {
   margin-top: 2.396vw;
@@ -190,10 +208,17 @@ main .consult .main-item .main-lianxi .main-content-list ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+<<<<<<< HEAD
 }
 main .consult .main-item .main-lianxi .main-content-list ul li:last-child {
   margin-bottom: 1.074vw;
 }
+=======
+}
+main .consult .main-item .main-lianxi .main-content-list ul li:last-child {
+  margin-bottom: 1.074vw;
+}
+>>>>>>> 2e613e91f280006079fddb3ce1b63f6f89df0a76
 main .consult .main-item .main-lianxi .main-content-list ul li .list-text {
   margin-left: 1.458vw;
 }
@@ -202,11 +227,19 @@ main .consult .main-item .main-map .main-map-conent {
   overflow: hidden;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
 }
 main .consult .main-item .main-map .main-map-conent .addrens {
   margin: 1.25vw 0;
   line-height: 2;
 }
+=======
+}
+main .consult .main-item .main-map .main-map-conent .addrens {
+  margin: 1.25vw 0;
+  line-height: 2;
+}
+>>>>>>> 2e613e91f280006079fddb3ce1b63f6f89df0a76
 main .consult .main-item .main-map .main-map-conent img {
   width: 100%;
   height: 100%;
