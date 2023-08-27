@@ -541,6 +541,7 @@
 
 .homea .righttext {
     align-items: flex-start;
+    flex-wrap:nowrap
 }
 
 .homea .slide-p .swiper-slide {
@@ -922,6 +923,10 @@
         top: 4.9rem;
 
     }
+    .homea .righttext {
+        flex-wrap:wrap;
+    }
+
 
     .top-title::after {
         margin-top: 9px;
@@ -1087,6 +1092,8 @@
     .homeas{
         padding: 6.33% 0 0;
     }
+
+  
   
     .homeas .intit a{
         top: 11px;
@@ -1156,6 +1163,7 @@
         font-size: 27px;
     }
 
+  
     .homeas .aright .item {
         width: 100%
     }
