@@ -70,17 +70,10 @@ html {
 }
 
 .flex-sb {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .font-color-black {
@@ -88,31 +81,18 @@ html {
 }
 
 .flex-start {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .flex-column-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flex-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .no {
@@ -144,24 +124,18 @@ html {
 .news-bulletin-banner .bannerImg {
   width: 100%;
   max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  max-height: 500px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .news-bulletin-banner .banner-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   line-height: 1.5;
   position: absolute;
   top: 50%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
   left: 12.8125vw;
   padding: 3.6041vw 2.958vw 3.6041vw 3.167vw;
   font-weight: bold;
@@ -240,8 +214,7 @@ html {
   line-height: 1;
   text-align: center;
   border: 2px solid rgba(22, 117, 201, 0.49);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .announcement .announ-right .prev-list {
@@ -266,12 +239,10 @@ html {
 }
 
 .announcement .announ-right .prev-list .prev-list-item a {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   margin-left: 7px;
   padding-bottom: 13px;
-  border-bottom: 1px solid #767373;
+  border-bottom: 1px solid rgba(118, 115, 115, 0.24);
 }
 
 .announcement .announ-right .prev-list .prev-list-item a span {
@@ -333,22 +304,16 @@ html {
 .branch-activity .branch-list-item a img {
   width: 100%;
   height: 100%;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .branch-activity .branch-list-item a:hover img {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 @media screen and (max-width: 1440px) {
   main .section1 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   main .announcement .announ-left::before {
     width: 92.905%;
@@ -360,10 +325,7 @@ html {
 
 @media screen and (max-width: 992px) {
   .flex-column {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: flex-column;
-            flex-direction: flex-column;
+    flex-direction: flex-column;
   }
   .fs24 {
     font-size: 18px;
@@ -373,8 +335,7 @@ html {
   }
   .news-bulletin-banner .banner-text {
     top: 60%;
-    -webkit-transform: translate(0, -50%);
-            transform: translate(0, -50%);
+    transform: translate(0, -50%);
   }
 }
 

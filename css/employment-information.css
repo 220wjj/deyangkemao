@@ -3,22 +3,18 @@ main .total-info {
   padding-bottom: 30px;
   background-color: #F8FAFA;
 }
-
 main .total-info .line {
   width: 100%;
   height: 1px;
   display: block;
   background-color: #fff;
 }
-
 main .learn-more {
   margin-top: 20px;
 }
-
 main .tabNav {
   position: relative;
 }
-
 main .tabNav li {
   width: 10.461538%;
   text-align: center;
@@ -28,29 +24,24 @@ main .tabNav li {
   cursor: pointer;
   padding: 20px 0;
 }
-
 main .tabNav li.current {
   background-color: #0166C1;
   color: #fff;
 }
-
 main .consult-tabNav li.current {
   background-color: #0166C1;
   color: #fff;
 }
-
 main .textCont {
   margin-bottom: 18px;
   padding-bottom: 18px;
   border-bottom: 3px solid rgba(118, 115, 115, 0.24);
 }
-
 main .textCont:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
 }
-
 main .top-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,12 +50,10 @@ main .top-nav {
       -ms-flex-align: center;
           align-items: center;
 }
-
 main .tabCon {
   margin-top: 20px;
   padding: 0 10px;
 }
-
 main .tabCon .time {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,58 +69,46 @@ main .tabCon .time {
   padding-right: 15px;
   border-right: 2px solid #1B6CAF;
 }
-
 main .tabCon .cont-left {
   width: 50.793%;
   cursor: pointer;
 }
-
 main .tabCon .cont-left .addrens {
   line-height: 1.875;
 }
-
 main .tabCon .cont-left .addrens img {
   margin-right: 6px;
 }
-
 main .tabCon .cont-right {
   width: 50.793%;
   cursor: pointer;
 }
-
 main .tabCon .cont-right .addrens {
   line-height: 1.875;
 }
-
 main .tabCon .cont-right .addrens img {
   margin-right: 6px;
 }
-
 main .guidance {
   background-color: #fff;
 }
-
 main .guidance .msg {
   margin: 20px auto;
 }
-
 main .guidance .msg-left {
   width: 18.154%;
   position: relative;
   margin-bottom: 15px;
 }
-
 main .guidance .msg-left .title {
   position: absolute;
   right: 8%;
   top: 10%;
   color: #fff;
 }
-
 main .guidance .msg-right {
   width: 80.538%;
 }
-
 main .guidance .msg-right li {
   width: 32.541%;
   max-height: 182px;
@@ -142,7 +119,6 @@ main .guidance .msg-right li {
   margin-bottom: 16px;
   cursor: pointer;
 }
-
 main .guidance .msg-right li div {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -152,31 +128,25 @@ main .guidance .msg-right li div {
   height: 100%;
   overflow: hidden;
 }
-
 main .guidance .msg-right li div p {
   margin-bottom: 10px;
 }
-
 main .guidance .msg-right li div img {
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
-
 main .guidance .msg-right li div:hover img {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
-
 main .consult h3 {
   text-align: center;
 }
-
 main .consult .cont-left {
   width: 45.923%;
 }
-
 main .consult .cont-right {
   width: 45.923%;
 }
@@ -187,7 +157,6 @@ main .consult .cont-right {
     height: 45px;
   }
 }
-
 @media screen and (min-width: 992px) {
   main .total-info {
     margin-top: 3.0729vw;
@@ -195,7 +164,7 @@ main .consult .cont-right {
     padding-bottom: 4.896vw;
   }
   main .tabNav li {
-    padding: 2.760vw 0;
+    padding: 2.76vw 0;
   }
   main .textCont {
     margin-bottom: 1.667vw;
@@ -226,7 +195,6 @@ main .consult .cont-right {
     height: 75px;
   }
 }
-
 @media screen and (min-width: 1920px) {
   main .total-info {
     margin-top: 59px;
@@ -259,7 +227,6 @@ main .consult .cont-right {
     height: 109px;
   }
 }
-
 @media screen and (max-width: 768px) {
   main .textCont {
     -webkit-box-orient: vertical;
@@ -350,7 +317,6 @@ main .consult .cont-right {
     padding: 20px 5px;
   }
 }
-
 @media screen and (max-width: 576px) {
   .fs24 {
     font-size: 14px;

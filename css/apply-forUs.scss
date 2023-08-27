@@ -1,25 +1,12 @@
 main {
     // background-color: #fafafa;
-    line-height: 1.5;
-    padding-bottom: 4.565vw;
+    line-height: 1.75;
 
     .top-bj {
         img {
             width: 100%;
         }
     }
-
-    // 报考方式可选
-    .content-main {
-        padding: 2.9167vw 0 1.771vw;
-
-        .content-title {
-            color: #0166C0;
-            text-align: center;
-        }
-
-    }
-
 
     .application-content {
         margin-top: 2.396vw;
@@ -164,196 +151,142 @@ main {
     }
 
     .growUp {
-        .growUp-main {
-            .growUp-item {
-                display: flex;
-                justify-content: space-between;
+        padding-top: 2.6042vw;
 
-                .item-list {
-                    position: relative;
+        .growUp-title {
+            text-align: center;
+        }
 
-                    width: 32.41%;
-                    background: #FFFFFF;
-                    border: 1px solid #707070;
-                    font-optical-sizing: 0.71;
-                    border-radius: 5px;
-                    height: 21.875;
+        .growUp-item {
+            margin-top: 2.552vw;
 
-                    ul {
+            li {
+                width: 32.307692%;
+                border: 1px solid rgba(112, 112, 112, 0.71);
+                border-radius: 5px;
 
-                        padding: 1vw 2vw 29px 3vw;
+                .text-desc {
+                    margin: 1.4062vw 0.9375vw;
+                    align-items: flex-start;
+                }
 
-                        li {
-                            position: relative;
-                            height: 10vw;
+                .zhengfangxing {
+                    display: inline-block;
+                    margin-top: 5px;
+                    width: 12px;
+                    height: 12px;
+                    background: #090909;
+                }
 
-                            .item-title {
-                                font-size: 0.9375vw;
-                                font-weight: 500;
-                                padding: 4px 0 4px 0;
-                            }
+                .wenzi {
 
-                            .item-text {
-                                font-size: 0.833vw;
-                                line-height: 1.46vw;
-                            }
-                        }
+                    max-width: 350px;
+                    width: 100%;
+                    margin-left: 10px;
 
-                        li::before {
-                            position: absolute;
-                            content: "";
-                            display: block;
-                            width: 10px;
-                            height: 10px;
-                            background: #000000;
-                            /* margin: 0 auto; */
-                            left: -25px;
-                            top: 7px;
-                        }
+                    .title {
+                        margin-bottom: 0.9375vw;
                     }
-
-
                 }
-
-                .item-befter-one::before,
-                .item-befter-two::before,
-                .item-befter-three::before {
-                    font-size: 2.5vw;
-                    position: absolute;
-                    font-weight: 500;
-                    top: 10%;
-                    left: 50%;
-                    transform: translate(-50%, -40%);
-                    color: #FFFFFF;
-                }
-
-                .item-befter-one::before {
-                    content: "深造";
-                }
-
-                .item-befter-two::before {
-                    content: "就业";
-                }
-
-                .item-befter-three::before {
-                    content: "出国";
-                }
-
-                .active {
-                    display: none;
-                }
-
             }
         }
     }
 
-
+    // 报考咨询方式
     .consult {
+        padding: 2.4479vw 0 5.885vw;
 
-        .consult-main {
+        .consult-title {
+            text-align: center;
+            color: #0266C1;
+            line-height: 1;
+        }
 
-            .consult-title {
-                padding: 0;
-            }
+        .consult-mian-title {
+            margin: 2.4479vw 0;
+            text-indent: 2em;
 
-            .consult-mian-title {
-                text-indent: 30px;
-                /* 设置文本缩进为20像素 */
-                font-size: 0.833vw;
-                margin: 2.604vw auto;
-            }
+        }
 
-            .main-item {
-                display: flex;
-                justify-content: space-between;
-                color: #FFFFFF;
-                flex-wrap: wrap;
+        .main-item {
+            color: #FFFFFF;
 
-                .main-content {
-                    width: calc(33% - 10px);
-                    background: linear-gradient(45deg, #0065C1 0%, #3B92D7 100%);
-                    border-radius: 5px;
-                    padding: 19px 20px 19px 20px;
+            .main-content {
+                width: 32.307692%;
+                background: linear-gradient(45deg, #0065C1 0%, #3B92D7 100%);
+                border-radius: 5px;
+                padding: 1.667vw 2.135vw;
 
-                    .main-title {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        font-size: 1.5625vw;
-                    }
-
-                    .main-hr {
-
-                        background-color: rgba(255, 255, 255, 0.25)
-                    }
-
-                    .main-content-list {}
+                .main-title {
+                    text-align: center;
+                    line-height: 0.9334;
                 }
 
-                .main-lianxi {
-                    .main-content-list {
-                        ul {
-                            // font-size: 0.833vw;
-                            padding: 19px 20px 0 20px;
+                .main-hr {
+                    margin: 18px 0;
+                    background-color: rgba(255, 255, 255, 0.25)
+                }
+            }
 
-                            li {
-                                display: flex;
-                                /* margin-bottom: 2.083vw; */
-                                padding: 10px 0 10px 0;
+            .main-lianxi {
+                .main-content-list {
+                    ul {
 
-                                .list-img {
-                                    display: inline-block;
+                        li {
+                            display: flex;
+                            margin-bottom: 2.083vw;
+                            align-items: center;
 
-                                    img {
-                                        width: 4.635vw;
-                                    }
-                                }
+                            &:last-child {
+                                margin-bottom: 1.074vw;
+                            }
 
+                            .list-text {
 
-                                .list-text {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: end;
-                                    padding: 0px 0 10px 13px;
-                                    width: calc;
-                                    font-size: 12px;
-                                    width: calc(75%);
-                                    letter-spacing: .1vw;
+                                margin-left: 1.458vw;
 
-                                    p {
-                                        padding-top: 5px;
-                                    }
-                                }
                             }
                         }
                     }
                 }
+            }
 
-                .main-map {
-                    .main-map-conent {
-                        padding: 1.875vw 1.979vw 2.344vw 2.135vw;
+            .main-map {
+                .main-map-conent {
+                    position: relative;
+                    overflow: hidden;
+                    width: 100%;
+                    height: 100%;
 
-                        p {
-                            text-align: center;
-                            font-size: 12px;
-                        }
-
-                        .map-text-one {
-                            font-size: 12px;
-                            padding: 5px 0 20px 0;
-                        }
-
-                        img {
-                            width: 100%;
-                            height: 100%;
-                            padding: 20px 0 20px 0;
-                        }
+                    .addrens {
+                        margin: 1.25vw 0;
+                        line-height: 2;
 
                     }
 
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        transition: transform 0.3s ease-in-out;
+                    }
+
+                    &:hover {
+                        img {
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    p {
+                        text-align: center;
+                    }
+
+
+
                 }
+
             }
         }
+
     }
 
 
@@ -403,6 +336,8 @@ main {
                 }
             }
         }
+
+
     }
 }
 
@@ -430,6 +365,51 @@ main {
 
 
                         .financially-title {}
+                    }
+                }
+            }
+        }
+
+        .growUp {
+            .growUp-item {
+                flex-direction: column;
+
+                li {
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .text-desc {
+                        margin: 2.4062vw 1.9375vw;
+                    }
+                }
+            }
+        }
+
+        .consult {
+            .main-item {
+                flex-direction: column;
+
+                .main-lianxi {
+                    .main-content-list {
+                        ul {
+                            li {
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+
+                .main-content {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    padding: 26px 12px;
+
+                    img {
+                        width: 100%;
                     }
                 }
             }
@@ -482,6 +462,75 @@ main {
 
                         .financially-title {
                             margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .growUp {
+            padding-top: 50px;
+        }
+
+        .growUp-item {
+            margin-top: 49px;
+
+            li {
+                width: 32.307692%;
+
+                .text-desc {
+                    margin: 27px 18px;
+                }
+
+                .wenzi {
+                    .title {
+                        color: #000;
+                        margin-bottom: 0.9375vw;
+                    }
+                }
+            }
+        }
+
+        .consult {
+            padding: 47px 0 113px;
+
+            .consult-mian-title {
+                margin: 47px 0;
+
+            }
+
+            .main-item {
+
+                .main-content {
+                    padding: 32px 41px;
+                }
+
+                .main-lianxi {
+                    .main-content-list {
+                        ul {
+                            li {
+                                margin-bottom: 40px;
+
+                                &:last-child {
+                                    margin-bottom: 21px;
+                                }
+
+                                .list-text {
+                                    margin-left: 28px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .main-map {
+                    .main-map-conent {
+                        .addrens {
+                            margin: 26.01px 0;
+                        }
+
+                        img {
+                            height: 232px;
                         }
                     }
                 }

@@ -129,7 +129,8 @@ html {
     .bannerImg {
         width: 100%;
         max-width: 100%;
-        max-height: 100%;
+        max-height: 500px;
+        height: 100%;
         object-fit: cover;
     }
 
@@ -248,14 +249,11 @@ html {
                     flex: 1;
                     margin-left: 7px;
                     padding-bottom: 13px;
-                    border-bottom: 1px solid #767373;
+                    border-bottom: 1px solid rgba(118, 115, 115, 0.24);
 
                     span {
                         max-width: 515px;
                         width: 90%;
-                        // white-space: nowrap;
-                        // overflow: hidden;
-                        // text-overflow: ellipsis;
                     }
                 }
             }

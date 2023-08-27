@@ -1,42 +1,25 @@
-@charset "UTF-8";
 main {
-  line-height: 1.5;
-  padding-bottom: 4.565vw;
+  line-height: 1.75;
 }
-
 main .top-bj img {
   width: 100%;
 }
-
-main .content-main {
-  padding: 2.9167vw 0 1.771vw;
-}
-
-main .content-main .content-title {
-  color: #0166C0;
-  text-align: center;
-}
-
 main .application-content {
   margin-top: 2.396vw;
 }
-
 main .application-content .application-item {
   width: 48.154%;
 }
-
 main .application-content .application-item .application-item-title {
   padding: 1.146vw 0;
   background: linear-gradient(83deg, #0065C0 0%, #3A91D8 100%);
   color: #FFFFFF;
   text-align: center;
 }
-
 main .application-content .application-item .application-item-title h3 {
   font-weight: 200;
   line-height: 1;
 }
-
 main .application-content .application-item .list {
   background: #F8FAFA;
   border: 1px solid #9FA0A1;
@@ -45,58 +28,47 @@ main .application-content .application-item .list {
   color: #090909;
   padding: 1.771vw 2.135vw;
 }
-
 main .application-content .application-item .list .list-item {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
   margin-bottom: 8px;
 }
-
 main .application-content .application-item .list .list-item:last-child {
   margin-bottom: 0;
 }
-
 main .application-content .application-item .list .list-item .item-last {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
-
 main .application-content .application-item .list .list-item .application-icon {
   margin-right: 16px;
 }
-
 main .school {
   background: #ecf3f3;
 }
-
 main .school .school-main {
   padding: 2.29vw 0;
 }
-
 main .school .school-main .school-title {
   color: #0166C0;
   text-align: center;
 }
-
 main .school .school-main .school-list {
   margin-top: 3.125vw;
 }
-
 main .school .school-main .school-list .school-item {
   width: 32.692308%;
   margin-bottom: 21px;
   position: relative;
 }
-
 main .school .school-main .school-list .school-item .school-img {
   width: 100%;
   height: 100%;
   position: relative;
   overflow: hidden;
 }
-
 main .school .school-main .school-list .school-item .school-img img {
   width: 100%;
   height: 100%;
@@ -105,12 +77,10 @@ main .school .school-main .school-list .school-item .school-img img {
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
-
 main .school .school-main .school-list .school-item .school-img:hover img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
-
 main .school .school-main .school-list .school-item .school-text {
   position: absolute;
   width: 100%;
@@ -121,23 +91,19 @@ main .school .school-main .school-list .school-item .school-text {
   padding: 15px 17px;
   line-height: 1;
 }
-
 main .financially {
   margin-top: 22px;
   padding: 3.021vw 0;
   background: url(../img/apply/financially-bj.png) no-repeat;
   background-size: 100% 100%;
 }
-
 main .financially .financially-title {
   text-align: center;
   color: #fff;
 }
-
 main .financially .financially-main .financially-item {
-  padding-top: 4.010vw;
+  padding-top: 4.01vw;
 }
-
 main .financially .financially-main .financially-item li {
   width: 22.769231%;
   margin-bottom: 2.0833vw;
@@ -147,200 +113,114 @@ main .financially .financially-main .financially-item li {
   color: #FFFFFF;
   padding: 12px 15px 23px 15px;
 }
-
 main .financially .financially-main .financially-item li .financially-title {
   margin-bottom: 1.42vw;
   padding-bottom: 13px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-
-main .growUp .growUp-main .growUp-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+main .growUp {
+  padding-top: 2.6042vw;
 }
-
-main .growUp .growUp-main .growUp-item .item-list {
-  position: relative;
-  width: 32.41%;
-  background: #FFFFFF;
-  border: 1px solid #707070;
-  font-optical-sizing: 0.71;
+main .growUp .growUp-title {
+  text-align: center;
+}
+main .growUp .growUp-item {
+  margin-top: 2.552vw;
+}
+main .growUp .growUp-item li {
+  width: 32.307692%;
+  border: 1px solid rgba(112, 112, 112, 0.71);
   border-radius: 5px;
-  height: 21.875;
 }
-
-main .growUp .growUp-main .growUp-item .item-list ul {
-  padding: 1vw 2vw 29px 3vw;
+main .growUp .growUp-item li .text-desc {
+  margin: 1.4062vw 0.9375vw;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
-
-main .growUp .growUp-main .growUp-item .item-list ul li {
-  position: relative;
-  height: 10vw;
+main .growUp .growUp-item li .zhengfangxing {
+  display: inline-block;
+  margin-top: 5px;
+  width: 12px;
+  height: 12px;
+  background: #090909;
 }
-
-main .growUp .growUp-main .growUp-item .item-list ul li .item-title {
-  font-size: 0.9375vw;
-  font-weight: 500;
-  padding: 4px 0 4px 0;
+main .growUp .growUp-item li .wenzi {
+  max-width: 350px;
+  width: 100%;
+  margin-left: 10px;
 }
-
-main .growUp .growUp-main .growUp-item .item-list ul li .item-text {
-  font-size: 0.833vw;
-  line-height: 1.46vw;
+main .growUp .growUp-item li .wenzi .title {
+  margin-bottom: 0.9375vw;
 }
-
-main .growUp .growUp-main .growUp-item .item-list ul li::before {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  background: #000000;
-  /* margin: 0 auto; */
-  left: -25px;
-  top: 7px;
+main .consult {
+  padding: 2.4479vw 0 5.885vw;
 }
-
-main .growUp .growUp-main .growUp-item .item-befter-one::before,
-main .growUp .growUp-main .growUp-item .item-befter-two::before,
-main .growUp .growUp-main .growUp-item .item-befter-three::before {
-  font-size: 2.5vw;
-  position: absolute;
-  font-weight: 500;
-  top: 10%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -40%);
-          transform: translate(-50%, -40%);
+main .consult .consult-title {
+  text-align: center;
+  color: #0266C1;
+  line-height: 1;
+}
+main .consult .consult-mian-title {
+  margin: 2.4479vw 0;
+  text-indent: 2em;
+}
+main .consult .main-item {
   color: #FFFFFF;
 }
-
-main .growUp .growUp-main .growUp-item .item-befter-one::before {
-  content: "深造";
-}
-
-main .growUp .growUp-main .growUp-item .item-befter-two::before {
-  content: "就业";
-}
-
-main .growUp .growUp-main .growUp-item .item-befter-three::before {
-  content: "出国";
-}
-
-main .growUp .growUp-main .growUp-item .active {
-  display: none;
-}
-
-main .consult .consult-main .consult-title {
-  padding: 0;
-}
-
-main .consult .consult-main .consult-mian-title {
-  text-indent: 30px;
-  /* 设置文本缩进为20像素 */
-  font-size: 0.833vw;
-  margin: 2.604vw auto;
-}
-
-main .consult .consult-main .main-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #FFFFFF;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-main .consult .consult-main .main-item .main-content {
-  width: calc(33% - 10px);
+main .consult .main-item .main-content {
+  width: 32.307692%;
   background: linear-gradient(45deg, #0065C1 0%, #3B92D7 100%);
   border-radius: 5px;
-  padding: 19px 20px 19px 20px;
+  padding: 1.667vw 2.135vw;
 }
-
-main .consult .consult-main .main-item .main-content .main-title {
+main .consult .main-item .main-content .main-title {
+  text-align: center;
+  line-height: 0.9334;
+}
+main .consult .main-item .main-content .main-hr {
+  margin: 18px 0;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+main .consult .main-item .main-lianxi .main-content-list ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 2.083vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 1.5625vw;
 }
-
-main .consult .consult-main .main-item .main-content .main-hr {
-  background-color: rgba(255, 255, 255, 0.25);
+main .consult .main-item .main-lianxi .main-content-list ul li:last-child {
+  margin-bottom: 1.074vw;
 }
-
-main .consult .consult-main .main-item .main-lianxi .main-content-list ul {
-  padding: 19px 20px 0 20px;
+main .consult .main-item .main-lianxi .main-content-list ul li .list-text {
+  margin-left: 1.458vw;
 }
-
-main .consult .consult-main .main-item .main-lianxi .main-content-list ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  /* margin-bottom: 2.083vw; */
-  padding: 10px 0 10px 0;
-}
-
-main .consult .consult-main .main-item .main-lianxi .main-content-list ul li .list-img {
-  display: inline-block;
-}
-
-main .consult .consult-main .main-item .main-lianxi .main-content-list ul li .list-img img {
-  width: 4.635vw;
-}
-
-main .consult .consult-main .main-item .main-lianxi .main-content-list ul li .list-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  padding: 0px 0 10px 13px;
-  width: calc;
-  font-size: 12px;
-  width: calc(75%);
-  letter-spacing: .1vw;
-}
-
-main .consult .consult-main .main-item .main-lianxi .main-content-list ul li .list-text p {
-  padding-top: 5px;
-}
-
-main .consult .consult-main .main-item .main-map .main-map-conent {
-  padding: 1.875vw 1.979vw 2.344vw 2.135vw;
-}
-
-main .consult .consult-main .main-item .main-map .main-map-conent p {
-  text-align: center;
-  font-size: 12px;
-}
-
-main .consult .consult-main .main-item .main-map .main-map-conent .map-text-one {
-  font-size: 12px;
-  padding: 5px 0 20px 0;
-}
-
-main .consult .consult-main .main-item .main-map .main-map-conent img {
+main .consult .main-item .main-map .main-map-conent {
+  position: relative;
+  overflow: hidden;
   width: 100%;
   height: 100%;
-  padding: 20px 0 20px 0;
+}
+main .consult .main-item .main-map .main-map-conent .addrens {
+  margin: 1.25vw 0;
+  line-height: 2;
+}
+main .consult .main-item .main-map .main-map-conent img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+main .consult .main-item .main-map .main-map-conent:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+main .consult .main-item .main-map .main-map-conent p {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -364,7 +244,6 @@ main .consult .consult-main .main-item .main-map .main-map-conent img {
     width: 30.33%;
   }
 }
-
 @media screen and (max-width: 576px) {
   main .school .school-main .school-list .school-item {
     width: 100%;
@@ -372,8 +251,40 @@ main .consult .consult-main .main-item .main-map .main-map-conent img {
   main .financially .financially-main .financially-item li {
     width: 48%;
   }
+  main .growUp .growUp-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .growUp .growUp-item li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  main .growUp .growUp-item li img {
+    width: 100%;
+  }
+  main .growUp .growUp-item li .text-desc {
+    margin: 2.4062vw 1.9375vw;
+  }
+  main .consult .main-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .consult .main-item .main-lianxi .main-content-list ul li {
+    margin-bottom: 15px;
+  }
+  main .consult .main-item .main-content {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 26px 12px;
+  }
+  main .consult .main-item .main-content img {
+    width: 100%;
+  }
 }
-
 @media screen and (min-width: 1920px) {
   main .content-main {
     padding: 56px 0 34px;
@@ -405,5 +316,45 @@ main .consult .consult-main .main-item .main-map .main-map-conent img {
   }
   main .financially .financially-main .financially-item li .financially-title {
     margin-bottom: 20px;
+  }
+  main .growUp {
+    padding-top: 50px;
+  }
+  main .growUp-item {
+    margin-top: 49px;
+  }
+  main .growUp-item li {
+    width: 32.307692%;
+  }
+  main .growUp-item li .text-desc {
+    margin: 27px 18px;
+  }
+  main .growUp-item li .wenzi .title {
+    color: #000;
+    margin-bottom: 0.9375vw;
+  }
+  main .consult {
+    padding: 47px 0 113px;
+  }
+  main .consult .consult-mian-title {
+    margin: 47px 0;
+  }
+  main .consult .main-item .main-content {
+    padding: 32px 41px;
+  }
+  main .consult .main-item .main-lianxi .main-content-list ul li {
+    margin-bottom: 40px;
+  }
+  main .consult .main-item .main-lianxi .main-content-list ul li:last-child {
+    margin-bottom: 21px;
+  }
+  main .consult .main-item .main-lianxi .main-content-list ul li .list-text {
+    margin-left: 28px;
+  }
+  main .consult .main-item .main-map .main-map-conent .addrens {
+    margin: 26.01px 0;
+  }
+  main .consult .main-item .main-map .main-map-conent img {
+    height: 232px;
   }
 }

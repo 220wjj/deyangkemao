@@ -512,13 +512,12 @@
     content: '';
     position: absolute;
     right: 0;
-    /* bottom: -6.1858%; */
     bottom: 0;
     width: 80%;
-    /* height:84.524%; */
+    background: url("../img/home/tese-bj.png") no-repeat center;
     height: 78.682%;
     z-index: 0;
-    background: #fff
+    background: red
 }
 
 .homea:before {
@@ -799,9 +798,9 @@
         text-align: center;
        
     }
-    .homea:after {
+    /* .homea:after {
         height: 72%;
-    }
+    } */
     .speciality-container .slide-item{
         width:50% !important;
     } 
