@@ -3,18 +3,22 @@ main .total-info {
   padding-bottom: 30px;
   background-color: #F8FAFA;
 }
+
 main .total-info .line {
   width: 100%;
   height: 1px;
   display: block;
   background-color: #fff;
 }
+
 main .learn-more {
   margin-top: 20px;
 }
+
 main .tabNav {
   position: relative;
 }
+
 main .tabNav li {
   width: 10.461538%;
   text-align: center;
@@ -24,91 +28,99 @@ main .tabNav li {
   cursor: pointer;
   padding: 20px 0;
 }
+
 main .tabNav li.current {
   background-color: #0166C1;
   color: #fff;
 }
+
 main .consult-tabNav li.current {
   background-color: #0166C1;
   color: #fff;
 }
+
 main .textCont {
   margin-bottom: 18px;
   padding-bottom: 18px;
   border-bottom: 3px solid rgba(118, 115, 115, 0.24);
 }
+
 main .textCont:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
 }
+
 main .top-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
+
 main .tabCon {
   margin-top: 20px;
   padding: 0 10px;
 }
+
 main .tabCon .time {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin-right: 16px;
   padding-right: 15px;
   border-right: 2px solid #1B6CAF;
 }
+
 main .tabCon .cont-left {
   width: 50.793%;
   cursor: pointer;
 }
+
 main .tabCon .cont-left .addrens {
   line-height: 1.875;
 }
+
 main .tabCon .cont-left .addrens img {
   margin-right: 6px;
 }
+
 main .tabCon .cont-right {
   width: 50.793%;
   cursor: pointer;
 }
+
 main .tabCon .cont-right .addrens {
   line-height: 1.875;
 }
+
 main .tabCon .cont-right .addrens img {
   margin-right: 6px;
 }
+
 main .guidance {
   background-color: #fff;
 }
+
 main .guidance .msg {
   margin: 20px auto;
 }
+
 main .guidance .msg-left {
   width: 18.154%;
   position: relative;
   margin-bottom: 15px;
 }
+
 main .guidance .msg-left .title {
   position: absolute;
   right: 8%;
   top: 10%;
   color: #fff;
 }
+
 main .guidance .msg-right {
   width: 80.538%;
 }
+
 main .guidance .msg-right li {
   width: 32.541%;
   max-height: 182px;
@@ -119,34 +131,35 @@ main .guidance .msg-right li {
   margin-bottom: 16px;
   cursor: pointer;
 }
+
 main .guidance .msg-right li div {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
+
 main .guidance .msg-right li div p {
   margin-bottom: 10px;
 }
+
 main .guidance .msg-right li div img {
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
+
 main .guidance .msg-right li div:hover img {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  transform: scale(0.9);
 }
+
 main .consult h3 {
   text-align: center;
 }
+
 main .consult .cont-left {
   width: 45.923%;
 }
+
 main .consult .cont-right {
   width: 45.923%;
 }
@@ -157,21 +170,22 @@ main .consult .cont-right {
     height: 45px;
   }
 }
+
 @media screen and (min-width: 992px) {
   main .total-info {
     margin-top: 3.0729vw;
     margin-bottom: 2.969vw;
-    padding-bottom: 4.896vw;
+    padding-bottom: 2.7604vw;
   }
   main .tabNav li {
-    padding: 2.76vw 0;
+    padding: 2.760vw 0;
   }
   main .textCont {
     margin-bottom: 1.667vw;
     padding-bottom: 1.1979vw;
   }
   main .tabCon {
-    margin-top: 3.0729vw;
+    margin-top: 2.6042vw;
     padding: 0 0.989vw;
   }
   main .tabCon .content {
@@ -195,11 +209,12 @@ main .consult .cont-right {
     height: 75px;
   }
 }
+
 @media screen and (min-width: 1920px) {
   main .total-info {
     margin-top: 59px;
     margin-bottom: 57px;
-    padding-bottom: 94px;
+    padding-bottom: 53px;
   }
   main .tabNav li {
     padding: 53px 0;
@@ -210,7 +225,7 @@ main .consult .cont-right {
   }
   main .tabCon {
     padding: 0 19px;
-    margin-top: 59px;
+    margin-top: 50px;
   }
   main .guidance .msg {
     margin: 74px auto 58px;
@@ -227,12 +242,10 @@ main .consult .cont-right {
     height: 109px;
   }
 }
+
 @media screen and (max-width: 768px) {
   main .textCont {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   main .tabCon {
     padding: 0;
@@ -294,45 +307,31 @@ main .consult .cont-right {
     width: 100%;
   }
   main .guidance .msg-right li div {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
   main .guidance .msg-right li div img {
     width: 54px;
     height: 45px;
   }
   main .consult .tabNav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   main .consult .tabNav li {
     padding: 20px 5px;
   }
 }
+
 @media screen and (max-width: 576px) {
   .fs24 {
     font-size: 14px;
   }
   main .guidance .msg {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   main .guidance .msg-right li div {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
