@@ -299,7 +299,9 @@ html {
         background-color: #EDECEC;
         border-radius: 0px 0px 4px 4px;
         margin-bottom: 18px;
-
+        position: relative;
+        overflow: hidden;
+        height: 100%;
         p {
             margin: 7px;
         }
@@ -320,6 +322,16 @@ html {
                 img {
                     transform: scale(0.9);
                 }
+            }
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease-in-out;
+        }
+        &:hover{
+            img{
+                transform: scale(0.9);
             }
         }
     }

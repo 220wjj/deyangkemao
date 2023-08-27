@@ -30,6 +30,9 @@ main .support-desc .support-list li .includeImg {
   margin-right: 8px;
   padding-top: 2.917vw;
   position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 main .support-desc .support-list li .includeImg h3 {
   position: absolute;
@@ -37,6 +40,18 @@ main .support-desc .support-list li .includeImg h3 {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+main .support-desc .support-list li .includeImg img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+main .support-desc .support-list li .includeImg:hover img {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 main .support-desc .support-list li .detail-desc {
   padding: 15px 3.0729vw;
@@ -57,7 +72,7 @@ main .counselor-team {
   background-size: 100%;
 }
 main .tema-desc .team-list {
-  margin-top: 3.4375vw;
+  margin-top: 2.292vw;
 }
 main .tema-desc .team-list li {
   width: 18.384615%;
@@ -102,11 +117,6 @@ main .teacher-photo:hover img {
     padding: 2.292vw 0 0;
   }
 }
-@media screen and (min-width: 992px) {
-  main .support-desc .support-list li {
-    cursor: pointer;
-  }
-}
 @media screen and (min-width: 1920px) {
   main .student-support {
     padding: 44px 0 0;
@@ -134,7 +144,7 @@ main .teacher-photo:hover img {
     padding-bottom: 44px;
   }
   main .tema-desc .team-list {
-    margin: 66px 0 0;
+    margin: 44px 0 0;
   }
   main .tema-desc .team-list li {
     margin-bottom: 55px;

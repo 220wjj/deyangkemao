@@ -163,7 +163,7 @@ main .consult .cont-right {
     padding-bottom: 2.7604vw;
   }
   main .tabNav li {
-    padding: 2.76vw 0;
+    padding: 1.5625vw 0;
   }
   main .textCont {
     margin-bottom: 1.667vw;
@@ -180,7 +180,7 @@ main .consult .cont-right {
     display: none;
   }
   main .guidance .msg {
-    margin: 2.8125vw auto;
+    margin: 1.458vw auto;
   }
   main .guidance .msg-left .title {
     right: 0.521vw;
@@ -200,7 +200,7 @@ main .consult .cont-right {
     padding-bottom: 53px;
   }
   main .tabNav li {
-    padding: 53px 0;
+    padding: 30px 0;
   }
   main .textCont {
     margin-bottom: 32px;
@@ -211,7 +211,7 @@ main .consult .cont-right {
     margin-top: 50px;
   }
   main .guidance .msg {
-    margin: 54px auto;
+    margin: 28px auto;
   }
   main .guidance .msg-left .title {
     right: 10px;
