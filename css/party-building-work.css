@@ -13,9 +13,6 @@ main .education {
   background-color: #f8fafa;
   padding: 30px 0;
 }
-main .education .main-education {
-  margin-bottom: 30px;
-}
 main .education .edu-title {
   margin-bottom: 30px;
   text-align: center;
@@ -68,7 +65,7 @@ main .education .swiper-pagination-bullets .swiper-pagination-bullet-active {
 main .banchprofile {
   width: 100%;
   height: 100%;
-  padding: 30px 0 40px;
+  padding: 20px 0;
   background: url("../img/partyBuilding/banchprofile.png") no-repeat center;
   background-size: 100% 100%;
 }
@@ -101,22 +98,22 @@ main .banchprofile .description .first-p {
 main .banchprofile .description p {
   text-indent: 2em;
 }
+main .branch-activity {
+  padding-top: 20px;
+}
 
 @media screen and (min-width: 992px) {
   main .education {
-    padding: 4.01vw 0 3.0729vw;
-  }
-  main .education .main-education {
-    margin-bottom: 3.0729vw;
+    padding: 2.292vw 0;
   }
   main .education .edu-title {
     margin-bottom: 2.2395vw;
   }
   main .banchprofile {
-    padding: 3.178vw 0 6.25vw;
+    padding: 2.292vw 0 6.25vw;
   }
   main .banchprofile .edu-title {
-    margin-bottom: 3.451vw;
+    margin-bottom: 2.292vw;
   }
   main .banchprofile .description .left-desc {
     padding: 2.8125vw 5vw 2.8125vw 3.021vw;
@@ -129,28 +126,31 @@ main .banchprofile .description p {
   main .banchprofile .description .first-p {
     margin-bottom: 2.234vw;
   }
+  main .branch-activity {
+    padding-top: 2.292vw;
+  }
 }
 @media screen and (min-width: 1920px) {
   main .education {
-    padding: 77px 0 59px;
-  }
-  main .education .main-education {
-    margin-bottom: 59px;
+    padding: 44px 0;
   }
   main .education .edu-title {
     margin-bottom: 43px;
   }
   main .banchprofile {
-    padding: 61px 0 120px;
+    padding: 44px 0 120px;
   }
   main .banchprofile .edu-title {
-    margin-bottom: 67px;
+    margin-bottom: 44px;
   }
   main .banchprofile .description .left-desc {
     padding: 54px 96px 54px 58px;
   }
   main .banchprofile .description .first-p {
     margin-bottom: 43px;
+  }
+  main .branch-activity {
+    padding-top: 44px;
   }
 }
 @media screen and (max-width: 1440px) {

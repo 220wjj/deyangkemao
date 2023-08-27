@@ -5,7 +5,7 @@ main {
 }
 main .top-nav {
   padding-top: 8px;
-  margin: 0px 0 16px;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,7 +49,7 @@ main .main-content .content-left section p {
   text-indent: 2em;
 }
 main .main-content .content-left section img {
-  margin: 30px auto;
+  margin: 20px auto;
 }
 main .main-content .content-right {
   width: 23.384615%;
@@ -192,7 +192,7 @@ main .main-content .content-right .latest-update li time {
     padding-bottom: 2.5521vw;
   }
   main .main-content .content-left .writing {
-    padding: 2.292vw 1.406vw;
+    padding: 1.25vw 1.406vw;
   }
   main .main-content .content-left .title {
     margin-bottom: 1.5635vw;
@@ -201,7 +201,7 @@ main .main-content .content-right .latest-update li time {
     margin: 1.979vw 0.885vw;
   }
   main .main-content .content-left section img {
-    margin: 3.229vw auto;
+    margin: 1.979vw auto;
   }
   main .main-content .content-right .accordion .zhedie {
     padding: 0.781vw 0 0.781vw 1.094vw;
@@ -224,7 +224,7 @@ main .main-content .content-right .latest-update li time {
     padding-bottom: 49px;
   }
   main .main-content .content-left .writing {
-    padding: 44px 27px 44px 33px;
+    padding: 24px 27px 44px 24px;
   }
   main .main-content .content-left .title {
     margin-bottom: 30px;
@@ -233,7 +233,7 @@ main .main-content .content-right .latest-update li time {
     margin: 38px 17px 0 13px;
   }
   main .main-content .content-left section img {
-    margin: 62px auto 69px;
+    margin: 38 auto;
   }
   main .main-content .content-right .accordion .zhedie {
     padding: 15px 0 15px 21px;
