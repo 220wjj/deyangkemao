@@ -1,21 +1,26 @@
 main {
   line-height: 1.5;
 }
-
+main .top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 main .college-content {
   background: url("../img/about/img.png") no-repeat;
 }
-
 main .college-content::before {
   width: 80%;
   position: absolute;
   right: 20%;
   top: 0%;
-  content: '';
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(white));
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0), white);
+  content: "";
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgb(255, 255, 255)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(255, 255, 255));
 }
-
 main .college-content .college-main {
   width: 100%;
   display: -webkit-box;
@@ -23,23 +28,19 @@ main .college-content .college-main {
   display: flex;
   padding: 3.4375vw 0 1.5104vw;
 }
-
 main .college-content .college-main .college-rigth {
   width: 50%;
   position: relative;
   margin-left: 50%;
 }
-
 main .college-content .college-main .college-rigth .rigth-title {
   font-size: 1.874vw;
   font-weight: 400;
   color: #1C1C1C;
 }
-
 main .college-content .college-main .college-rigth .number {
   margin: 4.3229vw 0 3.385vw;
 }
-
 main .college-content .college-main .college-rigth .number .wow {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,39 +49,31 @@ main .college-content .college-main .college-rigth .number .wow {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 main .college-content .college-main .college-rigth .number .wow li .num .number-text {
   font-size: 2.5vw;
   color: #1F81C8;
 }
-
 main .college-content .college-main .college-rigth .number .wow li .num span {
   color: #1F81C8;
 }
-
 main .college-content .college-main .college-rigth .number .wow li .txt {
   color: #8B8A8A;
   margin-top: -10px;
 }
-
 main .college-content .college-main .college-rigth .singePage p {
   margin-bottom: 1.719vw;
 }
-
 main .college-content .college-main .college-rigth .singePage p:last-child {
   margin-bottom: 4.1146vw;
 }
-
 main .college-content .college-main .college-rigth .cullist ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 main .college-content .college-main .college-rigth .cullist ul li .icon {
   padding: 0 10px 0 0;
 }
-
 main .college-content .college-main .college-rigth .cullist ul li .icon .iconfont {
   display: inline-block;
   background-size: cover;
@@ -88,41 +81,32 @@ main .college-content .college-main .college-rigth .cullist ul li .icon .iconfon
   width: 20px;
   height: 20px;
 }
-
 main .college-content .college-main .college-rigth .cullist ul li .icon .iconfont-one {
   background-image: url(../img/about/icon-1.png);
 }
-
 main .college-content .college-main .college-rigth .cullist ul li .icon .iconfont-two {
   background-image: url(../img/about/icon-2.png);
 }
-
 main .college-content .college-main .college-rigth .cullist ul li .icon .iconfont-three {
   background-image: url(../img/about/icon-3.png);
 }
-
 main .college-content .college-main .college-rigth .cullist ul li .txt {
-  color: #01ce73;
+  color: rgb(1, 206, 115);
 }
-
 main .mobaily {
   padding: 1.615vw 0 2.344vw;
   background: url(../img/about/bj.png);
 }
-
 main .mobaily-main .mobaily-title {
   text-align: center;
   color: #fff;
 }
-
 main .mobaily-main .mobaily-content {
   margin: 2.708vw 0;
 }
-
 main .mobaily-main .mobaily-content .mobaily-item {
   width: 30.769%;
 }
-
 main .mobaily-main .mobaily-content .mobaily-item .item-img {
   width: 173px;
   height: 173px;
@@ -130,7 +114,6 @@ main .mobaily-main .mobaily-content .mobaily-item .item-img {
   position: relative;
   overflow: hidden;
 }
-
 main .mobaily-main .mobaily-content .mobaily-item .item-img img {
   width: 100%;
   height: 100%;
@@ -139,12 +122,10 @@ main .mobaily-main .mobaily-content .mobaily-item .item-img img {
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
-
 main .mobaily-main .mobaily-content .mobaily-item .item-img:hover img {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
-
 main .mobaily-main .mobaily-content .item-text {
   margin-top: 2.2395vw;
   background-color: rgba(0, 0, 0, 0.12);
@@ -152,18 +133,15 @@ main .mobaily-main .mobaily-content .item-text {
   color: #FFFFFF;
   padding: 1vw;
 }
-
 main .mobaily-main .mobaily-content .item-text .text-title {
   padding-bottom: 10px;
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-
 main .mobaily-main .mobaily-content .item-text .text {
   font-weight: 400;
   padding-top: 1.3021vw;
 }
-
 main .mobaily-main .mobaily-footer a {
   background: #F57C40;
   border-radius: 20px;
@@ -172,48 +150,38 @@ main .mobaily-main .mobaily-footer a {
   color: #FFFFFF;
   padding: 12px 0;
 }
-
 main .develop {
   padding: 3.542vw 0 5.1042vw;
   background: #F8FAFA;
 }
-
 main .develop .develop-main .develop-title {
   color: #010101;
   text-align: left;
 }
-
 main .develop .develop-main .develop-content .text {
   margin: 2.292vw 0 2.7083vw;
 }
-
 main .develop .develop-main .develop-content .pc-img-show {
   margin: 0 auto;
 }
-
 main .develop .develop-main .develop-content .pc--img-hide {
   display: none;
 }
-
 main .institution {
   padding: 3.28125vw 0;
   background: url(../img/about/shezhi.png) no-repeat center;
   background-size: 100% 100%;
 }
-
 main .institution .institution-title {
   text-align: center;
   color: #fff;
 }
-
 main .institution .institution-list {
   margin-top: 4.21875vw;
 }
-
 main .institution .institution-list .institution-item {
   width: 25%;
 }
-
 main .institution .institution-list .institution-item .title {
   margin: 0 auto;
   border-radius: 30px;
@@ -224,19 +192,16 @@ main .institution .institution-list .institution-item .title {
   padding: 10px 0;
   font-size: 15px;
 }
-
 main .institution .institution-list .institution-item .text-one {
   margin: 2.292vw 0 1.771vw;
   padding-bottom: 2.08vw;
   border-bottom: 1px solid rgba(255, 255, 255, 0.34);
 }
-
 main .institution .institution-list .institution-item p {
   color: #fff;
   line-height: 1.71;
   padding: 0 30px;
 }
-
 main .splendid .splendid-title {
   margin: 31px 0 38px !important;
 }
@@ -247,7 +212,6 @@ main .splendid .splendid-title {
     margin-bottom: 30px;
   }
 }
-
 @media screen and (max-width: 768px) {
   main .main-content .college-content {
     background: #fff;
@@ -272,7 +236,6 @@ main .splendid .splendid-title {
     padding: 15px;
   }
 }
-
 @media screen and (max-width: 576px) {
   main .mobaily {
     margin-top: 15px;
@@ -313,7 +276,6 @@ main .splendid .splendid-title {
     padding: 0 !important;
   }
 }
-
 @media screen and (min-width: 1920px) {
   main .main-content .college-content .college-main {
     padding: 66px 0 29px;

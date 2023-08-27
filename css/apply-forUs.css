@@ -1,31 +1,38 @@
 main {
   line-height: 1.75;
 }
-
-main .top-bj img {
-  width: 100%;
+main .top-bj {
+  height: 100vh;
+  background-color: #061E4D;
+  position: relative;
 }
-
+main .top-bj #cas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
 main .application-content {
   margin-top: 2.396vw;
 }
-
 main .application-content .application-item {
   width: 48.154%;
 }
-
 main .application-content .application-item .application-item-title {
   padding: 1.146vw 0;
   background: linear-gradient(83deg, #0065C0 0%, #3A91D8 100%);
   color: #FFFFFF;
   text-align: center;
 }
-
 main .application-content .application-item .application-item-title h3 {
   font-weight: 200;
   line-height: 1;
 }
-
 main .application-content .application-item .list {
   background: #F8FAFA;
   border: 1px solid #9FA0A1;
@@ -34,58 +41,47 @@ main .application-content .application-item .list {
   color: #090909;
   padding: 1.771vw 2.135vw;
 }
-
 main .application-content .application-item .list .list-item {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
   margin-bottom: 8px;
 }
-
 main .application-content .application-item .list .list-item:last-child {
   margin-bottom: 0;
 }
-
 main .application-content .application-item .list .list-item .item-last {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
-
 main .application-content .application-item .list .list-item .application-icon {
   margin-right: 16px;
 }
-
 main .school {
   background: #ecf3f3;
 }
-
 main .school .school-main {
   padding: 2.29vw 0;
 }
-
 main .school .school-main .school-title {
   color: #0166C0;
   text-align: center;
 }
-
 main .school .school-main .school-list {
   margin-top: 3.125vw;
 }
-
 main .school .school-main .school-list .school-item {
   width: 32.692308%;
   margin-bottom: 21px;
   position: relative;
 }
-
 main .school .school-main .school-list .school-item .school-img {
   width: 100%;
   height: 100%;
   position: relative;
   overflow: hidden;
 }
-
 main .school .school-main .school-list .school-item .school-img img {
   width: 100%;
   height: 100%;
@@ -94,12 +90,10 @@ main .school .school-main .school-list .school-item .school-img img {
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
-
 main .school .school-main .school-list .school-item .school-img:hover img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
-
 main .school .school-main .school-list .school-item .school-text {
   position: absolute;
   width: 100%;
@@ -110,23 +104,19 @@ main .school .school-main .school-list .school-item .school-text {
   padding: 15px 17px;
   line-height: 1;
 }
-
 main .financially {
   margin-top: 22px;
   padding: 3.021vw 0;
   background: url(../img/apply/financially-bj.png) no-repeat;
   background-size: 100% 100%;
 }
-
 main .financially .financially-title {
   text-align: center;
   color: #fff;
 }
-
 main .financially .financially-main .financially-item {
-  padding-top: 4.010vw;
+  padding-top: 4.01vw;
 }
-
 main .financially .financially-main .financially-item li {
   width: 22.769231%;
   margin-bottom: 2.0833vw;
@@ -136,38 +126,31 @@ main .financially .financially-main .financially-item li {
   color: #FFFFFF;
   padding: 12px 15px 23px 15px;
 }
-
 main .financially .financially-main .financially-item li .financially-title {
   margin-bottom: 1.42vw;
   padding-bottom: 13px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-
 main .growUp {
   padding-top: 2.6042vw;
 }
-
 main .growUp .growUp-title {
   text-align: center;
 }
-
 main .growUp .growUp-item {
   margin-top: 2.552vw;
 }
-
 main .growUp .growUp-item li {
   width: 32.307692%;
   border: 1px solid rgba(112, 112, 112, 0.71);
   border-radius: 5px;
 }
-
 main .growUp .growUp-item li .text-desc {
   margin: 1.4062vw 0.9375vw;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
-
 main .growUp .growUp-item li .zhengfangxing {
   display: inline-block;
   margin-top: 5px;
@@ -175,53 +158,43 @@ main .growUp .growUp-item li .zhengfangxing {
   height: 12px;
   background: #090909;
 }
-
 main .growUp .growUp-item li .wenzi {
   max-width: 350px;
   width: 100%;
   margin-left: 10px;
 }
-
 main .growUp .growUp-item li .wenzi .title {
   margin-bottom: 0.9375vw;
 }
-
 main .consult {
   padding: 2.4479vw 0 5.885vw;
 }
-
 main .consult .consult-title {
   text-align: center;
   color: #0266C1;
   line-height: 1;
 }
-
 main .consult .consult-mian-title {
   margin: 2.4479vw 0;
   text-indent: 2em;
 }
-
 main .consult .main-item {
   color: #FFFFFF;
 }
-
 main .consult .main-item .main-content {
   width: 32.307692%;
   background: linear-gradient(45deg, #0065C1 0%, #3B92D7 100%);
   border-radius: 5px;
   padding: 1.667vw 2.135vw;
 }
-
 main .consult .main-item .main-content .main-title {
   text-align: center;
   line-height: 0.9334;
 }
-
 main .consult .main-item .main-content .main-hr {
   margin: 18px 0;
   background-color: rgba(255, 255, 255, 0.25);
 }
-
 main .consult .main-item .main-lianxi .main-content-list ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -231,27 +204,22 @@ main .consult .main-item .main-lianxi .main-content-list ul li {
       -ms-flex-align: center;
           align-items: center;
 }
-
 main .consult .main-item .main-lianxi .main-content-list ul li:last-child {
   margin-bottom: 1.074vw;
 }
-
 main .consult .main-item .main-lianxi .main-content-list ul li .list-text {
   margin-left: 1.458vw;
 }
-
 main .consult .main-item .main-map .main-map-conent {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-
 main .consult .main-item .main-map .main-map-conent .addrens {
   margin: 1.25vw 0;
   line-height: 2;
 }
-
 main .consult .main-item .main-map .main-map-conent img {
   width: 100%;
   height: 100%;
@@ -260,12 +228,10 @@ main .consult .main-item .main-map .main-map-conent img {
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
-
 main .consult .main-item .main-map .main-map-conent:hover img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
-
 main .consult .main-item .main-map .main-map-conent p {
   text-align: center;
 }
@@ -291,7 +257,6 @@ main .consult .main-item .main-map .main-map-conent p {
     width: 30.33%;
   }
 }
-
 @media screen and (max-width: 576px) {
   main .school .school-main .school-list .school-item {
     width: 100%;
@@ -333,7 +298,6 @@ main .consult .main-item .main-map .main-map-conent p {
     width: 100%;
   }
 }
-
 @media screen and (min-width: 1920px) {
   main .content-main {
     padding: 56px 0 34px;
