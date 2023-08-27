@@ -1,3 +1,6 @@
+AOS.init({   
+  disable: 'mobile' //禁止在小屏幕设备中使用
+});
 
 
 $(window).scroll(function(){  
