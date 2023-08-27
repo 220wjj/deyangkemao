@@ -1,21 +1,20 @@
 main {
     line-height: 1.5;
 
-    .top-nav{
-        display:flex;
+    .top-nav {
+        display: flex;
         align-items: center;
     }
+
     // 学院介绍
     .college-content {
         background: url("../img/about/img.png") no-repeat;
-        // background-size: 100% 100%;
 
         &::before {
             width: 80%;
             position: absolute;
             right: 20%;
             top: 0%;
-            // height: 100%;
             content: '';
             background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
         }
@@ -23,7 +22,7 @@ main {
         .college-main {
             width: 100%;
             display: flex;
-            padding: 3.4375vw 0 1.5104vw;
+            padding: 2.292vw 0 3.645vw;
 
             .college-rigth {
                 width: 50%;
@@ -39,7 +38,7 @@ main {
                 }
 
                 .number {
-                    margin: 4.3229vw 0 3.385vw;
+                    margin: 2.604vw 0;
 
                     .wow {
                         display: flex;
@@ -124,7 +123,7 @@ main {
 
     // 管理团队
     .mobaily {
-        padding: 1.615vw 0 2.344vw;
+        // padding: 1.615vw 0;
         background: url(../img/about/bj.png);
     }
 
@@ -135,7 +134,7 @@ main {
         }
 
         .mobaily-content {
-            margin: 2.708vw 0;
+            margin: 2.239vw 0;
 
             .mobaily-item {
                 width: 30.769%;
@@ -199,7 +198,7 @@ main {
 
     // 学院发展
     .develop {
-        padding: 3.542vw 0 5.1042vw;
+        padding: 2.292vw 0 3.646vw;
         background: #F8FAFA;
 
         .develop-main {
@@ -227,7 +226,7 @@ main {
     }
 
     .institution {
-        padding: 3.28125vw 0;
+        padding: 20px 0;
         background: url(../img/about/shezhi.png) no-repeat center;
         background-size: 100% 100%;
 
@@ -237,7 +236,7 @@ main {
         }
 
         .institution-list {
-            margin-top: 4.21875vw;
+            margin-top: 2.292vw;
 
             .institution-item {
                 width: 25%;
@@ -278,7 +277,7 @@ main {
     // 精彩瞬间
     .splendid {
         .splendid-title {
-            margin: 31px 0 38px !important;
+            margin: 2.292vw 0 !important;
         }
     }
 
@@ -288,6 +287,7 @@ main {
 @media screen and (max-width:992px) {
     main {
         .institution {
+           
             .institution-list {
                 .institution-item {
                     width: 48%;
@@ -339,6 +339,20 @@ main {
             }
         }
 
+        .develop {
+            .develop-main {
+                .develop-content {
+                    .pc--img-hide {
+                        display: block;
+                        margin-bottom: 20px;
+                    }
+
+                    .pc-img-show {
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -351,9 +365,10 @@ main {
 
         .main-content {
             .content {
+               
                 .content-main {
                     background-color: transparent;
-                    padding: 0;
+                    // padding: 20px 0;
                 }
             }
 
@@ -434,11 +449,11 @@ main {
         .main-content {
             .college-content {
                 .college-main {
-                    padding: 66px 0 29px;
+                    padding: 44px 0 70px;
 
                     .college-rigth {
                         .number {
-                            margin: 83px 0 65px;
+                            margin: 50px 0;
                         }
 
                         .singePage {
@@ -457,10 +472,10 @@ main {
 
         // 管理团队
         .mobaily {
-            padding: 31px 0 45px;
+            padding: 31px 0;
 
             .mobaily-content {
-                margin: 55px 0;
+                margin: 43px 0;
 
                 .item-text {
                     margin-top: 43px;
@@ -475,7 +490,7 @@ main {
 
         // 学院发展
         .develop {
-            padding: 68px 0 98px;
+            padding: 44px 0 70px;
 
             .develop-main {
                 .develop-content {
@@ -488,10 +503,10 @@ main {
 
         // 机构设置
         .institution {
-            padding: 63px 0;
+            padding: 44px 0;
 
             .institution-list {
-                margin-top: 81px;
+                margin-top: 44px;
 
                 .institution-item {
                     .text-one {
@@ -501,6 +516,11 @@ main {
                     }
                 }
 
+            }
+        }
+        .splendid {
+            .splendid-title{
+                margin: 44px 0;
             }
         }
     }

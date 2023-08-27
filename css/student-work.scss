@@ -41,13 +41,25 @@ main {
                     margin-right: 8px;
                     padding-top: 2.917vw;
                     position: relative;
-
+                    overflow: hidden;
+                    width: 100%;
+                    height: 100%;
                     h3 {
                         position: absolute;
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
 
+                    }
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        transition: transform 0.3s ease-in-out;
+                    }
+                    &:hover{
+                        img{
+                            transform: scale(0.9);
+                        }
                     }
                 }
 
@@ -75,7 +87,7 @@ main {
 
     .tema-desc {
         .team-list {
-            margin-top: 3.4375vw;
+            margin-top:2.292vw;
 
             li {
                 width: 18.384615%;
@@ -134,21 +146,7 @@ main {
     }
 }
 
-@media screen and (min-width:992px) {
-    main {
-        .support-desc {
-            .support-list {
-                li {
-                    cursor: pointer;
-                    .includeImg {
-                        // padding-top:2.917vw;
-                    }
 
-                }
-            }
-        }
-    }
-}
 
 @media screen and (min-width:1440px) {}
 
@@ -197,7 +195,7 @@ main {
         .tema-desc {
 
             .team-list {
-                margin: 66px 0 0;
+                margin: 44px 0 0;
 
                 li {
                     margin-bottom: 55px;

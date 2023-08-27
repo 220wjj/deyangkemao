@@ -702,7 +702,13 @@ body {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-
+.line5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
 .line8 {
   overflow: hidden;
   text-overflow: ellipsis;
