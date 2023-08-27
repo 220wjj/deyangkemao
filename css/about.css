@@ -249,6 +249,9 @@ main .splendid .splendid-title {
   main .main-content .content .content-main {
     background-color: transparent;
   }
+  main .main-content .mobaily {
+    padding: 20px 0;
+  }
   main .main-content .mobaily .mobaily-main .mobaily-content .mobaily-item {
     width: 100%;
     padding-top: 10px;

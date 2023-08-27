@@ -1,5 +1,5 @@
 main {
-  line-height: 1.75;
+  line-height: 1.5;
 }
 main .top-nav {
   display: -webkit-box;
@@ -200,6 +200,9 @@ main .top-bj #parentContainer .app-wrapper .app-content:nth-child(11) {
   left: 58%;
   top: 10%;
 }
+main .content-main {
+  padding: 2.292vw;
+}
 main .application-content {
   margin-top: 2.396vw;
 }
@@ -207,7 +210,7 @@ main .application-content .application-item {
   width: 48.154%;
 }
 main .application-content .application-item .application-item-title {
-  padding: 1.146vw 0;
+  padding: 0.9375vw 0;
   background: linear-gradient(83deg, #0065C0 0%, #3A91D8 100%);
   color: #FFFFFF;
   text-align: center;
@@ -222,7 +225,7 @@ main .application-content .application-item .list {
   font-size: 0.9375vw;
   font-weight: 400;
   color: #090909;
-  padding: 1.771vw 2.135vw;
+  padding: 1.302vw 2.135vw;
 }
 main .application-content .application-item .list .list-item {
   -webkit-box-align: start;
@@ -241,6 +244,9 @@ main .application-content .application-item .list .list-item .item-last {
 main .application-content .application-item .list .list-item .application-icon {
   margin-right: 16px;
 }
+main .application-title {
+  line-height: 1;
+}
 main .school {
   background: #ecf3f3;
 }
@@ -252,7 +258,7 @@ main .school .school-main .school-title {
   text-align: center;
 }
 main .school .school-main .school-list {
-  margin-top: 3.125vw;
+  margin-top: 2.292vw;
 }
 main .school .school-main .school-list .school-item {
   width: 32.692308%;
@@ -289,7 +295,7 @@ main .school .school-main .school-list .school-item .school-text {
 }
 main .financially {
   margin-top: 22px;
-  padding: 3.021vw 0;
+  padding: 2.292vw 0 4px;
   background: url(../img/apply/financially-bj.png) no-repeat;
   background-size: 100% 100%;
 }
@@ -298,7 +304,7 @@ main .financially .financially-title {
   color: #fff;
 }
 main .financially .financially-main .financially-item {
-  padding-top: 4.01vw;
+  padding-top: 2.292vw;
 }
 main .financially .financially-main .financially-item li {
   width: 22.769231%;
@@ -315,13 +321,13 @@ main .financially .financially-main .financially-item li .financially-title {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 main .growUp {
-  padding-top: 2.6042vw;
+  padding-top: 2.292vw;
 }
 main .growUp .growUp-title {
   text-align: center;
 }
 main .growUp .growUp-item {
-  margin-top: 2.552vw;
+  margin-top: 2.292vw;
 }
 main .growUp .growUp-item li {
   width: 32.307692%;
@@ -350,7 +356,7 @@ main .growUp .growUp-item li .wenzi .title {
   margin-bottom: 0.9375vw;
 }
 main .consult {
-  padding: 2.4479vw 0 5.885vw;
+  padding: 2.292vw 0 4.583vw;
 }
 main .consult .consult-title {
   text-align: center;
@@ -420,6 +426,9 @@ main .consult .main-item .main-map .main-map-conent p {
 }
 
 @media screen and (max-width: 768px) {
+  main .application-title {
+    margin-bottom: 20px;
+  }
   main .application-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -441,6 +450,9 @@ main .consult .main-item .main-map .main-map-conent p {
   }
 }
 @media screen and (max-width: 576px) {
+  main .content-main {
+    padding: 20px 0;
+  }
   main .school .school-main .school-list .school-item {
     width: 100%;
   }
@@ -486,28 +498,28 @@ main .consult .main-item .main-map .main-map-conent p {
 }
 @media screen and (min-width: 1920px) {
   main .content-main {
-    padding: 56px 0 34px;
+    padding: 44px 0;
   }
   main .application-content {
-    margin-top: 46px;
+    margin-top: 44px;
   }
   main .application-content .application-item .application-item-title {
-    padding: 22px 0;
+    padding: 18px 0;
   }
   main .application-content .application-item .list {
-    padding: 34px 41px;
+    padding: 25px 41px;
   }
   main .school .school-main {
-    padding: 44px 0 57px;
+    padding: 44px 0;
   }
   main .school .school-main .school-list {
-    margin-top: 60px;
+    margin-top: 44px;
   }
   main .financially {
-    padding: 58px 0 30px;
+    padding: 44px 0 4px;
   }
   main .financially .financially-main .financially-item {
-    padding-top: 77px;
+    padding-top: 44px;
   }
   main .financially .financially-main .financially-item li {
     margin-bottom: 40px;
@@ -517,10 +529,10 @@ main .consult .main-item .main-map .main-map-conent p {
     margin-bottom: 20px;
   }
   main .growUp {
-    padding-top: 50px;
+    padding-top: 44px;
   }
   main .growUp-item {
-    margin-top: 49px;
+    margin-top: 44px;
   }
   main .growUp-item li {
     width: 32.307692%;
@@ -533,7 +545,7 @@ main .consult .main-item .main-map .main-map-conent p {
     margin-bottom: 0.9375vw;
   }
   main .consult {
-    padding: 47px 0 113px;
+    padding: 44px 0 88px;
   }
   main .consult .consult-mian-title {
     margin: 47px 0;

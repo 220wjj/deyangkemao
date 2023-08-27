@@ -1,11 +1,11 @@
 main {
-    // background-color: #fafafa;
-    line-height: 1.75;
+    line-height: 1.5;
 
-    .top-nav{
+    .top-nav {
         display: flex;
         align-items: center;
     }
+
     .top-bj {
         height: calc(100vh - 73px);
         background-image: url(../img/apply/xingkong.jpg);
@@ -15,29 +15,32 @@ main {
         background-size: content;
         background-repeat: no-repeat;
 
-        .top-name{
-            color:#fff;
+        .top-name {
+            color: #fff;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top:50px;
-            gap:8px;
-            .top-title-name{
+            padding-top: 50px;
+            gap: 8px;
+
+            .top-title-name {
                 font-weight: bold;
-                font-size:26px;
+                font-size: 26px;
                 letter-spacing: 4px;
-                display:inline-block;
+                display: inline-block;
             }
-            .top-title-des{
-                font-size:16px;
+
+            .top-title-des {
+                font-size: 16px;
                 letter-spacing: 2px;
-                display:inline-block;
+                display: inline-block;
             }
         }
 
         #parentContainer {
             position: relative;
-            flex:1;
+            flex: 1;
+
             #cas {
                 position: absolute;
                 left: 0;
@@ -50,7 +53,7 @@ main {
                 z-index: 0;
             }
 
-           
+
 
             // 我的应用
             .app-wrapper {
@@ -180,7 +183,9 @@ main {
         }
 
     }
-
+.content-main{
+    padding: 2.292vw;
+}
     .application-content {
         margin-top: 2.396vw;
 
@@ -188,7 +193,7 @@ main {
             width: 48.154%;
 
             .application-item-title {
-                padding: 1.146vw 0;
+                padding: 0.9375vw 0;
                 background: linear-gradient(83deg, #0065C0 0%, #3A91D8 100%);
                 color: #FFFFFF;
                 text-align: center;
@@ -205,7 +210,7 @@ main {
                 font-size: 0.9375vw;
                 font-weight: 400;
                 color: #090909;
-                padding: 1.771vw 2.135vw;
+                padding: 1.302vw 2.135vw;
 
 
                 .list-item {
@@ -229,6 +234,10 @@ main {
         }
     }
 
+    .application-title {
+        line-height: 1;
+    }
+
     // 办学条件优渥
     .school {
         background: #ecf3f3;
@@ -242,7 +251,7 @@ main {
             }
 
             .school-list {
-                margin-top: 3.125vw;
+                margin-top: 2.292vw;
 
                 .school-item {
                     width: 32.692308%;
@@ -286,7 +295,7 @@ main {
 
     .financially {
         margin-top: 22px;
-        padding: 3.021vw 0;
+        padding: 2.292vw 0 4px;
         background: url(../img/apply/financially-bj.png) no-repeat;
         background-size: 100% 100%;
 
@@ -298,7 +307,7 @@ main {
         .financially-main {
 
             .financially-item {
-                padding-top: 4.010vw;
+                padding-top: 2.292vw;
 
                 li {
                     width: 22.769231%;
@@ -323,14 +332,14 @@ main {
     }
 
     .growUp {
-        padding-top: 2.6042vw;
+        padding-top: 2.292vw;
 
         .growUp-title {
             text-align: center;
         }
 
         .growUp-item {
-            margin-top: 2.552vw;
+            margin-top: 2.292vw;
 
             li {
                 width: 32.307692%;
@@ -366,7 +375,7 @@ main {
 
     // 报考咨询方式
     .consult {
-        padding: 2.4479vw 0 5.885vw;
+        padding: 2.292vw 0 4.583vw;
 
         .consult-title {
             text-align: center;
@@ -469,6 +478,9 @@ main {
 
 @media screen and (max-width:768px) {
     main {
+        .application-title{
+            margin-bottom: 20px;
+        }
         .application-content {
             flex-direction: column;
 
@@ -515,6 +527,10 @@ main {
 
 @media screen and (max-width:576px) {
     main {
+        .content-main {
+            padding: 20px 0;
+        }
+
         .school {
             .school-main {
                 .school-list {
@@ -526,9 +542,9 @@ main {
             }
         }
 
-        .top-name{
-            .top-title-name{
-                font-size:22px !important;
+        .top-name {
+            .top-title-name {
+                font-size: 22px !important;
             }
         }
 
@@ -599,40 +615,40 @@ main {
 @media screen and (min-width:1920px) {
     main {
         .content-main {
-            padding: 56px 0 34px;
+            padding: 44px 0;
         }
 
         .application-content {
-            margin-top: 46px;
+            margin-top: 44px;
 
             .application-item {
                 .application-item-title {
-                    padding: 22px 0;
+                    padding: 18px 0;
                 }
 
                 .list {
-                    padding: 34px 41px;
+                    padding: 25px 41px;
                 }
             }
         }
 
         .school {
             .school-main {
-                padding: 44px 0 57px;
+                padding: 44px 0;
 
                 .school-list {
-                    margin-top: 60px;
+                    margin-top: 44px;
                 }
             }
         }
 
         .financially {
-            padding: 58px 0 30px;
+            padding: 44px 0 4px;
 
             .financially-main {
 
                 .financially-item {
-                    padding-top: 77px;
+                    padding-top: 44px;
 
                     li {
                         margin-bottom: 40px;
@@ -647,11 +663,11 @@ main {
         }
 
         .growUp {
-            padding-top: 50px;
+            padding-top: 44px;
         }
 
         .growUp-item {
-            margin-top: 49px;
+            margin-top: 44px;
 
             li {
                 width: 32.307692%;
@@ -670,7 +686,7 @@ main {
         }
 
         .consult {
-            padding: 47px 0 113px;
+            padding: 44px 0 88px;
 
             .consult-mian-title {
                 margin: 47px 0;
