@@ -28,12 +28,12 @@
     },
     loop: true,
     speed: 800,
-    autoplay:false
-    // autoplay: {
-    //     delay: 5000,
-    //     stopOnLastSlide: false,
-    //     disableOnInteraction: false,
-    // },
+    // autoplay:false
+    autoplay: {
+        delay: 5000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+    },
 });
 
 // 特色培养Swiper

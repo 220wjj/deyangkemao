@@ -246,6 +246,7 @@ main .application-content .application-item .list .list-item .application-icon {
 }
 main .application-title {
   line-height: 1;
+  text-align: center;
 }
 main .school {
   background: #ecf3f3;
